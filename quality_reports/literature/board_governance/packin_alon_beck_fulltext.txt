@@ -1,0 +1,2582 @@
+Total pages: 48
+--- PAGE 1 ---
+ BOARD OBSERVERS  
+Nizan Geslevich Packin † 
+Anat Alon-Beck †† 
+ 
+  ABSTRACT  
+ 
+Power dynamics and governance in venture capital (VC) and startups are evolving, with innovative 
+mechanisms balancing influence and control. One key tool is the appointment of board observers—
+individuals without voting rights who serve as strategic eyes on the board, providing insight and influence 
+without the fiduciary responsibilities of board membership. Their role exemplifies control without formal 
+control, enabling investors to closely monitor and guide governance, strategy, and performance. 
+ 
+This Article is the first to explore the role of board observers in VC and startups. These observers act as 
+intermediaries, bridging active investors and corporate boards and aligning with shared strategic goals. The 
+Article highlights investors' motivations for this engagement, including enhanced governance, access to 
+influence, risk mitigation, and compliance with complex regulations like antitrust, CFIUS, and ERISA. 
+ 
+Board observers drew attention in November 2023 when Microsoft was appointed as a non-voting observer 
+during OpenAI’s internal discord and CEO removal, spotlighting their impact. Regulatory scrutiny 
+followed, leading Microsoft to step down in July 2024, underscoring the role of corporate VC in governance 
+and strategic direction. 
+ 
+The Article contributes new insights by tracing board observers’ emergence, revealing results from the 
+NVCA’s Q4 2023 CFO Survey showing 82% of VC entities use observers, with all entities over $500 
+million in assets under management adopting this model. It examines the legal status, rights, and duties of 
+board observers, their role in deal negotiations, and their regulatory impact. It suggests further work to 
+define disclosure, liability, and accountability requirements for board observers, examining issues like 
+startup boards' consensus voting, supervision focus, and the chilling effect on traditional members. 
+
+--- PAGE 2 ---
+BOARD OBSERVERS 
+2 
+ 
+2
+TABLE OF CONTENTS  
+I. 
+INTRODUCTION ......................................................................................................................................... 3 
+II. 
+STARTUP GOVERNANCE ........................................................................................................................... 11 
+A. 
+IDENTIFYING THE POTENTIAL PARTICIPANTS AND INVESTOR ACTIVISTS IN STARTUP GOVERNANCE AND FUNDING .................. 13 
+B. 
+THE UNIQUENESS OF VC-BACKED STARTUP GOVERNANCE ......................................................................................... 15 
+C. 
+OTHER INVESTOR TYPES ...................................................................................................................................... 17 
+III. 
+BOARD OBSERVERS ON THE RISE .............................................................................................................. 18 
+A. 
+INTRO: THE ROLE OF BOARD OBSERVERS ................................................................................................................ 18 
+B. 
+BOARD OBSERVERS: EMPIRICAL DATA .................................................................................................................... 20 
+IV. 
+THE LEGAL STATE OF BOARD OBSERVERS ................................................................................................. 24 
+A. 
+BOARD OBSERVERS AS DIRECTORS? ....................................................................................................................... 25 
+1. 
+The de facto Director Concept .................................................................................................................. 25 
+2. 
+The Framework of Shadow Directors ........................................................................................................ 28 
+V. 
+THE ALLURE OF BOARD OBSERVERS FOR SAVVY INVESTORS ..................................................................... 30 
+A. 
+GENERAL GOVERNANCE CONSIDERATIONS .............................................................................................................. 30 
+B. 
+MINIMIZING LIABILITY EXPOSURE .......................................................................................................................... 31 
+C. 
+ANTITRUST ISSUES .............................................................................................................................................. 32 
+1. 
+CVC as Acquisition Vehicles ...................................................................................................................... 32 
+2. 
+Unfair Competitive Advantage ................................................................................................................. 34 
+D. 
+CFIUS REGULATION ........................................................................................................................................... 38 
+1. 
+Corporate Transactions. ........................................................................................................................... 40 
+2. 
+Passive Investments and Board Observers ............................................................................................... 42 
+E. 
+ERISA ............................................................................................................................................................. 43 
+VI. 
+PRACTICAL IMPLICATIONS AND FUTURE RESEARCH .................................................................................. 45 
+VII. 
+CONCLUSION ....................................................................................................................................... 47 
+ 
+ 
+ 
+
+--- PAGE 3 ---
+BOARD OBSERVERS 
+3 
+ 
+3
+I. 
+INTRODUCTION 
+Recent decades’ corporate law literature has extensively explored investor activism.1 
+Similarly, a subset of business law literature zeroes in on governance issues unique to startups 
+within the law and entrepreneurship sectors, shedding light on dynamics shaped by characteristics 
+of the Venture Capital’s (VC)-backed ecosystem.2 These include entrepreneurs' aspirations to 
+maintain control and how these aspirations align or conflict with VCs' goals to enhance their 
+investment returns.3 The practice of integrating board observers into the governance structures of 
+companies within the VC-startup ecosystem represents a notable stride in investor activism, yet it 
+                                                 
+† Nizan Geslevich Packin is a Professor of Law at the Zicklin School of Business at Baruch College, CUNY, and 
+at the University of Haifa Faculty of Law. She is also an ECGI Academic Member, and an Affiliated Researcher at 
+Tel Aviv University’s Chief Justice Meir Shamgar Center for Digital Law and Innovation, and the Information Society 
+Law Center (ISLC) of the University of Milan. 
+†† Anat Alon-Beck is an Associate Professor at Case Western University’s School of Law. We would like to 
+thank the participants in the (i) Vanderbilt University Law and Entrepreneurship Conference, (ii) Corporations, Private 
+Ordering, and Corporate Law, Columbia Law School & Goethe University, LawFin, (iii) NYU Pollack Center for the 
+Fall Corporate Governance Research program for their comments, and (iv) the ABA Business Law Section conference 
+participants for their helpful and useful comments. The authors are also grateful for the help given by the NVCA in 
+collecting the empricial data that helped showcase the importantce and relevance of this piece. 
+1 See e.g., Lucian A. Bebchuk, Alma Cohen & Scott Hirst, The Agency Problems of Institutional Investors, 31 J. 
+ECON. PERSP. 89, 90 (2017) (creating a framework to analyze the agency issues faced by institutional investors); 
+Maria Goranova & Lori Verstegen Ryan, Shareholder Activism: A Multidisciplinary Review, 40 J. MGMT 1231, 1231 
+(2014) (highlighting the features of active investor typology); David H. Webber, The Plight of the Individual Investor 
+in Securities Class Actions, 106 NW. U. L. REV. 157, 201 (2012) (discussing how active investors attempt to shape 
+corporate boards’ decisions and senior management teams, and sway other investors, through both private discussions 
+with company leaders and public strategie); Stephen J. Choi & Jill E. Fisch, On Beyond CalPERS: Survey Evidence 
+on the Developing Role of Public Pension Funds in Corporate Governance, 61 VAND. L. REV. 315, 316 (2008) 
+(examining pension fund institutional activism); Marcel Kahan & Edward B. Rock, Hedge Funds in Corporate 
+Governance and Corporate Control, 3 CORP. GOVERNANCE L. REV. 134, 134 (2007) (analyzing differences in 
+hedge fund activism from traditional institutional activism); Roberta Romano, Less is More: Making Institutional 
+Investor Activism a Valuable Mechanism of Corporate Governance, 18 Yale J. on Reg. 174 (2001) (recaaping studies 
+that indicate companies subjected to shareholder activism typically exhibit subpar performance across various 
+indicators); Robert G. Vanecko, Regulations 14A and 13D and the Role of Institutional Investors in Corporate 
+Governance, 87 NW. U. L. Rev. 376 (1992) (explaining the intent of the Exchange Act, which is to gaurd investors 
+by requiring disclosures)); Mark J. Roe, A Political Theory of American Corporate Finance, 91 Colum. L. Rev. 10 
+(1991); Bernard S. Black, Shareholder Passivity Reexamined, 89 Mich. L. Rev. 520 (1990). 
+2 See, e.g., Will Gornall & Ilya A. Strebulaev, The Contracting and Valuation of Venture Capital-Backed 
+Companies, 
+in 
+1 
+HANDBOOK 
+OF 
+ECONOMIC 
+CORPORATE 
+FINANCE 
+(2020), 
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4038538) (describing how startups, as they expand, attract late-
+stage VCs who invest larger sums based on financial performance and business models, and how these later investment 
+rounds come with protections for investors to reduce risk); Matthew T. Wansley & Samuel N. Weinstein, Venture 
+Predation, 48 J. CORP. L. 813 (2023) (detailing how companies such as Uber engaged in predatory pricing); Michal 
+Gal, Limiting Algorithmic Coordination, 38 BERKELEY TECH. L.J. 173 (2023) (focusing on innovative entities’ 
+algorithmic coordination-based business models); Eva Micheler & Dionysia Katelouzou, Investor Capitalism, 
+Sustainable Investment and the Role of Tax Relief, 23 EUR. BUS. ORG. L. REV. 217 (2022) (linking the evolution of 
+investor capitalism to government-subsidized pensions, adding to law and entrepreneurship literature by highlighting 
+regulatory impacts on sustainable business practices); ANDREW A. SCHWARTZ, INVESTMENT CROWDFUNDING (2023) 
+(discussing investment crowdfunding law and entrepreneurship). 
+3 See, e.g., Brian J. Broughman & Matthew Wansley, Risk-Seeking 76 VAND. L. REV. (2023), 
+https://ssrn.com/abstract=4344939; Yifat Aran & Elizabeth Pollman, Ousted, THEORETICAL INQUIRIES L. 
+(forthcoming 2024), https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4625990; Michael Ewens & Nadya 
+Malenko, Board Dynamics Over the Startup Life Cycle (NBER Working Paper No. 27769, 2020), 
+http://www.nber.org/papers/w27769. 
+
+--- PAGE 4 ---
+BOARD OBSERVERS 
+4 
+ 
+4
+remains largely unexplored by both regulators and academics.  
+This Article offers a groundbreaking examination of the board observer role, filling a 
+significant gap in both legal and business scholarship. It highlights how the emergence of board 
+observer positions reflects the evolving strategies of investor activism to achieve more effective 
+corporate governance and influence boardroom decisions, while also impacting the competitive 
+landscape and allowing investors to navigate and sometimes avoid stringent regulatory 
+requirements. The rise of board observers marks a shift in how investors interact with and influence 
+companies. These positions allow investors to gain critical insights and exert subtle yet impactful 
+influence without assuming the formal responsibilities and liabilities of board membership. This 
+strategic tool has become increasingly popular as investors seek to navigate the intricate landscape 
+of corporate governance and regulatory compliance more effectively.4  
+Furthermore, the Article explores the potential for conflicts of interest, particularly in 
+evaluating corporate transactions where governance, regulatory compliance, antitrust issues, and 
+national security concerns intersect. The board observer role, while beneficial for investors by 
+allowing them to gain insights and exert influence without assuming formal control, also offers 
+advantages for entrepreneurs and founders by enabling them to retain more control and receive 
+additional guidance, presenting challenges that require careful consideration and management to 
+maintain the delicate balance between influence and oversight.  By shedding light on the board 
+observer phenomenon, the Article emphasizes the need for ongoing research and dialogue. It calls 
+for a nuanced understanding of the implications and efficacy of board observers in corporate 
+governance. This exploration is vital for developing more robust frameworks that address the 
+evolving needs of investors and the companies they support.5   
+Illustrating some of the complexities and implications, particularly in the antitrust context, 
+was the drama that unfolded in late 2023 and 2024 around the governance of OpenAI Inc. 
+("OpenAI"), the entity that brought ChatGPT to the world.6 This included Microsoft gaining a 
+board observer seat at OpenAI.7 This development was globally covered by the mainstream media 
+                                                 
+4 For this reason the FTC believes that "contractual arrangements allowing individuals or entities to nominate 
+directors or board observers have proliferated." Fed. Trade Comm’n, Premerger Notification Reporting and Waiting 
+Period 
+Requirements, 
+88 
+Fed. 
+Reg. 
+13511 
+(June 
+29, 
+2023), 
+https://www.federalregister.gov/documents/2023/06/29/2023-13511/premerger-notification-reporting-and-waiting-
+period-requirements [Hereinafter: Premerger Notification Reporting and Waiting Period Requirements] 
+5 Board observers have also been used increasingly more and more in different financial transactions in recent 
+years. For example, such seats have been added as a governance mechanism in loan agreements. See Cathy Hwang, 
+Yaron Nili & Jeremy McClane, The Lost Promise of Private Ordering, 108 CORNELL L. REV. (2023) (explaining how 
+“[f]rom 2011 until the end of 2020 there were only 15 borrowers subject to such provisions. However, in 2021 14 
+more borrowers agreed to allow lenders to appoint non-voting members to their boards of directors.”). 
+6 On November 17, 2023, OpenAI's board dismissed Altman from his CEO position, accusing him of being not 
+“consistently candid in his communications’” with the board. Greg Brockman, President and the company’s co-
+founder, was stripped of his board seat and he then resigned in solidarity with Altman. Tom Giles, Shirin Ghaffary, 
+Ashlee Vance & Emily Chang, Altman Is Back at OpenAI, But Questions Remain as to Why He Was Fired in First 
+Place, Bloomberg News (Nov. 22, 2023), https://www.bnnbloomberg.ca/altman-is-back-at-openai-but-questions-
+remain-as-to-why-he-was-fired-in-first-place-
+1.2002399#:~:text=Board%20members%20said%20Altman%20wasn,t%20been%20given%20an%20explanation. 
+For more on how significant the development of the widely used large language model ChatGPT has been see Leon 
+Yehuda Anidjar, Nizan Geslevich Packin & Argyri Panezi, The Matrix of Privacy: Data Infrastructure in the AI-
+Powered Metaverse, HARVARD L. & POL. REV. (2024) (describing its impact on different industries.). 
+7 Rachel Metz, OpenAI Will Add Microsoft as Board Observer, Plans Governance Changes, TIME (Nov. 30, 
+2023), https://time.com/6341039/openai-microsoft-board-observer-governance-changes/. In Summer 2024, following 
+
+--- PAGE 5 ---
+BOARD OBSERVERS 
+5 
+ 
+5
+and noteworthy because it gave Microsoft (which invested in an LLC with majority ownership by 
+an LLP in which OpenAI holds much interest) increased visibility into OpenAI’s decision-making 
+processes,8 even though a board observer does not have the same rights as a full board member, 
+meaning Microsoft has no voting power.  However, for almost a year, and until regulatory scrutiny 
+intensified in the summer of 2024, Microsoft was an observer on the board of OpenAI, which is 
+still a nonprofit, and thus the potential for conflict with Microsoft's for-profit goals were even 
+greater than those in a typical corporate board observer situation such as an investor serving in this 
+capacity in a start-up. Moreover, the context behind this board observer seat is crucial. As recently 
+described by financial journalist Matt Levine: “OpenAI is a nonprofit organization, and even its 
+for-profit subsidiary, OpenAI Global LLC, which has raised money from investors, isn’t all that 
+for-profit” – a key topic in Elon Musk focused on in his lawsuit of “OpenAI and its Chief Executive 
+Officer Sam Altman, alleging they violated the artificial intelligence startup’s founding mission 
+by putting profit ahead of benefiting humanity.”9 This arguable shift towards “putting profit ahead” 
+was partly due to the high costs associated with its AI research and development. Microsoft has 
+                                                 
+much regulatory scrutiny, Microsoft ended up announcing that it has given up its board observer seat, and OpenAI 
+announced that its “new approach towards Microsoft and Apple will involve hosting “regular stakeholder meetings to 
+share progress on our mission and ensure stronger collaboration across safety and security.” Tom Warren, Microsoft 
+and Apple Drop Board Observer Seats at OpenAI Due to Regulator Scrutiny, The Verge (July 10, 2024), 
+https://www.theverge.com/2024/7/10/24195528/microsoft-apple-openai-board-observer-seat-drop-regulator-
+scrutiny. 
+8 It is importatot to note that this arrangement is not the typical kind of arrangement on which this Article focuses 
+on.  Microsoft is not an investor in OpenAI - it is an investor in an LLC – OpenAI Global LLC – with majority 
+ownership by an LLP. See Ellen P. Aprill, Rose Chan Loui & Jill R. Horwitz, Board Control of a Charity’s 
+Subsidiaries: The Saga of OpenAI, 182 Tax Notes Fed. (2024) (also explaining that “[a]lthough we do not know the 
+exact ownership of Nonprofit-OpenAI in For-Profit-LP, the disclosure on Nonprofit-OpenAI’s Form 990 that For-
+Profit-LLC is not a section 512(b)(13) controlled entity tells us that its interest is 50 percent or less.”)  Finally, it is 
+important to note that the LLC in which Microsoft has invested is still an LLC for state law purposes and it is managed 
+by a different LLC, which is a disregarded (for tax purposes) entity of OpenAI Inc.  The LLC in which Microsoft has 
+invested, does not have a board on which Microsoft might serve to represent its interests as an investor or even as an 
+observer.  Id. For an understanding of the organizational structure see OpenAI’s official corporate chart, as posted on 
+OpenAI’s site on June 28, 2023 at https://openai.com/our-structure:  
+ 
+9 Matt Levine, OpenAI Isn’t Open Enough for Elon, Bloomberg (Mar. 1, 2024, 12:51 PM), 
+https://www.bloomberg.com/opinion/articles/2024-03-01/openai-isn-t-open-enough-for-elon (explaining that “[a]t 
+the top of OpenAI’s operating agreement, it warns investors: “It would be wise to view any investment in OpenAI 
+Global, LLC in the spirit of a donation”. . . Nonprofits can defraud their donors. Generally that sort of fraud is not 
+about financial results; it is about the nonprofit’s mission, and whether it is using the donors’ money to advance that 
+mission. . . Elon Musk sued OpenAI and its Chief Executive Officer Sam Altman, alleging they violated the artificial 
+intelligence startup’s founding mission by putting profit ahead of benefiting humanity.”). For more on this lawsuit see 
+e.g. Nizan Geslevich Packin & Anat Alon-Beck, Observing OpenAI’s Affair With Musk: A Legal Drama Unfolds, 
+Forbes (Mar. 1, 2024), https://www.forbes.com/sites/nizangpackin/2024/03/01/observing-openais-affair-with-musk-
+a-legal-drama-unfolds/?sh=1bd4af8e3ca4. 
+
+--- PAGE 6 ---
+BOARD OBSERVERS 
+6 
+ 
+6
+been a key player in this alleged transition, having invested $1 billion in OpenAI entities in 2019.10  
+The decision to grant Microsoft a board observer seat in OpenAI was, therefore, seen as a way to 
+strengthen the partnership between the two entities, as it ensures that Microsoft’s interests are 
+considered in OpenAI’s strategic decisions and allows for closer collaboration. The appointment 
+of Dee Templeton, a 25-year veteran at Microsoft and head of Technology and Research 
+Partnerships and Operations, as a non-voting observer on OpenAI's board, illustrated the 
+complexities of corporate governance in the tech sector during its rapid growth.11 Her appointment 
+aligned with a tumultuous phase within OpenAI, which was characterized by the incident 
+involving the rehiring of OpenAI’s CEO, raising significant questions about the autonomy of 
+OpenAI in the shadow of Microsoft’s corporate reach, and underscoring Microsoft's close, yet 
+nuanced involvement in OpenAI's strategic course without overt interference. How could OpenAI 
+maintain its autonomy in the partnership with Microsoft? This has been the main question that 
+arose in January 2024, after news broke that the Department of Justice (DOJ) and the Federal 
+Trade Commission (FTC) started examining the evolving relationship between the two as a focal 
+point of antitrust scrutiny, underscoring a complex interplay of control, competition, and 
+regulatory concerns within the AI sector.12  The tightness and complexity of the relationship were 
+also demonstrated by Microsoft’s substantial financial investment in and integration of OpenAI’s 
+advanced technologies into its core products, notably Bing. However, the key issue at the heart of 
+the DOJ and FTC’s scrutiny has been the degree of Microsoft’s influence over OpenAI, that was 
+particularly highlighted by the incident involving the rehiring of OpenAI’s CEO, which raised 
+significant questions about the autonomy of OpenAI in the shadow of Microsoft’s corporate 
+reach.13 Finally, the relationship has intensified regulatory concerns regarding the potential 
+monopolization of the AI market, specifically in the realm of large language models (LLMs). This 
+potential for market dominance by Microsoft through OpenAI poses a threat to the competitive 
+landscape, potentially stifling innovation and maintaining barriers to entry. Indeed, Microsoft’s 
+close relationship with OpenAI, especially in light of its ongoing investment in OpenAI’s 
+competitors, could also be indicative of the growing trend of tech giants investing heavily in 
+emerging technologies and seeking greater involvement in governance and strategic direction of 
+their investee companies, as well as in the overall market in which their products compete.14 
+The Microsoft–OpenAI case showcases the importance of board observers’ pivotal role 
+due to their ability to attend, monitor and participate in board meetings, offering their insights and 
+opinions. Indeed, while board observers participate as non-voting members, their presence is 
+significant.15 For instance, a key function of a board observer is to gain a comprehensive 
+                                                 
+10 Id. Microsoft’s investment was aimed at supporting OpenAI's efforts in developing artificial general 
+intelligence (AGI) that is safe, secure, and aligned with human values. See Metz, supra note 7. 
+11 Amber Jackson, Microsoft Executive Dee Templeton Joins OpenAI Board, AI Magazine (Jan. 8, 2024), 
+https://aimagazine.com/ai-strategy/microsoft-executive-dee-templeton-joins-openai-board. 
+12 Josh Sisco, Both of These Agencies Want a Piece of Microsoft’s Open AI Partnership, POLITICO (Jan. 19, 2024), 
+www.politico.com/news/2024/01/19/doj-ftc-microsoft-openai-antitrust-00136624. 
+13 Id. 
+14 Id. See also Emilia David, TheMicrosoft’s Mistral Deal Beefs Up Azure Without Spurning OpenAI,  Verge 
+(Mar. 4, 2024), https://www.theverge.com/24087008/microsoft-mistral-openai-azure-europe. 
+15 Andrea Reid & Daniel Roberts, Employees In All But Name: Where’s The Privilege?, LAW360 (July 11, 2017), 
+https://www.law360.com/articles/942767/employees-in-all-but-name-where-s-the-privilege-?copied=1(describing 
+how “some VC investors appoint a ‘board observer’ to sit in on board meetings and obtain information regarding 
+corporate decision-making. In return, the board observer agrees via contract to not attempt to exert influence or control 
+over the corporation. Such an observer is not a fiduciary of the company and has no voting rights.”). 
+
+--- PAGE 7 ---
+BOARD OBSERVERS 
+7 
+ 
+7
+understanding of the board of directors' operations and the business’ future directions in real time. 
+This was exemplified in July 2024, when Apple announced that it also sought to secure a board 
+observer position at OpenAI. Phil Schiller, head of Apple's App Store and former marketing chief, 
+was chosen for this role in order to help Apple remain competitive in the rapidly evolving field of 
+artificial intelligence, but was met with some regulatory and media pushback.16 Such an observer 
+seat was meant to enable Microsoft to closely follow the board’s discussions, decisions, and 
+actions. Moreover, board observers contribute a distinct, external viewpoint to the board’s 
+activities. They are well-positioned to offer critical feedback and suggestions, which could 
+potentially enhance the board’s effectiveness, but also present various challenges. Additionally, 
+the mere presence of board observers can serve as a check on the board, promoting ethical and 
+legal compliance in its operations. 
+In recent years, board observers’ seats have become particularly common in various 
+Venture Capital (VC), Alternative Venture Capital (AVC), and even Private Equity (PE)– related 
+transactions, including as a minority investment, loans or leveraged buyout.17 As this Article is the 
+first to show, using the NVCA’s Q4 2023 NVCA CFO Working-Group Survey (“NVCA Survey”), 
+unprecedented empirical data documents the widespread adoption of board observers within the 
+VC/startup ecosystem. Indeed, Section III, which analyzes the NVCA Survey, reveals that 
+approximately 82% of the surveyed investor entities broadly employ the board observer 
+governance mechanism in their portfolio companies.18  This extensive use of board observers 
+underscores the high value placed on this corporate governance role within the industry. Moreover, 
+the NVCA Survey findings reveal a direct correlation between the size of an entity's Assets Under 
+Management (AUM)—the total market value of investments managed for clients—and the 
+adoption of board observers as a governance strategy. Specifically, all surveyed entities with AUM 
+exceeding $500 million appoint board observers. This indicates that more sophisticated investors 
+find this corporate governance tool invaluable.19 The board observer trend is not only prevalent 
+but also on the rise, signaling a movement towards even greater collaboration in governance 
+strategies.  This rise can be easily explained. The unique board observer corporate governance 
+mechanism is typically given to investors as part of stockholders’ agreements or side letters, either 
+instead of the right to designate board seats,20 or in addition to such a right.21 This mechanism 
+                                                 
+16 See Warren supra note 7; Apple to Become OpenAI Board Observer, Gain Insights into the Future of AI, 
+Gizmochina (July 5, 2024), https://www.gizmochina.com/2024/07/05/apple-to-become-open-ai-board-observer-gain-
+insights-into-the-future-of-ai/ (explaining how this partnership might lead to complications due to the long-standing 
+rivalry between Microsoft and Apple.) 
+17 Samuel A. Waxman & Jordan L. Goldman, Why Venture Debt Is An Attractive Tool For Startups, LAW360 
+(Feb. 
+9, 
+2017), 
+https://www.law360.com/articles/888900/why-venture-debt-is-an-attractive-tool-for-
+startups?copied=1 (explaining how “[l]enders typically require board observer status in order to track the 
+nontraditional performance measures.”); (explaining that “[b]orrowers tend to resist the inclusion of board observer 
+rights because they do not want monitoring or interference but they are common nonetheless.  According to one 
+attorney, certain lenders in this space insist on board observer rights in all of their deals as a condition of extending 
+the loan.”). 
+18 See NVCA Survey, Appendix A.  
+19 Id. 
+20 See John Mark Zeberkiewicz, Considerations in Drafting Board Observer Arrangements, AM. BAR. ASS’N. 
+(2013), https://www.americanbar.org/publications/blt/2014/04/05_zeberkiewicz.html (noting also that the observer 
+should be excluded from negotiation or acquisition strategy sessions that could materially affect the patron investor). 
+21 Lori Smith, Ryan Udell & Adam Chelminiak, 3rd Circ. Decision Limits Liability of Board Observers, LAW360 
+(Aug. 
+9, 
+2019), 
+https://www.law360.com/articles/1185886/3rd-circ-decision-limits-liability-of-board-
+observers?copied=1 (“Investors in early- and growth-stage companies often require, as a condition to their investment, 
+
+--- PAGE 8 ---
+BOARD OBSERVERS 
+8 
+ 
+8
+serves multiple purposes, including to ensure that all investors have a voice in busy, crowded 
+boardrooms.22  Moreover, in the last few years more and more investors, especially venture 
+capitalists and angel investors, have preferred not to hold a board seat due to governance23 or 
+regulatory compliance concerns relating to various legal issues such as antitrust considerations, 
+and other corporate matters.24 Instead, they opted to appoint board observers.25 
+Likewise, over the last couple of decades, due to larger funding rounds, increased 
+participation in syndicates, and the growing influence of entrepreneurs who are often reluctant to 
+cede board seats and potentially lose management control, more VCs have adopted what is 
+perceived as a passive role in managing private company investments.26 This shift was also driven 
+in part by startup founders and CEOs opting not to assign independent directors or include VCs in 
+the boardroom during times when capital was abundant and the market favored founders.27  
+However, things changed in 2022-2023, and the economic downturn has made it more challenging 
+for businesses to secure capital – a situation that enables investors to once again be able to use 
+their influence to demand corporate controls.28 Finally, board observer seats have proved useful 
+                                                 
+the right to designate at least one member of the board of directors or the right to appoint a board observer who will 
+receive information provided to the board and attend meetings of the board in a nonvoting capacity — or in some 
+cases, both.”). 
+22 See Anat Alon-Beck, Alternative Venture Capital:  The New Unicorn Investors, 88 TENN. L. REV. 985 (2020); 
+Joann S. Lublin & Spencer E. Ante, A Fight in Silicon Valley: Founders Push for Control, WALL ST. J., (July 11, 
+2012), https://perma.cc/698N-PR5R; Brian J. Broughman & Jesse M. Fried, Do Founders Control Start–Up Firms 
+That Go Public?, 10 HARV. BUS. L. REV. 49, 64 tbl.2 (2020); Lucian A. Bebchuk & Kobi Kastiel, The Perils of Small-
+Minority Controllers, 107 GEO. L.J. 1453, 1457 (2019). 
+23 Marina Temkin, How Hedge Funds Are Leading the Race to Stake Startups, PITCHBOOK (Apr. 19, 2021), 
+https://pitchbook.com/news/articles/how-hedge-funds-are-leading-the-race-to-stake-startups (“Tiger Management 
+and some of their counterparts are also known for not taking board or board observer seats. ‘They are not selling help. 
+. . They are quite literally selling money.’”). 
+24 As discussed in Part V there are significant potential antitrust concerns. OpenAI’s case is a good illustration of 
+that since granting Microsoft a board observer seat at OpenAI introduces potential antitrust issues, including market 
+concentration and anti-competitive behavior. This arrangement could give Microsoft undue influence over OpenAI's 
+strategic decisions, potentially skewing the competitive landscape in Microsoft’s favor. It might also give Microsoft 
+access to sensitive information, leading to an unfair advantage. This collaboration could foster collusive practices and 
+raise barriers for new entrants in the AI market. Consequently, it could attract regulatory scrutiny to ensure market 
+competitiveness and prevent any single entity from dominating the emerging technology sectors like AI. While this 
+partnership can advance AI research, it necessitates careful management to maintain a fair and competitive market.  
+25  Board Members Versus Board Observers, ELECTIONBUDDY BLOG (Dec. 21, 2022), 
+https://electionbuddy.com/blog/2022/12/21/board-members-versus-board-observers/. 
+26 See Temkin supra note 23. See also Lublin & Ante, supra note 22. According to Broughman and Fried, 
+however, only fifteen percent of VC–backed IPOs from 2010 to 2012 were dual class.  See Broughman & Fried, supra 
+note 22, at 64 tbl.2; Robert J. Jackson Jr., Perpetual Dual-Class Stock: The Case Against Corporate Royalty, U.S. 
+SEC. & EXCH. COMM’N (Feb. 15, 2018), https://www.sec.gov/news/speech/perpetual-dual-class-stock-case-against-
+corporate-royalty; Rick Fleming, Dual-Class Shares: A Recipe For Disaster, U.S. SEC. & EXCH. COMM’N (Oct. 15, 
+2019), https://www.sec.gov/news/speech/fleming-dual-class-shares-recipe-disaster; Lucien A. Bebchuk & Kobi 
+Kastiel, The Untenable Case for Perpetual Dual-Class Stock, 103 VA. L. REV. 585, 606 (2017) (stating that 
+“[f]urthermore, dual-stock structures may enable the transfer of a lock on control to an heir of the founder, who might 
+not be as able, talented, skilled or driven as her predecessor. This problem is known in the economic literature as the 
+problem of the ‘idiot heir.’”).  
+27 See, e.g., Lila Maclellan, FTX Board Adds Investor Chamath Palihapitiya and CEO Sam Bankman-Fried to Its 
+Board of Directors, FORTUNE (Nov. 18, 2022), at https://fortune.com/2022/11/18/ftx-board-investor-chamath-
+palihapitiya-sam-bankman-fried-board-directors-crypto/. 
+28 Abraham J.B. Cable, Fool's Gold? Equity Compensation & the Mature Startup, 11 VA. L. & BUS. REV. 613, 
+631 (2017) (explaining how VC investors may negotiate for board seats and other control rights). 
+
+--- PAGE 9 ---
+BOARD OBSERVERS 
+9 
+ 
+9
+for certain Corporate Venture Capital (CVC) funds that operate as investment platforms, which 
+have been subject to a prohibition against directorships by their parent companies, as further 
+discussed in this Article.29  
+Yet, the for-profit corporate world, and in particular the startup eco-system, is not the only 
+one in which entities have excitedly embraced a version of the board observers concept as part of 
+their corporate governance strategies. For instance, a use of board observers has also been 
+recognized in the nonprofit world.30 Nonprofit organizations use the board observer tool as a way 
+to get young and talented people to help the often uncompensated board do its work, enabling 
+board observers to gain some experience and an inside look into the workings of a corporate 
+board.31 Similarly, nonprofit organizations often use this concept as a way to engage donors or 
+supporters in the entities’ work and to provide the observers with a firsthand experience of the 
+impact of their donations or fundraising efforts. By giving donors or supporters the opportunity to 
+witness nonprofits’ programs and services in action, these entities can strengthen relationships 
+with them and increase their commitment to the nonprofits’ mission.  
+Generally speaking, board observers bear some similarities to limited partners (LPs).32 
+First, both typically are or represent an investor in a business venture, but give up management 
+and voting rights. LPs do not have the right to approve the investment decisions made by the 
+general partners and “may not participate in the day-to-day management of the . . . business, 
+including especially the approval of particular portfolio company investments.”33 Moreover, 
+because board observers have no voting rights they can also be excluded from certain board 
+meetings.34 Second, both LPs and board observers have limited liability and generally do not owe 
+fiduciary duty to the venture.35  But the board observer role also bears similarities to the traditional 
+                                                 
+29 Scott Lennet, How to Be a Board Observer, MEDIUM (Apr. 6, 2021), https://medium.com/touchdownvc/how-
+to-be-a-board-observer-a644a9b9232a. 
+30 For example, foundations can operate board observer programs, offering nonprofit organizations the 
+opportunity to invite professionals to attend their board meetings as observers for a pre-defined period of time. See, 
+e.g., Westpac Board Observer Program, WESTPAC FOUND.,  https://www.westpac.com.au/about-westpac/our-
+foundations/westpac-foundation/our-approach/board-observership-program/ (last visited Feb. 7, 2024); Board 
+Observer Program, PHILA. BAR FOUND., https://www.philabarfoundation.org/work/programs/board-observer-
+program (last visited Feb. 7, 2024) [hereinafter Board Observer Program, PHILA. BAR FOUND.]; Get Smart(er), UJA-
+Federation 
+of 
+New 
+York, 
+accessed 
+March 
+25, 
+2024, 
+https://www.ujafedny.org/join-a-group/young-
+leaders/professional.(describing board observership as "an exclusive year-long program for committed young 
+professionals who want to take their leadership to the next level. Through a placement on a UJA allocating committee 
+or a partner nonprofit board, Observers get a front-row seat to the impact lay leaders have in shaping the community 
+of tomorrow.") 
+31 Board Observer Program, PHILA. BAR FOUND., id. (“Board Observers learn about local legal services 
+organizations and other nonprofits. They also gain leadership skills and strengthen their professional networks in ways 
+that help them succeed in their future careers. Participating nonprofits benefit from the energy and new ideas of these 
+young lawyers and the broader nonprofit community is strengthened.”). 
+32 See generally Jennifer S. Fan, Catching Disruption: Regulating Corporate Venture Capital, 2018 COLUM. BUS. 
+L. REV. 341, 360–64, 413–15 (2018) (describing the rights and roles of limited partners and board observers in the 
+context of VCs).  
+33 See Ronald J. Gilson, Engineering a Venture Capital Market: Lessons from the American Experience, 55 STAN. 
+L. REV. 1067, 1071 (2003). 
+34 Fan, supra note 32, at 413. 
+35 On board observers, see id. On LPs, see, e.g., Larry E. Ribstein, Are Partners Fiduciaries, 2005 U. ILL. L. REV. 
+209, 246 (2005) (noting that LPs typically do not owe fiduciary duties unless they hold positions of confidence within 
+the partnership, or exercise exercised control over it). 
+
+--- PAGE 10 ---
+BOARD OBSERVERS 
+10 
+ 
+10
+board member position.36 Historically, both were held to certain confidentiality obligations, even 
+if the source of these obligations was arguably different.37 This changed, however, to some extent 
+in 2020, with the board observer obligations becoming dependent on and governed by contractual 
+documents such as investors’ rights agreements.38 Furthermore, both could theoretically be 
+excluded from certain meetings to protect a company’s attorney-client privilege, or in hypothetical 
+cases of potential conflict of interest.39 However, unlike traditional board members, observers do 
+not have voting rights, their information rights are indeed contractual, and not less importantly, 
+observers do not owe fiduciary duties to the business entities on which boards’ they serve.40 
+Focusing on these key issues, this Article argues that given recent market trends and the 
+rise in cases where board observers have been used in the for-profit context,41 the time has come 
+to focus more on this important corporate governance position. The Article, therefore, is the first 
+to shed light on this unique role and its functionality, by presenting fresh insights and 
+groundbreaking empirical findings and data on the scope and purpose of its use. Exploring the 
+legal status of board observers, the Article uses comparative law, examining regulation in other 
+jurisdictions, which address situations where influential, non-traditional board observers 
+participate in corporate governance to varying extents, and examines the development of corporate 
+culture norms.42 It considers the theoretical impact of the increase in popularity of this role, 
+                                                 
+36 Focusing on these similarities, in Dartell v. Tibet Pharms. Inc., No. 2:14-cv-03620 (D.N.J. 2018), “Zou and 
+Downs presented the question of whether board observers can be held liable in the same way as actual named directors 
+on Tibet's board, which Judge Vazquez in turn morphed into a question of what it means to be a ‘person performing 
+similar functions’ -- as a director within the context of the alleged violation.” See Dean Seal, 2 Tibet Pharma 
+Defendants 
+May 
+Appeal 
+Last 
+Count 
+In 
+IPO 
+Suit, 
+LAW360 
+(Feb. 
+22, 
+2018), 
+https://www.law360.com/articles/1014723/2-tibet-pharma-defendants-may-appeal-last-count-in-ipo-suit?copied=1 
+(according to court documents, Downs and Zou were accused of concealing important information before the IPO, 
+such as the company's obligation to repay a loan, which it eventually defaulted on. A claim against Downs and Zou 
+pertained to Section 11 of the Securities Act of 1933, which applies to defendants who are specifically identified in 
+the registration statement as either directors, individuals performing similar functions, or partners. The distinction 
+between board observers and directors was therefore important.).  
+37 Venture Capital Investing: New NVCA Models, and New Challenges for Foreign Investors in Early-Stage U.S. 
+Companies, CLEARY GOTTLIEB (2020), https://www.clearygottlieb.com/-/media/files/alert-memos-2020/20201007-
+venture-capital-investing-new-nvca-models-and-challenges-for--pdf.pdf.  
+38 See NAT’L VENTURE CAPITAL ASS'N, MODEL LEGAL DOCUMENTS, INVESTOR RIGHTS AGREEMENT 22-23, 
+http://nvca.org/resources/model-legal-documents/ (last accessed Feb. 8, 2024) [Hereinafter: NVCA MODEL 
+AGREEMENT]; Fan, supra note  32, at 413. 
+39 See e.g. Adam Diederich & Kirstie Brenson, Attorney-Client Privilege Issues: When Directors Can Access 
+Privileged 
+Corporate 
+Records, 
+ARENTFOX 
+SCHIFF 
+(Apr. 
+27, 
+2022), 
+https://www.afslaw.com/perspectives/alerts/attorney-client-privilege-issues-when-directors-can-access-privileged-
+corporate.  
+40 See Fan, supra note 32, at 413; Anat Alon-Beck & John Livingstone, Mythical Unicorns and How to Find 
+Them: The Disclosure Revolution, 2023 COLUM. BUS. L. REV. 69 (2023).  
+41 See, e.g., Ari B. Blaut, Krishna Veeraraghavan & So Yeon Kim, Trends In The PIPE Market, LAW360 (Feb. 
+28, 2017), https://www.law360.com/articles/896516/recent-trends-in-the-pipe-market?copied=1) 
+ (“In 2016, 67 percent of transactions surveyed provided for director or board observer appointment/nomination rights, 
+the majority being conditioned on ownership of a threshold percentage of securities purchased or outstanding common 
+stock of the issuer.”). 
+42 For a general discussion of changing corporate culture norms, see Nizan Geslevich Packin & Benjamin P. 
+Edwards, Regulating Culture: Improving Corporate Governance with Anti-Arbitration Provisions for Whistleblowers, 
+58 
+WM. 
+& 
+MARY 
+L. 
+REV. 
+ONLINE 
+41 
+(2016), 
+http://wmlawreview.org/sites/default/files/Packin%20%CCC26%20Edwards-Final.pdf 
+[https://perma.cc/Q9Q5-
+3RU3 (explaining that the pragmatic interpretative approach could be more acceptable in situation where courts face 
+especially challenging interpretative tasks). 
+
+--- PAGE 11 ---
+BOARD OBSERVERS 
+11 
+ 
+11
+analyzing corporate law theories, case studies, and the incentives that appeal to investors and 
+entrepreneurs, causing them to adopt the use of this contractual mechanism, and the externalities 
+associated with the observers’ involvement in portfolio companies’ boards. Among the reasons 
+and incentives the Article focuses on are issues related to (i) corporate governance; (ii) litigation 
+risks that are reduced when investors are represented by board observers rather than traditional 
+board members; (iii) antitrust compliance issues, associated with acquisitions of small, potential 
+future competitors as well as creating competitive advantages; (iv) CFIUS regulation and national 
+security risks linked to foreign investors in U.S. companies; and (v) the Employee Retirement 
+Income Security Act of 1974 (ERISA)43 landscape, where VC operating company (VCOC) letters, 
+also known as management rights letters, give the same types of rights as the board observer role, 
+as a result of a sophisticated intersection of legal strategy and investment oversight.44  Finally, the 
+Article considers practical implications associated with this innovative corporate governance role, 
+and describes why more empirical data and further research are needed to determine whether 
+current corporate governance mechanisms require modification in connection with liability, 
+accountability, disclosure and transparency requirements for board observers.45   
+The Article is structured as follows: Part II follows the introduction and presents issues 
+related to VC-backed companies’ corporate governance, including board members’ roles and 
+responsibilities, startup companies’ governance mechanisms. Part III more specifically describes 
+the board observer role, and the advantages and disadvantages it entails, and offers empirical data 
+reflecting the rise in board observers. Part IV continues by exploring the legal status and 
+implications of the board observers role. Part V describes the various incentives associated with it  
+that are relevant for all or specific types of investors –  VC and Alternative VC (AVC)46 – that use 
+it, focusing on corporate governance, litigation minimizing, antitrust regulation, CFUIS, and 
+ERISA. Part VI describes the areas where further research is needed to determine the desired 
+liability, accountability, transparency, and disclosure standards for board observers. The Article 
+concludes by calling for greater awareness of this corporate governance mechanism and its 
+importance. 
+II. 
+STARTUP GOVERNANCE  
+Corporate governance scholarship and laws work to address asymmetric information and 
+                                                 
+43 29 U.S.C. §§ 1001-1461. 
+44 See generally Christopher Poe, What is a Management Rights Letter?, WYRICK ROBBINS (Mar. 28, 2023), 
+https://www.wyrick.com/news-insights/what-is-a-management-rights-letter. 
+45 For instance, see the Foreign Investment Risk Review Modernization Act of 2017, S., 115th Cong. (2017) 
+(FIRRMA). FIRRMA was “aimed at strengthening the Committee on Foreign Investment in the United States to 
+address CFIUS’ perceived inadequacies in dealing with new vectors of foreign investment risk.” It made “clear that 
+‘passive investment’ is to be construed very narrowly. A foreign investor may not have: A board seat or any board 
+observer rights. . .  or Access to certain types of information.”  Mario Mancuso, Boyd Greene & Lucille Hague, New 
+Bipartisan 
+CFIUS 
+Reform 
+Begins 
+To 
+Take 
+Shape, 
+LAW360, 
+(Nov. 
+13, 
+2017), 
+https://www.law360.com/articles/983836/new-bipartisan-cfius-reform-begins-to-take-shape?copied=1. Similarly, in 
+a guide instructing VC-backed companies on how to mitigate #Me-Too risks, the advising lawyer wrote: “complaints 
+of improper behavior may be made directly to a general partner serving as a board member or board observer,” clearly 
+seeing observers as equal or important enough to intervene or make a difference in such corporate culture and 
+governance matters. See Courtney Worcester, Michael Thompson & Jasmine Coo, How VC-Backed Companies Can 
+Mitigate #MeToo Risk, LAW360 (Feb. 21, 2019), https://www.law360.com/articles/1131149/how-vc-backed-
+companies-can-mitigate-metoo-risk.  
+46 See Alon–Beck, supra note 22, at 1028-37 (2020) (describing the nontraditional tech investors as such that 
+include mutual funds, hedge funds, SWF, and CVCs, collectively referring to all as AVCs). 
+
+--- PAGE 12 ---
+BOARD OBSERVERS 
+12 
+ 
+12
+incentives problems within corporations.47 The dominant paradigm underlying this scholarship is 
+the agency theory,48 which focuses on agency costs: costs resulting from the misalignment of 
+interest between the ones that own the firm (principals) and those who manage and control the 
+firms (agents) for the principals.49 In the context of corporations, this scholarship focuses primarily 
+on conflicts between managers (including directors) and shareholders in public corporations,50 as 
+well as between controlling and minority shareholders in closely held corporations.51 
+In response to the growing prevalence of startup companies, scholars have recently begun 
+exploring how traditional corporate governance theories can be adapted and applied within the 
+unique context of startups.52 This emerging scholarship on startup governance indicates that, 
+relative to public, as well as private companies,53 startups exhibit fundamental distinctions in their 
+life cycle, capital structure, and objectives that can give rise to distinct governance issues that may 
+not be captured by existing corporate governance theories.  This Part provides an overview of the 
+key participants involved in the startup governance and funding eco-system and its distinctive 
+features. This overview is essential to appropriately situate the role that board observers play 
+within this context and examine it in this Article.  
+                                                 
+47 Over the years, various analytical models have been developed to study the governance of the firm. The most 
+prominent model is the principal-agent model, which focuses on the reduction of agency costs that result from the 
+separation of power and control that occur when shareholders delegate control to managers. See Michael C. Jensen & 
+William H. Meckling, Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure, 3 J. FIN. 
+ECON. 305 (1976) (theorizing agency costs (agent conflict costs) in the context of the firm); Zohar Goshen & Richard 
+Squire, Principal Costs: A New Theory for Corporate Law and Governance, 117 COLUM. L. REV. 767, 769 (2017) 
+(noting that, “[f]or the last forty years, the problem of agency costs has dominated the study of corporate law and 
+governance”). Other prominent models include the team production model (Margaret M. Blair & Lynn A. Stout, A 
+Team Production Theory of Corporate Law, 85 VA. L. REV. 247 (1999)); the nexus of contracts model (Frank H. 
+Easterbrook & Daniel R. Fischel, Limited Liability and the Corporation, 52 U. CHI. L. REV. 89 (1985); the director 
+primacy model (Stephen M. Bainbridge, Director Primacy: The Means and Ends of Corporate Governance, 97 NW. 
+U. L. REV. 547 (2003)); and the principal costs model, which extends the agency costs model to incorporate both 
+agency costs (which arise when shareholders delegate control to managers) and principal costs (which arise when 
+investors exercise control) while accounting not just for conflict costs, but also competence costs (e.g., mistakes of 
+shareholders or managers due to lack of information or expertise) (Goshen & Squire, id.). Scholars debate the purpose 
+of corporate law and governance, but the prevailing view is to maximize shareholder value. See, e.g., Henry Hansmann 
+& Reinier Kraakman, The End of History For Corporate Law, 89 GEO. L.J. 439, 440–41 (2001). 
+48 Goshen & Squire, id, at 769 (noting that, “[f]or the last forty years, the problem of agency costs has dominated 
+the study of corporate law and governance”). 
+49 Jensen & Meckling, supra note 47(theorizing agency costs in the context of the firm). 
+50 See Goshen & Squire, supra note 47(claiming that, for the past decades, the core focus of corporate law and 
+governance has been reducing agency costs—costs resulting from the separation of control and ownership that occurs 
+when shareholders delegate control to managers—and introducing the concept of principal costs, costs arising when 
+investors exercise control, which, thus far, has received little attention in the scholarship). 
+51 See, e.g., Lucian A. Bebchuk & Assaf Hamdani, The Elusive Quest for Global Governance Standards, 157 U. 
+PA. L. REV. 1263 (2009); Lucian A. Bebchuk & Assaf Hamdani, Independent Directors and Controlling Shareholders, 
+165 U. PA. L. REV. 1271, 1279–80 (2017). 
+52 See, e.g., Jesse M. Fried & Mira Ganor, Agency Costs of Venture Capitalist Control in Startups, 81 N.Y.U. L. 
+REV. 967 (2006); Robert P. Bartlett, III, Venture Capital, Agency Costs, and the False Dichotomy of the Corporation, 
+54 UCLA L. REV. 37 (2006); Elizabeth Pollman, Startup Governance, 168 U. PA. L. REV. 155 (2019). 
+53 Gideon Parchomovsky & Asaf Eckstein, Where the Wild Things Are? The Governance of Private Companies, 
+https://ssrn.com/abstract=4393111 (discussing how although private companies vastly outnumber public ones, playing 
+a crucial role in our economy, they attract less regulatory and academic attention than the public ones). 
+
+--- PAGE 13 ---
+BOARD OBSERVERS 
+13 
+ 
+13
+A. 
+Identifying the Potential Participants and Investor Activists in Startup Governance 
+and Funding 
+The first set of participants is the entrepreneurs that are founding the startups. Startups 
+usually begin their journey primarily with internal funding. Outside investors, often nicknamed in 
+the early stages as the three Fs (friends, families and fools), in later funding stages include various 
+entities. Nevertheless, banks, typically do not lend to startup companies in their early stages. This 
+is mainly due to their lack of a track record and tangible assets.54 Instead, at the initial stages, the 
+founders tend to use their own funds, and issue common equity to themselves.55 As the financing 
+needs grow, founders often start seeking external sources of finance from angel investors.56 Angel 
+investors often invest at earlier stages than VCs and in smaller amount and usually receive common 
+stocks for their investments. And as the financing needs continue to grow, startups move to seek 
+financing from VCs.  
+This leads us to the second set of participants – VCs and AVCs. Starting with VCs, which 
+are usually entities comprised of investment professionals that are structured as limited 
+partnerships, these entities have general and limited partners (LPs) and provide financing to 
+startups. Limited partners are the investors that provide capital to the VC, usually large 
+endowments, pension funds, and banks.57 Before LPs decide to invest in a VC, the VC usually 
+provides it with a memorandum describing the fund’s investment strategy, without disclosing the 
+specific firms the fund will invest in. Although the LPs provide most of the capital, they are not 
+involved in the ongoing management of the fund’s business and may be excluded from decisions, 
+such as whether to approve investment in a particular company.58  Instead, it is the general partners 
+who decide which companies to invest in, and they often also play an active role in the governance 
+of these companies (e.g., by serving on their boards).59 Put simply, the LPs’ main contribution is 
+capital, whereas the general partners’ main contribution is financial bootstrapping and expertise.60 
+The compensation of general partners is composed of a relatively small annual management fee 
+for its services, and a carried interest—i.e., a right to receive a pre-defined percentage of the profits 
+realized by the partnership.61 The general partners receive carried interest when distributions are 
+made to the LPs, and only after the LPs received their capital contributions back. With this 
+description in mind, Figure 1 illustrates the structure of the VC fund.  
+ 
+                                                 
+54 See Pollman, supra note 52, at 170. 
+55 Id. 
+56 Id., at 171. 
+57 Gilson, supra note 33, at 1070–71 (providing a general overview of the structure of VC funds). 
+58 Id. 
+59 Id. 
+60 Id; Bernard S. Black & Ronald J. Gilson, Venture Capital and the Structure of Capital Markets: Banks Versus 
+Stock Markets, 47 J. FIN. ECON. 243, 245 (1998) (noting that VCs are specialized in providing portfolio companies 
+with monitoring and advisory services, as well as financial and reputational capital). 
+61 Gilson, supra note 33, at 1072. 
+
+--- PAGE 14 ---
+BOARD OBSERVERS 
+14 
+ 
+14
+Figure 1: VC Fund Structure.62 
+ 
+ 
+ 
+In exchange for their capital, VCs typically contract for preferred stocks with liquidation 
+preferences, giving them a senior claim to a fixed amount of the proceeds from a sale or liquidation 
+before any payments to holders of common stock.63 Because the initial investment by VCs is often 
+insufficient to fund the startup’s entire business plan, the funding is typically provided in stages. 
+From a governance perspective, the interaction between VCs and entrepreneurs is unique because 
+VCs tend to receive significant control rights, often disproportionate relative to their equity share.64 
+They frequently secure board seats, impose negative covenants that require VC approval for 
+important business decisions by the startup, and establish exit rights.65 Additionally, VCs can 
+indirectly gain control through the staged financing process of startups by the threat of withholding 
+additional rounds of financing.66  
+Moving forward to AVCs, the other sub-catgeroy of investors, this group of investors 
+includes the nontraditional financiers such as mutual funds, hedge funds, SWF, CVCs, and PEs, 
+these entities offer financing to companies as well. The entry of new AVC investors into the private 
+investment market is more than just an infusion of capital; it is transforming the capital structure 
+                                                 
+62 Adapted by author from Victor Fleischer, Two and Twenty:  Taxing Partnership Profits in Private Equity 
+Funds, 83 N.Y.U. L. REV. 1 (2008). 
+63 Pollman, supra note 52, at 173.  
+64 Gilson, supra note 33, at 1073–74. 
+65 Id; Pollman, supra note 52, at 173. 
+66 Id. 
+Private Equity Fund, L.P. 
+Portfolio Companies 
+Limited Partners (LPs) 
+Capital Interests 
+General 
+Partners 
+Investment Professionals 
+Carried 
+Interest and 
+Management 
+Fees 
+
+--- PAGE 15 ---
+BOARD OBSERVERS 
+15 
+ 
+15
+of the companies they fund by introducing innovative contractual rights and equity categories,67 
+such as the topic of this Article – the board observer mechanism. This evolution has significant 
+consequences for the fiduciary responsibilities that VC-backed startups and their boards owe to all 
+shareholders, including employees holding minority common shares.  
+The third set of players is directors. In the context of public corporations, directors are 
+selected by shareholders and are responsible for hiring and firing the top executives, and are 
+involved in the selection and approval of projects and major decisions, such as mergers and 
+acquisitions.68 Directors are bound by the statutory fiduciary duty, as well as other disclosure, 
+confidentiality, and good faith duties.69 In VC-backed startups, the board of directors is usually 
+formed after the first VC financing.70 The size and composition of the board are usually negotiated 
+with the funding VCs, which, as noted above, normally secure board seats for themselves. The 
+reasons VCs often negotiate for board seats are access to information, the ability to monitor the 
+activities of the startup, and control over significant decisions.71 The governance role of the board 
+is particularly complex in the context of startups because VC-backed startups tend to have multiple 
+classes of shares, with varying interests.72 
+Finally, the last set of participants, but according to many commentators not less important 
+category of players, is employees. In addition to the governance role that employees may play as 
+executives, they also have a particularly important role in the startup eco-system because of the 
+unique human capital they bring,73 and also because they usually hold common equity or options 
+with varying terms.74 However, since the equity interests of employees can vary based on their 
+equity arrangements—e.g., with the vesting schedule, exercise price, and form of grant—conflicts 
+may arise not only between preferred and common shareholders, but also between the same type 
+of shareholders.75 This complexity adds another layer of intricacy to the governance of startups. 
+B. 
+The Uniqueness of VC-Backed Startup Governance  
+Having understood the key participants involved in the governance of startups, this section 
+now turns to highlight the unique features that differentiate the governance of VC-backed startups 
+from the governance of other forms of business structures, such as public corporations.  
+One distinctive feature of VC-backed startups concerns their multi-layered capital 
+                                                 
+67 See Alon-Beck, supra note 22. 
+68 See generally Renée B. Adams, Benjamin E. Hermalin & Michael S. Weisbach. The Role of Boards of Directors 
+in Corporate Governance: A Conceptual Framework and Survey, 48 J. ECON. LITERATURE 58  (2010) (surveying the 
+literature on the role boards of directors play in corporate governance); Blair & Stout, supra note 47, at  251–53 
+(theorizing the role of the board members). 
+69 Fan, supra note 32, at 415–16. 
+70 Pollman, supra note 52, at 179. 
+71 Id. at 180. 
+72 See infra Section I.B.  
+73 Abraham J.B. Cable, Incubator Cities: Tomorrow’s Economy, Yesterday’s Startups, 2 MICH. J. PRIVATE 
+EQUITY & VENTURE CAP. L. 195, 214–17 (2013) (observing that part of Silicon Valley’s success comes from the 
+region’s high level of human capital and its mobile labor market). 
+74 Pollman, supra note 52, at 160 & n.18 (discussing the often-overlooked literature on the role of non-founder 
+employees in startup governance); Yifat Aran, Making Disclosure Work for Start-Up Employees, 2019 COLUM. BUS. 
+L. REV. 867, 926 (2019). 
+75 Pollman, supra note 52, at 195 (“[B]ecause equity arrangements for employees can vary with regard to the form 
+of grant, exercise price, vesting schedule, and other terms such as the triggers to accelerate vesting on a change in 
+control, employees can end up on opposite sides of a vote on whether the company should take an exit deal”). 
+
+--- PAGE 16 ---
+BOARD OBSERVERS 
+16 
+ 
+16
+structure.76 Unlike public corporations, VC-backed startups tend to have multiple classes of shares, 
+with varying contractual terms, which may be issued at different financing stages.77 As mentioned 
+above, startups usually issue common stocks to founders, angel investors, and employees (through 
+stock option plans), and preferred stocks with varying terms to VCs.78 This multi-staged structure 
+may give rise to multiple governance issues. To start, divergences of interests between preferred 
+and common shareholders may arise because of the liquidation preferences of preferred 
+shareholders, which gives them a senior claim to a fixed amount of the proceeds of a sale or 
+liquidation before any payments to holders of common stock.79 Furthermore, as referenced in the 
+context of employees, conflicts may arise among common shareholders,80 as they may have 
+differing interests in significant decisions, such as whether to approve an acquisition.81 Therefore, 
+this multi-layered structure demonstrates that the governance of startups is dynamic and evolves 
+over time,82 including the employees’ management role that gradually develops as their stock 
+options vest, which in turn influences the alignment of employees’ interests with other participants 
+in the startup’s governance structure.83 Similarly, the composition of the board can change over 
+time, as VCs may demand more seats in each financing round, ultimately resulting in a transition 
+from a founder-controlled board to a VC-controlled board.84 Finally, given the differing skill sets 
+and expertise required to establish a company versus managing a larger one, the issue of disputes 
+between founders-managers and directors (e.g., changing the direction of the company over the 
+founder-manager’s objection or firing the founder-manager) tends to be particularly prevalent in 
+the startup context.85  
+Lastly, another unique feature in startup governance concerns the heterogeneity of startups’ 
+shareholders.86 Typically, common stock investment is done purely for wealth maximization, so 
+while plans may differ, there is a homogeneity of goals – maximizing equity value. However, as 
+noted, startups involve both preferred and common shareholders, whose interests may diverge at 
+different points throughout the startup's life cycle, such as when the startup is presented with a 
+buyout offer. Additionally, preferred shareholders (VCs) may have varying interests. Different 
+VCs within the same financing round may have different valuations, and VCs in different financing 
+                                                 
+76 See Pollman, supra note 52, at 170–76 (discussing the complexity of startups’ capital structure); Aran, supra 
+note 74, at 905-08 (same). 
+77 William Gornall & Ilya A. Strebulaev, Squaring Venture Capital Valuations with Reality, 135 J. FIN. ECON 120 
+(2019); Aran, supra note 74, at 905. 
+78 Gordon Smith, The Exit Structure of Venture Capital¸53 UCLA L. REV. 315, 319 (2005); Pollman, supra note 
+52, at 160. On the characteristics of preferred shares, see Aran, supra note 74, at 906–07. 
+79 Pollman, supra note 52, at 189–90 (discussing conflicts between preferred and common shareholders).  
+80 Pollman, supra note 52, at 160 & n.18 (discussing the often-overlooked literature on the role of non-founder 
+employees in startup governance); Aran, supra note 74, at 926. 
+81 Pollman, supra note 52, at 195 (“[B]ecause equity arrangements for employees can vary with regard to the form 
+of grant, exercise price, vesting schedule, and other terms such as the triggers to accelerate vesting on a change in 
+control, employees can end up on opposite sides of a vote on whether the company should take an exit deal.”). 
+82 See Bartlett, supra note 52, at 108–114; Pollman, supra note 52, at 196–200. 
+83 Pollman, supra note 52, at  198. 
+84 Id. at 181 & n.143. 
+85 See Noam Wasserman, The Founder’s Dilemma, HARV. BUS. REV. (Feb. 2008), https://hbr.org/2008/02/the-
+founders-dilemma (“[T]he faster that founder-CEOs lead their companies to the point where they need outside funds 
+and new management skills, the quicker they will lose management control. Success makes founders less qualified to 
+lead the company . . . . ‘Congrats, you’re a success! Sorry, you’re fired,’ is the implicit message that many investors 
+have to send founder-CEOs”). 
+86 Pollman, supra note 52, at 188–96. 
+
+--- PAGE 17 ---
+BOARD OBSERVERS 
+17 
+ 
+17
+rounds may hold shares with varying contractual terms.87 Finally, even the interests of common 
+shareholders are heterogeneous, as those include very different stakeholders, such as founders, 
+employees with varying option plans, angel investors, and others. 
+C. 
+Other Investor Types  
+While traditional VCs are usually the first investor type that comes to mind when 
+discussing startups, they are not the only ones. Over the years, different types of investors have 
+gradually entered this space – the AVC players – further complicating the discussions around the 
+law, policy, and governance of startups.88 This section provides a brief introduction to some of 
+these AVC types,89 as this Article showcases how these players have greatly contributed to the rise 
+of innovative contractual rights and equity categories that include the board observer mechanism. 
+One notable investor type is CVC,90 which is used to describe an “investment of corporate 
+funds directly in external start-up companies.”91 Unlike VC funds, corporations utilizing CVC 
+often do not need to raise external capital from limited partners, such as pension funds, as they are 
+typically already established firms with significant capital from their operations. As startups are 
+increasingly turning to CVC investors to raise funds, CVC vehicles have become another essential 
+component in the governance of startups.92    
+Another investor type is sovereign wealth funds (SWFs),93 which deploy large amounts of 
+capital to unicorns that are considered high risk investments in private equities.94 While there is no 
+universally accepted definition of SWFs, they can be defined as a type of “investment funds owned 
+and managed by national governments.”95 SWFs are fundamentally different investment vehicles 
+compared to private entities, such as VCs. They are established by various governments to manage 
+resources (savings and investments) for future generations.96  
+Crossover investors, which are funds that traditionally invest in public companies and then 
+                                                 
+87 Id. at 191–93. 
+88 See generally Jennifer S. Fan, Nontraditional Investors, 48 BYU L. REV. 463 (2022). 
+89 For a more detailed discussion, see Alon–Beck, supra note 22, at 1014–49. 
+90 See generally Fan, supra note 32, at 413; David C. Mowery & Nathan Rosenberg, The U.S. National Innovation 
+System, in NATIONAL INNOVATION SYSTEMS: A COMPARATIVE ANALYSIS 29 (Richard Nelson ed., 1993). 
+91 See Henry W. Chesbrough, Making Sense of Corporate Venture Capital, HARV. BUS. REV. (Mar. 2002), 
+https://hbr.org/2002/03/making-sense-of-corporate-venture-capital/ar/1.  
+92 See, e.g., Joshua Mayers, A Senior CVC Investment Professional Makes How Much?, PITCHBOOK (Nov. 27, 
+2018), https://pitchbook.com/news/articles/a-senior-cvc-investment-professional-makes-how-much. 
+93 Sovereign wealth funds (SWFs) are a type of sovereign investment vehicle, which has an independent corporate 
+identity in order to invest for commercial return (often for a long term). HUNTING UNICORNS: SOVEREIGN WEALTH 
+FUND ANNUAL REPORT 2016, 7, http://www.ifswf.org/sites/default/files/report_SIL_2017.pdf. See Sofia Johan, April 
+M. Knill & Nathan Mauck, Determinants of Sovereign Wealth Fund Investment in Private Equity (TILEC Discussion 
+Paper No. 2010-044, 2011), http://ssrn.com/abstract=1722206 (“the first SWF may have been established in 1953 by 
+the establishment of the Kuwait Investment Authority”).  Andrew Rozanov is credited with coining the term 
+“Sovereign Wealth Fund” in 2005. See ANDREW ROZANOV, WHO HOLDS THE WEALTH OF NATIONS? (2005).  For a a 
+discussion of the differences between VCs and SWFs, see Alon–Beck, supra note 22. 
+94 See Ronald J. Gilson & Curtis J. Milhaupt, Sovereign Wealth Funds and Corporate Governance: A Minimalist 
+Response to the New Merchantilism, 60 STAN. L. REV. 1345, 1347–48 (2008). 
+95 See MARTIN A. WEISS, CONG. RESEARCH SERV., RL34336, SOVEREIGN WEALTH FUNDS: BACKGROUND AND 
+POLICY ISSUES FOR CONGRESS (2008), http://fpc.state.gov/documents/organization/110750.pdf; see also Johan, Knill 
+& Mauck, supra note 93. 
+96 See Andrew Ang, The Four Benchmarks of Sovereign Wealth Funds (Sept. 21, 2010), 
+https://ssrn.com/abstract=1680485.  
+
+--- PAGE 18 ---
+BOARD OBSERVERS 
+18 
+ 
+18
+cross over to invest in private markets, represent another important investor type in private 
+markets. Mutual fund and hedge fund managers are turning their attention to the private market in 
+the hopes of capitalizing on the high returns of unicorns before they go public through an initial 
+public offering (IPO). Prominent examples of crossover investors include multibillion-dollar firms 
+Tiger Global and Fidelity Investments.97 
+III. 
+BOARD OBSERVERS ON THE RISE  
+Having understood who the participants in the startup ecosystem are, this Part turns to 
+further explore the role that board observers play within the corporate governance of startups. 
+Section A introduces the concept of board observers and discusses potential benefits and 
+disadvantages associated with it. Section B presents and examines empirical data that reflects the 
+rise of board observers in startups’ governance.  
+A. 
+Intro: The Role of Board Observers 
+The board observer role is an interesting and multifaceted one in the world of corporate 
+governance, that offers many advantages. For instance, serving as a board observer enables 
+individuals to gain valuable experience and knowledge about corporate governance, improving 
+one’s understanding of a specific industry and company, and building relationships with board 
+members as well as other potential stakeholders.98 Similarly, companies with board observers 
+benefit from their objective contributions to the board’s decision-making process, offering insights 
+into business operations, goals, and strategies. In the innovative startup ecosystem, particularly, 
+young entrepreneurial companies with less experienced employees and management often 
+genuinely need additional expertise, guidance, and mentorship during their early stages of growth. 
+Board observers, often serving on behalf of venture capital firms, monitor the progress and 
+performance of the companies in which they have invested. Having done so with other startups, 
+these observers bring a wealth of industry-specific knowledge and experience, helping companies 
+navigate complex challenges and make informed decisions. They also help startups avoid common 
+pitfalls and mistakes that may occur during the early stages of growth.  Board observers provide 
+valuable feedback to the board of directors, identifying areas for operational or strategic 
+improvement. They also help ensure that the company complies with the terms of its investment 
+agreement and meets investor expectations. Appointed by VC firms as a condition of their 
+investment, board observers effectively have a say in the company’s decision-making process, 
+ensuring that invested funds are used effectively. Additionally, board observers assess the 
+company's progress and determine whether additional investment is warranted. 
+On the other hand, there are clear disadvantages to having board observers. For those who 
+use board observers on their behalf, the main drawbacks include the lack of decision-making power 
+– the voting power – to actually actively decide on matters the board is addressing, and the potential 
+for limited access to information.99  Indeed, observers are held to a confidentiality obligation and 
+                                                 
+97 See Alon-Beck, supra note 22.  
+98 For more on the importance of the various stakeholders in the field of corporate governance, see, e.g., Martin 
+Gelter, The Dark Side of Shareholder Influence: Managerial Autonomy and Stakeholder Orientation in Comparative 
+Corporate Governance, 50 HARV. INT’L L.J. 129, 131 (Winter 2009); Lisa Fairfax, The Rhetoric of Corporate Law: 
+The Impact of Stakeholder Rhetoric on Corporate Norms, 31 J. CORP. L. 675, 676–678 (Spring 2006); and Richard 
+A. Booth, Stockholders, Stakeholders, and Bagholders (Or How Investor Diversification Affects Fiduciary Duty), 53 
+BUS. LAW. 429, 429 (Feb. 1998). 
+99 For more on the role of VCs and investment in startups, see Smith, supra note 78; Jill E. Fisch, A Lesson from 
+
+--- PAGE 19 ---
+BOARD OBSERVERS 
+19 
+ 
+19
+may be excluded from certain meetings to protect the company’s attorney-client privilege, trade 
+secrets, or sensitive information. Additionally, board observers may have limited opportunities for 
+networking and professional development compared to board directors. Unlike board directors, 
+who are responsible for setting the company’s strategic direction, overseeing operations, and 
+making significant decisions impacting the company’s future, board observers do not have the 
+same level of involvement in managing the business. 
+For startups with board observers, the main drawback is that board observers do not 
+formally have a fiduciary duty to act in the best interest of the company and its shareholders. 
+Although board observers lack voting rights and have an ambiguous role, this position presents 
+certain challenges. 
+First, board observers may not have the same level of commitment to the company as full 
+board members. This issue is reflected in the work of interest groups representing players in the 
+VC/startup ecosystem that seek to standardize investment agreements. The leading organization 
+in this area is the NVCA, a U.S.-based organization whose members consist of individuals in the 
+VC industry and other investment professionals. The NVCA has created model legal documents 
+for venture financing transactions to promote coherent, transparent investment terms and efficient 
+transaction processes. These model documents are widely used in the United States (U.S.)100 and 
+are the work product of a national coalition of attorneys who specialize in VC financings.101   
+In connection with board observers, in 2020, the NVCA issued revisions to its standard 
+legal documents intended for application in VC financing transactions.102 The NVCA has 
+eliminated the language mandating that board observers must act “in a fiduciary manner” 
+concerning all information disclosed to them. Some of the commentators interpreting this 
+adjustment referred to it as a correction, given that board observers do not bear the same fiduciary 
+responsibilities as directors according to Delaware law. Consequently, confidentiality obligations 
+                                                 
+Startups: Contracting Out of Shareholder Appraisal, 107 IOWA L. REV. 941 (2022) (focusing on the corporate notion 
+of appraisal, including its importance for startups). For helpful background on the distinction between cash-flow and 
+control rights, see Goshen & Squire, supra note 47, at 784-85; Fried & Ganor, supra note 52, at 981-82; William W. 
+Bratton & Michael L. Wachter, A Theory of Preferred Stock, 161 U. PA. L. REV. 1815, 1875 (2013) (stating that 
+“[VCs] holding preferred sometimes take voting control and can dominate the boards of directors even when holding 
+a minority of the votes.”); PAUL A. GOMPERS & JOSH LERNER, THE VENTURE CAPITAL CYCLE 127-31 (1999); Manuel 
+A. Utset, Reciprocal Fairness, Strategic Behavior & Venture Survival: A Theory of Venture Capital-Financed Firms, 
+2002 WIS. L. REV. 45, 55 (2002) (writing that “Venture capitalists in most instances negotiate to get outright control 
+of the board.”); Pollman, supra note 52 (describing startups governance mechanism and industry practices and norms; 
+Yifat Aran, Note, Beyond Covenants Not to Compete: Equilibrium in High-Tech Startup Labor Markets, 70 STAN. L. 
+REV. 1235, 1239 (2018) (describing how a combination of economic and legal conditions in the current environment 
+allows successful startup managements’ to delay their companies’ going public, weakening some corporate 
+governance mechanisms embedded in the use of equity and stocks); Robert P. Bartlett & Eric Talley, Law and 
+Corporate Governance, in 1 THE HANDBOOK OF THE ECONOMICS OF CORPORATE GOVERNANCE 177, 185-86 
+(Benjamin E. Hermalin & Michael S. Weisbach eds., 2017) (“privately held firms tend historically to grapple with 
+‘horizontal’ governance dilemmas, involving disputes among competing shareholders (or classes of shareholders) who 
+seek to enhance their influence and control relative to other shareholders. To the extent this trend continues, the study 
+of governance in privately held firms is likely to become more critical to important policy debates.”); Steven N. Kaplan 
+& Per Strömberg, Financial Contracting Theory Meets the Real World: An Empirical Analysis of Venture Capital 
+Contracts, 70 REV. ECON. STUD. 281 (2003); and William A. Sahlman, The Structure and Governance of Venture 
+Capital Organizations, 27 J. FIN. ECON. 473 (1990).  
+100 See CLEARY GOTTLIEB, supra note 37. 
+101 See NVCA MODEL AGREEMENT, supra note 38.  
+102 Id. 
+
+--- PAGE 20 ---
+BOARD OBSERVERS 
+20 
+ 
+20
+will now need to be established through additional or different contractual means instead.103  
+Second, the issue of conflict of interest is more common and significant than it may initially 
+seem, since board observers are subject to many agency-related problems and corporate 
+governance-known complexities. Board observers serve on behalf of companies’ – often strategic 
+– investors that have different interests, goals, and priorities than those of the companies. Some 
+illustrations of this include the following situations: (i) Biases reflected in influencing decision-
+making. Board observers may prioritize the interests of an investor over the interests of the 
+startup/company they are involved with. For instance, the decision to include Microsoft as a board 
+observer at OpenAI presented such a challenge, given its potential to allow Microsoft to 
+significantly influence OpenAI’s strategic direction in a way that favors its own business interests, 
+potentially distorting market competition. Similarly, or relatedly, board observers might observe 
+boards of multiple entities, including potential competing businesses that are associated with the 
+venture capital firm. This would lead to biased decision-making, where the board observer’s 
+decisions are influenced by the interests of the venture capital firm rather than the best interests of 
+the startup or company. (ii) Limited disclosure. Board observers may not disclose all relevant 
+information to the company they are involved with, especially if that information conflicts with 
+the interests of the investor or VC firm they are associated with. This can lead to the startup or 
+company making uninformed decisions that may negatively impact their growth and development. 
+(iii) Lack of objectivity. Board observers may lack objectivity when evaluating the performance 
+of the company they are involved with. This can lead to unrealistic expectations, pressure to 
+achieve unrealistic goals, and ultimately, a negative impact on the company’s growth and 
+development. (iv) Toxic, non-collaborative, or unproductive environments. Conflict of interest can 
+result in hostile behavior and strain the relationship between the board observer, the VC firm, and 
+the startup company. This can lead to a breakdown in communication, a lack of trust, and negative 
+impacts on the startup’s growth and potential success. 
+B. 
+Board Observers: Empirical Data 
+Collecting accurate and relevant empirical data about board observers and observers’ 
+related business patterns appear to be extremely important, yet, until now, there has been no 
+available data on how broad the use of this corporate governance mechanism has become in the 
+VC/startup ecosystem. This Article presents the first compilation of such data, shedding light on 
+this practice with the invaluable assistance of the NVCA. In January 2024, the survey conducted 
+by the NVCA among the CFOs of member firms that revealed a notable trend regarding the 
+governance practice of appointing board observers.104 The survey, which since 2022 has been 
+typically sent out to approximately 200 member firms, and has had a consistent response rate of 
+between 42 and 66 member firms,105 showed that out of forty-six VCs and AVCs that responded, 
+a significant majority—thirty-eight in total—reported utilizing board observers within their 
+governance frameworks, while only eight abstained from this practice. This finding not only 
+underscores the prevalent reliance on board observers but also highlights the industry’s broader 
+recognition of their value in enhancing oversight, facilitating knowledge exchange, and bolstering 
+investor confidence. Figure 2 illustrates the usage of board observers among the 46 VCs and AVCs 
+that answered the NVCA Survey. 
+                                                 
+103 See CLEARY GOTTLIEB, supra note 37. 
+104 See NVCA Survey, Appendix A. 
+105 This information is based on data collected and kept by the NVCA and shared with the authors. 
+
+--- PAGE 21 ---
+BOARD OBSERVERS 
+21 
+ 
+21
+ 
+ 
+The overwhelming adoption of board observers among the surveyed entities reflects a 
+strategic approach to governance that prioritizes transparency and maintaining a close investor-
+company relationship. Moreover, this approach seems to be becoming more and more popular. 
+Indeed, in a follow-up question in the same survey, which was posed to the forty-six entities that 
+participated in the survey, the entities were asked if they have “any plans to change the number of 
+board observers in the near future?” They were given two options: (i) “No, keep current number 
+the same,” or (ii) “yes, increase number of board observers.” Picking between the two options, or 
+not picking at all, feeling like any of the two work for them, forty-one entities replied to the 
+question, with eight stating that yes, they would like to increase number of board observers. The 
+others said they would like to keep the number as is.106  Figure 3 illustrates the plans of the entities 
+that participated in the NVCA Survey to change the number their of board observers. 
+                                                 
+106 See NVCA Survey, Appendix A. 
+
+--- PAGE 22 ---
+BOARD OBSERVERS 
+22 
+ 
+22
+ 
+But there is more data clarifying just how broad the usage of board observers is. In an effort 
+to gauge the extent of board observer usage across VC and AVC portfolios, the NVCA Survey 
+queried entities on the percentage of their portfolio companies that include board observers.107 
+Among the thirty-eight entities affirming the practice of appointing board observers, the 
+distribution varied significantly, revealing diverse governance strategies. Notably, ten entities 
+disclosed that a substantial majority—over 75%—of their portfolio companies are overseen by 
+board observers, underscoring a high reliance on this oversight mechanism. Conversely, a smaller 
+cohort, comprising five entities, indicated that less than 25% of their portfolio companies have 
+board observers. The largest group, with sixteen entities, reported a moderate implementation, 
+stating that between 25% to 75% of their portfolio includes board observers. Surprisingly, seven 
+entities abstained from providing specific percentages, which may suggest variability in policy or 
+a strategic preference not to disclose detailed governance practices. This data illustrates the 
+nuanced and varied approaches to the use of board observers within the VC and AVC ecosystems, 
+highlighting their strategic importance in corporate governance across a broad spectrum of 
+investment portfolios that may also signify a shift towards more collaborative and informed 
+investment practices in the VC and AVC sectors. Figure 4 illustrates the percentage of the 
+portfolios (of investors) with board observers, according to the NVCA Survey. 
+                                                 
+107 See NVCA Survey, Appendix A. 
+
+--- PAGE 23 ---
+BOARD OBSERVERS 
+23 
+ 
+23
+ 
+In a revealing insight into governance practices among VC and AVC entities, the NVCA 
+Survey highlighted the relationship between AUM and the adoption of board observers.108 AUM, 
+representing the total market value of investments managed for clients, shows a significant trend: 
+entities with over $500 million in AUM unanimously employ board observers. Specifically, the 
+distribution includes ten entities with AUM ranging from $500 million to $1 billion, eleven entities 
+with AUM between $1 to $3 billion, five entities within the $3 to $5 billion range, and nine entities 
+boasting over $5 billion in AUM. In stark contrast, among entities with AUM under $500 million, 
+only three reported using board observers, while eight abstained from this practice. This data 
+strongly suggests a preference among larger, more sophisticated investment firms to leverage 
+board observers as a crucial governance mechanism, underscoring their value in enhancing 
+transparency and investor-company collaboration. Figure 5 illustrates the investor entities that 
+participated in the NVCA Survey by AUM size and the use of board observers.  
+  
+                                                 
+108 See NVCA Survey, Appendix A. 
+
+--- PAGE 24 ---
+BOARD OBSERVERS 
+24 
+ 
+24
+ 
+Finally, all entities surveyed, which identified as traditional VCs, unanimously used board 
+observers as a corporate governance mechanism, in addition to all entities identifying as Growth 
+Equity.109 
+IV. 
+THE LEGAL STATE OF BOARD OBSERVERS 
+As described above, board observers are unique in their role and responsibilities. Typically 
+appointed through contractual instruments such as investment agreements, term sheets, or side 
+letters—though rarely mentioned in bylaws or articles of association—board observers are not 
+entitled to vote but are typically entitled to attend board meetings and receive board papers. In 
+addition, they can actively participate in and contribute to board conversations, which, based on 
+informal conversations with practitioners and directors, as well as findings in psychology 
+literature, can impact the boardroom dynamic, potentially causing a chilling effect.110 Moreover, 
+the presence and participation of board observers can impact corporate decision-making processes, 
+similar to bargaining in the shadow of the law, where board decisions are made under observation. 
+Focusing on the legal status of board observers, and how it differs from traditional board members, 
+this part explores their rights, duties, and liability in the U.S. and compares them to other 
+jurisdictions, offering some analogies to similar roles.  
+                                                 
+109 See NVCA Survey, Appendix A. 
+110 See e.g. Lisa T. Mcelroy, Cameras at the Supreme Court: A Rhetorical Analysis, 2012 B.Y.U. L. Rev. 1837, 
+1887 (2012) (explaining how “[s]ocial scientists have recognized since 1927 that the very act of being observed may 
+materially change behavior and performance”). As for the observers’ impact see Michael J. Aiello et al., Lurking 
+Questions for Board Observers, Kirkland & Ellis LLP (Aug. 2019), https://www.kirkland.com/publications/kirkland-
+manda-update/2019/08/lurking-questions-for-board-observers. (discussing observers and how they may “significantly 
+influence the outcome of matters submitted to the Board of Directors.”); Vinod Kothari Consultants, Board Observer: 
+A 
+Silent 
+Observer 
+or 
+a 
+Game 
+Changer?, 
+Vinod 
+Kothari 
+Consultants 
+(June 
+20, 
+2023), 
+https://vinodkothari.com/2023/06/board-observer-a-silent-observer-or-a-game-changer/. 
+
+--- PAGE 25 ---
+BOARD OBSERVERS 
+25 
+ 
+25
+A. 
+Board Observers as Directors? 
+In the context of business organizations, a director is defined as “[a] member of a board 
+appointed to direct or manage the affairs of a commercial corporation or company.”111 Board 
+members manage a business organization’s affairs by: “(1) selecting senior officers; (2) controlling 
+executive compensation; (3) delegating administrative authority to officers; (4) making high level 
+corporate policy; (5) deciding financing and capital allocation; and (6) supervising the ‘welfare of 
+the whole enterprise.’”112 This formal power to direct and manage a business organization is 
+accompanied by certain responsibilities and duties.113 Directors owe a duty of care and loyalty to 
+shareholders and can be voted out by shareholders for reasons such as self-dealing, 
+mismanagement or even for no reason.114  
+Reviewing the methods by which board observers manage a business organization’s 
+affairs, it is evident that they have fewer responsibilities, duties, and legal liabilities compared to 
+traditional board directors. However, the role of a board observer and that of a traditional board 
+member bear some resemblance, as described in the prior parts of this Article. In many 
+jurisdictions, including the U.S., the resemblance in functions, the conduct of board observers, and 
+certain behaviors on their part can result in them being considered as what is known as de facto 
+directors, a term established in case law.115 However, there are other legal classifications that could 
+suggest the types of duties and liabilities expected of board observers. For instance, in some 
+jurisdictions, such as the UK, board observers can arguably be classified as shadow directors, a 
+notion defined in existing statutes.116 This Section explores the legal classification possibilities, 
+examining how board observers can be viewed in the U.S., using some comparative law, and the 
+implications of such classifications on their rights, duties, and liabilities.  
+1. 
+The de facto Director Concept 
+The dominant view in the U.S. is that board observers do not have the same rights, duties, 
+and liability as directors.117 The rights of board observers are more limited because they do not 
+                                                 
+111 Director, OXFORD ENGLISH DICTIONARY 392 (1st ed. 1933); Obasi Inv. Ltd.v. Tibet Pharms., Inc., No. 18-
+1849, at 10 (3d Cir. 2019), https://cases.justia.com/federal/appellate-courts/ca3/18-1849/18-1849-2019-07-
+23.pdf?ts=1563901205. 
+112 Obasi Inv. Ltd., No. 18-1849, Id., at 11, (quoting 2 Fletcher Cyc. Corp. § 505 (Sept. 2018 update)). 
+113 Id. 
+114 Id. at 20. See also Companies Act 2006, §§ 171-177 (U.K.) (enumerating the obligations and responsibilities 
+of UK directors).  
+115 “A “de facto” director is a person not entitled to the office who is acting as a director under some color of 
+office, for example pursuant to an irregular election.” See § 23.34. De facto directors, 18 Ind. Prac., Business 
+Organizations § 23.34, citing Bradford v. Frankfort, St.L. & T.R.R., 142 Ind. 383, 40 N.E. 741, 41 N.E. 819 (1895); 
+Smith v. Bank of State of Indiana, 18 Ind. 327 (1862). 
+116 For a description of liability as a shadow director and some relevant cases and commentary, see Companies 
+and Securities Advisory Committee, Parliament of Australia, Corporate Groups (Final Report, May 2000) 86 [2.145]-
+[2.147], 
+at 
+https://takeovers.gov.au/sites/takeovers.gov.au/files/2021-
+04/corporate_groups_final_report_may_2000.pdf. Since that time, shadow director liability has been considered in 
+Buzzle Operations Pty Ltd (in liq) v Apple Computer Australia Pty Ltd (2010) 81 NSWLR 47, at 
+https://nswlr.com.au/view/81-NSWLR-70 (stipulating that there are two aspects to the shadow director’s definition: 
+the person must actively issue instructions and the directors must be ‘accustomed’ to act in accordance with those 
+instructions, and explaining that giving advice will not by itself suffice to make someone a shadow director.) 
+117 See Daniel E. Wolf, Rights and Obligations of Board Observers, HARV. L. SCHOOL. FORUM ON CORP. 
+GOVERNANCE 
+(Aug. 
+29, 
+2019), 
+https://corpgov.law.harvard.edu/2019/08/29/rights-and-obligations-of-board-
+observers/ (“The predominant view among practitioners is that observers are not subject to the same fiduciary duties 
+
+--- PAGE 26 ---
+BOARD OBSERVERS 
+26 
+ 
+26
+have formal voting rights, can be excluded from certain board discussions and meetings, and their 
+information rights are contractual and usually limited by investors’ rights agreements.118 Board 
+observers are also generally not subject to the duties that apply to traditional board members, such 
+as the fiduciary duties owed to shareholders.119 While board observers are generally not liable in 
+the same way as board members, existing case law clarifies that those acting as de facto directors 
+may incur liability as directors,120 by having formal voting rights, tenures dependent on 
+shareholders, or owing fiduciary duties to shareholders. 
+The potential legal liability of board observers under existing legal frameworks in general, 
+and in the U.S. in particular, is not yet fully developed.121 The main U.S. case to provide guidance 
+on this issue is Obasi Investment Ltd. v. Tibet Pharmaceuticals, Inc,122 which focused on securities 
+regulation, but offers insights that could be useful also for corporate governance. In Obasi, Tibet 
+Pharmaceuticals attempted to raise money through an IPO. Zou, an investor in Tibet, and Downs, 
+an investment bank director, were non-voting board observers, who could influence but not vote 
+on decisions. The registration statement failed to disclose financial issues with a related company, 
+and after the IPO, trading in Tibet’s stock was halted. Investors sued Zou, Downs, and others, 
+under Section 11 of the Securities Act of 1933123 for misrepresentations about the company’s 
+condition ahead of its IPO. The court ruled that despite their influence, Zou and Downs could not 
+be held legally responsible as their role was not similar to board directors, and as non-voting board 
+observers, they did not have the same legal liabilities as directors. 
+Section 11 applies to “every person who, with his consent, is named in the registration 
+statement as being or about to become a director, person performing similar functions, or 
+partner.”124 With this statutory language in mind, the court addressed the question of what powers 
+and responsibilities an observer should have so they can be classified as “directors” or “person 
+                                                 
+as directors”); Fan, supra note 32, at 413–15 (“[T]he rights of an observer are limited by the investors' rights agreement 
+and observers do not have fiduciary duties like board members do.” (footnote omitted)). 
+118 Fan, supra note 32, at 413. Observers can be excluded from meetings for reasons related to attorney-client 
+privilege, disclosure of trade secrets, conflict of interest, or anti-trust. See id. at 413–14. 
+119 Unless they act as de facto directors. See Fan, supra note 32, at 413. 
+120 U.S. courts have held that a de facto director can bind the corporation “with respect to third parties who are 
+unaware of the de facto director's true status.” See David Simon Sokolow, Corporations and Partnerships, 37 Sw. L.J. 
+165, 176 (1983). Similarly, the England and Wales’ High Court of Justice held that persons who act as de facto 
+directors are deemed to be directors even if they were never appointed to such office, see e.g. Primlake Ltd v Matthews 
+Associates [2006] EWHC 1227 (Ch), [2007] 1 B.C.L.C. 666.  Following this rationale, the Australian judiciary found 
+that resigning from a croporate board but continuing to perform the ‘top level of management functions' results in the 
+person being held liable as a de facto director. See Deputy Commissioner of Taxation v Austin (1998) 28 ACSR 565, 
+569, 571 (Madgwick J). And in Korea, individuals can be de facto directors if they instruct other directors by 
+leveraging their influence. Robert J. Rhee, The Political Economy of Corporate Law and Governance: American and 
+Korean Rules Under Different Endogenous Conditions and Forms of Capitalism, 55 Wake Forest L. Rev. 649, 672 
+(2020)(explaining that a “director can be a major shareholder, defined as one who. . . exerts de facto influence on 
+important matters related to the management of the listed company.” Of course, the question of “actual control” or 
+“de facto influence” are factual inquiries determined case by case.”) 
+121 Avoiding Board Observer Liability Under Section 11 of the Securities Act of 1933, KRAMER LEVIN (Sept. 12, 
+2019), https://www.kramerlevin.com/en/perspectives-search/avoiding-board-observer-liability-under-section-11-of-
+the-securities-act-of-1933.html [hereinafter KRAMER LEVIN] (“[t]he potential legal liability of board observers under 
+various laws applicable to actual board members has not been well developed”). 
+122 Obasi Inv. Ltd.v. Tibet Pharms., Inc., No. 18-1849 (3d Cir. 2019), https://cases.justia.com/federal/appellate-
+courts/ca3/18-1849/18-1849-2019-07-23.pdf?ts=1563901205. 
+123 15 U.S.C. § 77k(a). 
+124 15 U.S.C. § 77k(a)(3). 
+
+--- PAGE 27 ---
+BOARD OBSERVERS 
+27 
+ 
+27
+performing similar functions.” According to the majority theory, this question narrows down to 
+the question “whether [observers] possess at least some of the core powers and responsibilities that 
+define corporate directorship under the law of corporations.”125  In applying this question to the 
+facts, the court held that Zou and Down were not directors or ‘similar’ due to their lack of core 
+powers and responsibilities. The court’s reasoning was based on three key facts: (i) the observers 
+did not have the right to vote; (ii) shareholders could not vote the observers out, as their rights 
+were determined by contracts; and (iii) the observers did not owe a fiduciary duty to the 
+shareholders.126 Although the registration statement indicated that the observers had the potential 
+ability to influence the outcomes of matters submitted to the board of directors, the court clarified 
+that this influence alone was insufficient to classify the observers as directors or ‘similar’ for the 
+purposes of Section 11 liability. 
+Obasi’s dissenting opinion adopted a slightly different perspective, asserting that a “person 
+may be named as performing similar functions to a director even if he or she does not possess the 
+directors’ ‘formal power to direct and manage a corporation, and the responsibilities and duties 
+that accompany those powers.’”127 According to the dissenting opinion, “a person named in the 
+registration statement as being or about to become a person performing similar functions if, 
+pursuant to this statement, he or she possesses powers or abilities that are of a like nature or kind 
+as the power to direct or manage the affairs of the corporation.”128 Applying this theory to the facts, 
+the dissenting opinion highlighted three elements, that were identified in the registration statement, 
+to support the view that Zou and Downs possess powers or abilities that are of a like nature or kind 
+as the power to directors: (i) they could significantly influence the outcome of matters submitted 
+for board approval; (ii) they had access to information from board meetings (“eyes and ears at 
+board meetings”); and (iii) they were entitled to the same payment as independent directors and 
+were eligible for reimbursement for attending meetings of the board.129 
+This Obasi case provides clear guidance that board observers are not liable as directors or 
+'similar' persons under Section 11, even if they have access to inside information, attend board 
+meetings, and can influence business decisions and other matters submitted to the board. However, 
+it also implies that if board observers de facto act as directors—by having voting rights, tenures 
+dependent on shareholders, or owing fiduciary duties to shareholders—they could indeed be held 
+liable as such. Additionally, it is worth noting the dissenting opinion's broader approach suggests 
+that many board observers could argueably be held liable under Section 11, regardless of whether 
+they have formal voting rights or owe fiduciary duties.  
+In addition to the U.S., other juridiscitions such as the UK also recognize the de facto 
+directors concept. In particular, UK laws define three types of directors, and one of those categories 
+is the de facto directors. Indeed, according to section 250 of the Companies Act 2006 (CA), as 
+stated in the explanatory notes, the definition of directors covers a de facto director, which is 
+defined as “a person who has assumed the status and functions of a company director even though 
+he has not been properly appointed.”130  
+                                                 
+125 Obasi Inv. Ltd., No. 18-1849, at 15. 
+126 Id; Wolf, supra note 117. 
+127 Obasi Inv. Ltd., No. 18-1849, dissent at 4-5 (Cowen, J., dissenting).  
+128 Id. at 5. 
+129 Id. at 10. 
+130 
+Companies 
+Act 
+2006, 
+§ 
+278 
+(Explanatory 
+Notes) 
+(U.K.), 
+https://www.legislation.gov.uk/ukpga/2006/46/notes/division/5/28; Re Lo-Line Electric Motors Ltd [1988] Ch. 477, 
+
+--- PAGE 28 ---
+BOARD OBSERVERS 
+28 
+ 
+28
+The determination of whether a person is a de facto director is based on a subjective 
+evaluation focusing on consistent behaviors or the authority under which one operates—
+reminiscent of the principles of apparent authority or “holding out” in U.S. jurisprudence. To be 
+recognized as a de facto director, “the person must have participated in directing the affairs of the 
+company on an equal footing with the other director(s) as part of the board and not in a subordinate 
+role.”131 Relevant factors in this determination include “directing others . . . committing the 
+company to major obligations, and . . . taking part in an equally based collective decision process 
+at board level.”132 And, upon assessing these factors, several jurisdictions have already determined 
+that shareholders, for instance, could potentially be seen as de facto directors and therefore be held 
+liable if it is proven that they acted as directors and neglected to comply with the type of conduct 
+required according to the standards applicable to directors.133  Finally, the consequence of being 
+recognized as a de facto director is the accompanying legal responsibilities. Such individuals are 
+held to the same legal standards, duties, obligations, and potential liabilities as their officially-
+appointed counterparts.134   
+2. 
+The Framework of Shadow Directors 
+Jurisdictions such as the UK have adopted a broader approach than the U.S. in defining 
+who can be considered a director.135 This approach includes, in addition to de facto de jure directors  
+and shadow directors. A de jure director is a person that functions as a director and is formally 
+appointed as one, as defined under section 250 of the Corporations Act 2006 to include “any person 
+occupying the position of director, by whatever name called.”136  
+Relatedly, a shadow director is someone who is defined under section 251 of the 
+Corporations Act as “a person in accordance with whose directions or instructions the directors of 
+the company are accustomed to act.”137 Therefore, and very relevantly to board observers that offer 
+the board their opinion and expertise, this distinct category encompasses individuals whose advice 
+or directions are habitually followed by the official board members, excluding professional 
+advisors.138 The concept of shadow directors is primarily employed “to impose liability on persons 
+                                                 
+488. 
+131 
+Susan 
+Watson 
+& 
+Chris 
+Noonan, 
+Defining 
+Directorship, 
+13, 
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1695796.  
+132 Secretary of State for Trade v. Elms (16 January 1997, unreported). 
+133 See Irit Mevorach, The Role of Enterprise Principles in Shaping Management Duties at Times of Crisis, 14 
+EUR. BUS. ORG. L. REV. 471 (2013); Florian Möslein & Karsten Engsig Sorensen, Nudging for Corporate Long-
+Termism and Sustainability? Regulatory Instruments from A Comparative and Functional Perspective, 24 COLUM. J. 
+EUR. L. 391, 431 (2018). 
+134 See Companies Act 2006 , § 250 & Explanatory Notes, § 278 (U.K.) (defining directors to include de facto 
+directors). 
+135 A similar approach has also been adopted in other common law system-based jurisdictions, which include 
+Israel. See  Guy Gissin & Yael Hershkovitz, Restructuring & Insolvency Comparative Guide, MONDAQ (2020), 
+https://www.mondaq.com/insolvencybankruptcyre-structuring/989090/restructuring--insolvency-comparative-guide. 
+The 9 million country, also known as the Startup Nation, due to its high concentration of startups per capita, has 
+developed around 97 unicorns, showcasing a remarkable growth in its startup ecosystem over the past decade. This 
+growth has been fueled in part by significant VC funding and a history of tech innovation initially driven by military 
+and defense funding, which focused on cybersecurity and AI. See Israel’s Booming Startup Ecosystem in Four Charts, 
+SIFTED (2022), https://sifted.eu/articles/israel-startup-ecosystem-tech-vc-brnd.      
+136 Companies Act 2006, § 250 (U.K.). 
+137 Id. § 251. 
+138 An example for this could be “controlling shareholders are not generally subject to any fiduciary duties unless 
+they are deemed to be acting as de facto or shadow directors.” Lance Ang, Capitalist Variations in “Say on Pay”: A 
+
+--- PAGE 29 ---
+BOARD OBSERVERS 
+29 
+ 
+29
+who are not directors but who nevertheless influence or control the management of the 
+company.”139 Unlike de facto directors, shadow directors do not operate on an equal footing with 
+other board members. Instead, they exert significant control, often instructing and directing the 
+other directors. A classic example of a shadow director is a parent company that exercises control 
+through its shareholding in a subsidiary and may influence the actions of the subsidiary’s 
+directors.140  
+Under English law, a de facto director has all the duties and liabilities of a director, but the 
+situation of a shadow director (i.e., a person in accordance with whose directions or instructions 
+the directors are accustomed to act) is different. Following the decision in Ultraframe v Fielding, 
+a shadow director does not normally owe fiduciary duties to the company unless she has dealt with 
+the company’s assets.141 This rational for this different treatment, however, is not very clear. “A 
+shadow director’s role in a company’s affairs may be every bit as important as that of a de facto 
+director, and de facto directors are considered to owe fiduciary duties. That a shadow director may 
+not subjectively wish to assume fiduciary duties cannot matter as such.”142 
+Nevertheless, even with the distinction pointed out above, shadow directors can face 
+different forms of liability, ranging from criminal to personal, especially in situations involving 
+insolvency (e.g., for continuing company operations despite apparent insolvency threats). Shadow 
+directors can also be penalized for fraudulent trading, preferential distributions, and misfeasance. 
+Furthermore, they risk being disqualified from future directorships143—a grave consequence often 
+highlighted in purchase agreements, due diligence processes, and offering documents.144  
+However, classifying a board observer, or anyone for that matter, as a shadow director entails 
+determining when an individual crosses the line from providing guidance and advice to exercising 
+actual control over the company’s management. Indeed, this can be a difficult question to answer, 
+and courts will often look at a variety of factors, such as the degree of influence the individual 
+exerts over the company’s decision-making processes, the extent of their involvement in day-to-
+day operations, and their level of access to confidential information.  Another legal issue that can 
+arise is conflicts of interest. Because these possible board members are not formally appointed as 
+directors, they may be more likely to have personal or business interests that conflict with those of 
+the company. This can create situations where these individuals would make decisions that benefit 
+themselves or their own interests, rather than the interests of the company and its stakeholders. To 
+                                                 
+Look at Corporate Governance Contradictions in Singapore and Hong Kong, 15 U. PENN. ASIAN L. REV. 222, 276 
+(2020). See also ERNEST LIM, A CASE FOR SHAREHOLDERS' FIDUCIARY DUTIES IN COMMON LAW ASIA 13 (2019). 
+139 Watson & Noonan, supra note 131, at 16. 
+140 Id.  
+141 Locke Lord LLP, English Court Holds Ultimate Beneficial Owner (“UBO”) Liable for Losses to Creditors, 
+LEXOLOGY 
+(Nov. 
+1, 
+2013), 
+https://www.lexology.com/library/detail.aspx?g=16b1bf53-5581-41c1-ab49-
+f3e9c794f498 (“In Ultraframe v Fielding [2005] EWHC 1638 (Ch) Lewison J.,  held that the ‘indirect influence 
+exerted by a paradigm shadow director… will not usually… be enough to impose fiduciary duties upon him.’ He 
+observed that a practice of giving instructions which were against the company's interest appeared to be an inconsistent 
+basis for imposing a duty to act in the company's best interests although he recognised that actions going beyond the 
+exertion of mere indirect influence may be sufficient to lead to duties being imposed.”). 
+142 18 No. 4 M & A Law. 19 ; U.K. High Court of Justice Rules Consultant Was Shadow Director With Fiduciary 
+Duty of Good Faith, 8:20 Int'l. Sec. & Fin. Reporting Upd. 11071700.   
+143 Search for Disqualified Company Directors, GOV.UK, https://www.gov.uk/search-the-register-of-
+disqualified-company-directors (last visited Feb. 8, 2024). 
+144 Under English law it is a relatively complicated process to remove a director (who is unwilling to leave) from 
+the board, which according to conversations with lawyers, is why companieso often introduce a power of attorney (in 
+favor of the company itself) into the service contracts to remove directors from office under specified circumstances. 
+
+--- PAGE 30 ---
+BOARD OBSERVERS 
+30 
+ 
+30
+address this issue, companies may require any potential or possible board members to disclose any 
+potential conflicts of interest, and to recuse themselves from any decisions or discussions where 
+such conflicts arise. 
+V. 
+THE ALLURE OF BOARD OBSERVERS FOR SAVVY INVESTORS    
+Throughout their life cycle, businesses, particularly startup companies, face significant 
+capital challenges and often turn to investors for external funding. A crucial aspect of these funding 
+agreements is the negotiation of the board's composition. Investors seek board seats for various 
+reasons, including gaining control, accessing information, and monitoring the companies' 
+activities.145 Entrepreneurs typically aim to maintain control while securing the external capital 
+needed to scale their growth and sustain their leadership positions.146  Usually, the board 
+composition evolves over time, starting with founder-controlled boards and gradually shifting to 
+investor-controlled boards as investors demand more seats.147  In recent years, however, investors 
+have begun to diverge from the industry norm of negotiating the majority of board seats and have 
+increasingly relied on board observers.148  This shift might have at least been partially characterized 
+by asking for, or negotiating to get, non-voting board observer seats instead. Following the 
+previous Section, which explores the characteristics of  board observers as an innovative corporate 
+governance rule, how popular these seats have become, and their legal status, this Part continues 
+by focusing on the allure of board observers for investors. Apecifically, it examines the various 
+incentives for investors associated with using board observers. Section A zooms in on general 
+governance considerations. Section B dives into matters associated with minimizing liability 
+exposure. Section C concentrates on antitrust issues. Section D explores concerns related to CFIUS 
+regulation. Finally, Section E delves into ERISA-related regulatory matters. 
+A. 
+General Governance Considerations 
+Entrepreneurs and investors might be interested in board observer seats for various 
+governance-related reasons. From the perspective of investors, observer seats may be used to gain 
+access to information or to have an influence over business and governance decisions of the 
+company without having to comply with the same legal obligations and duties applying to board 
+directors (e.g., fiduciary duties). In the context of startups, the option of board observers might be 
+particularly appealing for minority shareholders, who join at a late round with a funding amount 
+that cannot justify a board member seat.149 It could similarly appeal to seed and pre-seed investors, 
+as exercising or securing extensive investor controls would typically make little economic sense 
+at the startup’s very early, research and development (R&D)-focused stage.150  Finally, certain 
+investors may prefer negotiating for board observers, rather than board seats, as a general corporate 
+policy matter.151 Notably, as a matter of policy, many CVCs (apparently, most of them) either 
+never lead investment rounds, or have a strong preference to joining them as followers. One direct 
+                                                 
+145 See, e.g., Bartlett & Talley, supra note 99, at 180. 
+146 See generally Aran & Pollman, supra note 3. 
+147 Pollman, supra note 52, at 181 & n.143. 
+148 Michael Ewens (@startupecon), X (formerly TWITTER) (Dec. 4, 2023, 7:25 PM), https://t.co/28xGh6VWLd. 
+149 See Mark Suster, Why You Should Avoid Adding ‘Board Observers’ to Your Startup’s Board, INC. (Feb. 25, 
+2019), https://www.inc.com/mark-suster/startup-board-observer-member-silent.html.  
+150 About early-stage investors’ tendency to shy away from securing hard controls and its underlying causes, Gad 
+Weiss, A Theory of Seed Financing, 2024 U. ILL. L. REV. (forthcoming). 
+151 Id; Fan, supra note 32, at 414–15  ("[W]hen American Express Ventures participates on a board, it typically 
+designates a board observer. Intel Capital, in contrast, is much more likely to designate a board member.”) (footnote 
+omitted). 
+
+--- PAGE 31 ---
+BOARD OBSERVERS 
+31 
+ 
+31
+outcome of such policy is having significantly less leverage to negotiate for board seats.152 
+Therefore, in order to stay involved with the things that are happening in the boardroom, their 
+other option is to ask for board observer seats instead. 
+The concept of board observers may also be appealing to entrepreneurs, who may benefit 
+from the knowledge of expertise of investors without giving up on formal control rights. Observers 
+from CVC and VC funds may have skills and experience that founders and officers of small 
+companies and startups are lacking or specialized knowledge about specific industries or areas 
+from which the startup can benefit.153 
+B. 
+Minimizing Liability Exposure  
+Investors might also be interested in negotiating for board observer seats, as opposed to 
+traditional board member seats, to minimize potential liability exposure, and litigation risks.154 
+While the potential legal liability of board observers under existing legal frameworks is not yet 
+fully developed,155 it is safe to argue, certainly after the 2020 changes mentioned above, that it is 
+generally lower than the potential liability applying to actual board members.156 To start, board 
+observers are generally not subject to the same fiduciary duties applying to board members.157 This 
+means that observers would generally not be directly liable in litigation concerning the breach of 
+fiduciary duties owed to shareholders. The liability of board observers under securities laws may 
+also be more limited relative to that of board members. For example, in Obasi, the U.S. Court of 
+Appeals for the Third Circuit ruled that, because of the board observers’ limited authority and 
+obligations, they were not held liable for misrepresentations made by their company under Section 
+11 of the Securities Act of 1933.158 While it is still unclear whether and to what extend this 
+securities regulation case can be generalized and applicable to other contexts in which board 
+observers operate, the litigation exposure of observers, at least under federal securities laws, 
+appears to be lower in comparison to that of traditional board members.159 
+Nevertheless, risks clearly still exist. Therefore, while board observers do not bear the same 
+responsibilities and liabilities as traditional board members—leading to the initial conclusion that 
+Directors and Officers (D&O) insurance is not a necessity for them—there is a growing trend of 
+board observers seeking inclusion in a company’s D&O insurance policy.160 This trend, however, 
+                                                 
+152 See Ilya A. Strebulaev & Amanda Ying Wang, Organizational Structure and Decision-Making in Corporate 
+Venture 
+Capital 
+(Stan. 
+Bus. 
+Sch. 
+Working 
+Paper 
+No. 
+4008, 
+2021) 
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3963514 (finding, e.g., that “57% of CVCs either only follow or 
+strongly prefer to follow investment rounds, meaning that another investor, usually an institutional VC, is leading the 
+round and negotiating the main contractual terms”). As the CVC gains more experience, therefore,  seems that its 
+policies on transaction structuring and investment terms may change – including with respect to the choice between 
+securing observer or director positions. 
+153 Jeffrey A. Sonnenfeld, What Makes Great Boards Great, HARV. BUS. REV. (Sept. 2002), 
+https://hbr.org/2002/09/what-makes-great-boards-great (discussing the importance of having skilled board members). 
+154 KRAMER LEVIN, supra note 121 (“The potential legal liability of board observers under various laws applicable 
+to actual board members has not been well developed.”); Suster, supra note 149 (“there are a few firms I've noticed 
+these days that ask for observer rights that they treat as though they are full board seats. They see this as a way of 
+having board influence without any of the legal responsibilities and liabilities.”). 
+155 Id. 
+156 See CLEARY GOTTLIEB, supra note 37. 
+157 Unless they de facto act as board members. See Wolf, supra note 117; Fan, supra note 32, at 413. 
+158 Obasi, supra note 122. 
+159 Id. 
+160 See e.g., Priya Cherian Huskins, Are Corporate Board Observers Liable Just Like Directors?, WOODRUFF 
+
+--- PAGE 32 ---
+BOARD OBSERVERS 
+32 
+ 
+32
+caused industry players to wonder whether board observers should get coverage under D&O 
+insurance policies, as this very request may appear contradictory, considering the role of an 
+observer is often chosen to circumvent the liabilities accompanying directorial positions.161 Indeed, 
+the desire for D&O policy inclusion may seem to conflict with the notion that observers are exempt 
+from the fiduciary duties owed to shareholders. However, the rationale behind this request can be 
+understood when considering the financial burdens associated with legal defense. Indemnification 
+agreements serve as critical financial shields for directors against the expenses of litigation defense 
+and settlements. Board observers, lacking indemnification agreements typically afforded to 
+directors, face the daunting prospect of bearing the cost of legal defense against even baseless 
+litigation.162 The interest of board observers in seeking indemnification agreements, despite their 
+role supposedly reducing liability exposure illustrates the tension between the perceived safety of 
+the observer status and the actual risks of legal action. It reveals the intricate balance board 
+observers navigate between minimizing their liability and addressing potential legal challenges. 
+C. 
+Antitrust Issues  
+Investors may prefer appointing board observers instead of board members to enhance 
+information access and influence, without violating the antitrust laws. This is particularly relevant 
+in the big tech/startup ecosystem, where small players can emerge as future competitors to large 
+tech firms.163 Such firms might, therefore, seek to use their control in ways that are anti-
+competitive. 
+1. 
+CVC as Acquisition Vehicles 
+In recent years, the continuous growth of the largest digital platforms has been associated 
+with a desire to acquire startups in order to eliminate potential competitive threats from these 
+smaller innovators164 – a practice that been described as a “killer acquisition.”165 It originated from 
+a research study conducted by Cunningham, Ederer, and Ma that examined a substantial number 
+of acquisition deals in the pharmaceutical sector.166 It found that a small yet significant proportion 
+(roughly 5.3% to 7.4%) of these acquisitions appeared to be driven by the desire to buy and 
+subsequently discontinue the operations of a potential or actual rival.167 This research has since 
+been expanded upon in various commentaries, applying its conclusions to the digital market 
+                                                 
+SAWYER (Nov. 13, 2019), https://woodruffsawyer.com/do-notebook/liable-corporate-board-observers/. 
+161 Id. 
+162 Id. 
+163 Professor Tim Wu describes it in the following way: “No one’s willing to fund [profound innovation] because 
+you’re not going to displace Facebook or Google. So we go around the edges somewhere and try and find some cute 
+little thing that doesn’t bother anybody too much and get bought out.” Nilay Patel, It’s Time To Break Up Facebook, 
+VERGE (Sept. 4, 2018) (alteration in original) (internal quotation marks omitted), https://www.theverge.com/2018 
+/9/4/17816572/tim-wu-facebook-regulation-interview-curse-of-bigness-antitrust. 
+164 “[T]oday’s tech giants simply acquire and absorb any potential future competitors.” See Nizan Geslevich 
+Packin, Too-Big-to-Fail 2.0? Digital Service Providers as Cyber-Social Systems, 93 IND. L.J. 1211, 1217 (2018) 
+(describing how tech giants’ acquisitions of potential smaller competitors “also result in a chilling effect on funding 
+of small startups, given the tech giants’ potential ability to out-man, out-fund, and immediately compete with any new 
+innovative player.”). 
+165 Colleen Cunningham, Florian Ederer & Song Ma, Killer Acquisitions, 29 J. POL. ECON. 649 (2021). 
+166 Jonathan Barnett, Killer Acquisitions Reexamined: Economic Hyperbole in the Age of Populist Antitrust, 
+HARV. L. SCH. F. ON CORP. GOV. (Sept. 25, 2023), https://corpgov.law.harvard.edu/2023/09/25/killer-acquisitions-
+reexamined-economic-hyperbole-in-the-age-of-populist-antitrust/. 
+167 Id. 
+
+--- PAGE 33 ---
+BOARD OBSERVERS 
+33 
+ 
+33
+domain. It has bolstered the increasingly accepted view that major technology companies, but not 
+only them,168 habitually acquire firms to preemptively eliminate emerging competitors. 
+Mindful of the potential market harms that could result from killer acquisitions, academics 
+as well as antitrust and competition authorities in the U.S., European Union (EU), UK, and other 
+jurisdictions have spent the last few years focusing on ways to address the concerns associated 
+with the practice. And, the impact of the regulators’ efforts is already evident in the process of 
+merger review.169 Legislators and regulators in the U.S. and EU have been advocating for changes 
+in the merger review process. These changes include lowering the burden of proof or adjusting the 
+thresholds for reporting mergers, making it easier to scrutinize and potentially challenge 
+acquisitions made by large tech platforms.170  Additionally, in May 2023, the European Union’s 
+Digital Markets Act was enacted, requiring major technology platforms to report any acquisitions 
+within digital markets. Subsequently, in June 2023, the FTC, in agreement with the DOJ, 
+publicized new guidelines for pre-merger notifications.171 These guidelines mandate firms to 
+disclose all acquisitions over the past ten years in sectors where the merging entities have 
+competitive overlaps, regardless of the firms' sizes.172 In December 2023, the FTC and DOJ also 
+released updated merger guidelines, highlighting concerns about the competitive risks of 
+acquisitions involving established companies and their emerging competitors.173 The 2023 
+proposal and updates included language specifically addressing risks associated with board 
+observers.174   
+The revised language mandates more extensive disclosure about the structures of entities 
+involved in mergers. This includes detailed information on minority investors in any related 
+entities, creditors who could influence competitive decisions, and board members (including board 
+observers). The aim is to mitigate potential competitive issues arising from the influence of 
+minority investors or others with significant influence in competing firms.175 And similarly, in the 
+premerger requirements, the FTC particularly states that “Board observers are not subject to the 
+Section 8 ban on interlocking directorates, and yet may have access to the same materials that are 
+shared with officers and directors. In December 2020, the Commission issued an advance notice 
+of proposed rulemaking (“ANPRM”) that, among other things, sought to gather information about 
+sources of influence on corporate decision-making outside the scope of voting securities. The 
+Commission noted the possibility that there are ways to gain influence over a company other than 
+through the acquisition of voting rights, for instance through board observers, and pointed to the 
+increasing use of board observers as part of the governance structure. . . [and how] the acquisition 
+                                                 
+168 For example, in the FinTech sector, Visa has attempted to purchase data aggregator Plaid, in a transaction that 
+was eventually prohibited by the U.S. antitrust regulators due to its anti-competitive nature and potential impact on 
+the payments industry. See Nizan Geslevich Packin, Show Me the (Data About the) Money!, 2021 UTAH L. REV. 1277, 
+1287 (2021). 
+169 See Barnett, supra note 166. 
+170 Id. 
+171 Premerger Notification Reporting and Waiting Period Requirements, supra note 4. 
+172 Id. 
+173 
+U.S. 
+Dep’t 
+of 
+Justice 
+& 
+Fed. 
+Trade 
+Comm’n, 
+Merger 
+Guidelines 
+(Dec. 
+18, 
+2023), 
+https://www.ftc.gov/system/files/ftc_gov/pdf/202. 
+174 Id. For more see David C. Kully, Beth Evans Vessel, John R. Dierking & Bill Katz, Killing Deals Softly: FTC 
+Proposes 107-Hour Increase in Hart-Scott-Rodino Burden, HOLLAND & KNIGHT (June 28, 2023), 
+https://www.hklaw.com/en/insights/publications/2023/06/killing-deals-softly-ftc-proposes-107-hour-increase. 
+175 Id. 
+
+--- PAGE 34 ---
+BOARD OBSERVERS 
+34 
+ 
+34
+of rights to be a board observer is not a reportable event under the HSR Act.”176   In conclusion, 
+the December 2023 merger guidelines and the Premerger Notification Reporting and Waiting 
+Period Requirements are both related to antitrust regulation and the review of potential mergers 
+and acquisitions. Both are interconnected in the sense that the Premerger Notification Reporting 
+and Waiting Period Requirements ensure that the FTC and DOJ are informed about large mergers 
+before they happen, allowing them to apply the principles and guidelines outlined in the Merger 
+Guidelines to assess these transactions. Essentially, the notification requirements are a procedural 
+step that facilitates the application of the merger guidelines. 
+2. 
+Unfair Competitive Advantage 
+Killer acquisitions have garnered significant attention in recent years, yet unfair and anti-
+competitive practices go well beyond this concept. Recent examinations of the VC and AVC 
+landscape, especially regarding CVCs, reveal additional complexities associated with CVCs. 
+These complexities challenge the traditional view of CVCs as primarily tools for acquisitions. In 
+contrast to the common belief that CVCs mainly act as pathways to future acquisitions, recent 
+studies suggest a more intricate reality.177 Specifically, statistical new evidence suggests that the 
+majority of CVCs—62%—do not pursue or intend for their parent company to acquire portfolio 
+companies. Furthermore, in fewer than 16% of cases do corporate parents acquire more than 10% 
+of CVC portfolio companies.178 This data challenges the reductionist view of CVCs as 
+straightforward mechanisms for corporate acquisition. Figure 6 illustrates corporate VCs and 
+acquistions, illustrating Ilya Strebulaev’s findings. 
+                                                 
+176 See Premerger Notification Reporting and Waiting Period Requirements, supra note 4. 
+177 Ilya Strebulaev, Are Corporate VCs Just a Way for Corporate Parents to Acquire Startups? LINKEDIN (Jan. 
+18, 
+2024), 
+https://www.linkedin.com/posts/ilyavcandpe_stanford-stanfordgsb-venturecapital-activity-
+7153038847247835137-_bad/?utm_source=share&utm_medium=member_ios. 
+178 Id. 
+
+--- PAGE 35 ---
+BOARD OBSERVERS 
+35 
+ 
+35
+ 
+ 
+Examples of unfair and anti-competitive behavior can emerge when large companies 
+appoint board directors in smaller, potentially competing firms. This can lead to situations where 
+a dominant company might exploit its influence to engage in undesirable, anti-competitive, and 
+even illegal activities. Such activities can include orchestrating price cuts or illicitly sharing 
+confidential information.179 But there is much more to the story than that.  For instance, the 
+Microsoft and OpenAI relationship, which results from substantial strategic investments, can be a 
+useful illustration for the types of issues that should interest U.S. regulatory bodies like the DOJ 
+and FTC.180  Indeed, Microsoft’s significant investment, reportedly exceeding $10 billion, along 
+with the integration of OpenAI technologies into its core business operations, such as the Bing 
+search engine, signals a level of collaboration that extends beyond the typical scope of CVC 
+activities.  
+The primary concern centers on the potential for this partnership to confer unfair 
+competitive advantages within the rapidly evolving AI market, specifically in the domain of large 
+language models (LLMs). Adding to the complexity is Microsoft’s assertion of non-control over 
+OpenAI, despite its substantial investment and strategic integration into its operations. This claim 
+is being scrutinized, particularly in light of Microsoft’s involvement in the reappointment of 
+OpenAI’s CEO Sam Altman after his brief dismissal.  This case serves as a paradigmatic example 
+of a new frontier in CVC relationships, where the lines between investment, strategic partnership, 
+                                                 
+179 Fed. Trade Comm’n, Policy Statement Regarding the Scope of Unfair Methods of Competition Under Section 
+5 of the Federal Trade Commission Act, Commission File No. P221202 3–4 & n.16 (Nov. 2022), 
+https://www.ftc.gov/system/files/ftc_gov/pdf/P221202Section5PolicyStatement.pdf 
+[hereinafter 
+FTC 
+Policy 
+Statement]. See also In re Trados Inc. S’holder Litig., No. 1512-CC, 2009 WL 2225958 (Del. Ch. July 24, 2009); In 
+re Trados Inc. S’holder Litig., 73 A.3d 17 (Del. Ch. 2013) (considering the decision of a board of directors controlled 
+by VC investors to approve a transaction benefiting the preferred stockholders but leaving common stockholders with 
+nothing, and ultimately holding the decision was fair to the common stockholders). 
+180 See Sisco, supra note 12.  
+
+--- PAGE 36 ---
+BOARD OBSERVERS 
+36 
+ 
+36
+and potential control become increasingly blurred. It underscores the importance of a sophisticated 
+and nuanced approach to understanding and regulating these relationships, particularly in sectors 
+characterized by rapid technological advancement and innovation. As regulatory perspectives and 
+frameworks continue to evolve, the Microsoft-OpenAI case is poised to become a seminal 
+reference point in the discourse on how CVC relationships are conceptualized, managed, and 
+regulated, particularly when they transcend traditional investment roles and venture into deeply 
+integrative partnerships. 
+Attempting to address some of the blurry and challenging aspects of the CVC relationships, 
+one key concern within this context is interlocking directorates, which are prohibited under Section 
+8 of the Clayton Antitrust Act.181 Interlocking directorates generally occur “when the same 
+individual or entity sits on the boards of two competitors. The interlock can be direct, such as when 
+the same individual sits on the board of two competing companies. The interlock can also be 
+indirect, such as when the same private investing firm appoints different representatives to sit on 
+the boards of competing companies.”182 These types of situations can happen more often than one 
+might think. For instance, Microsoft has invested in multiple companies that potentially compete 
+with one another as they all develop AI and conduct research in that area. The most famous among 
+these companies is OpenAI, but there are others, and Microsoft is also not the only one. Indeed, in 
+January 2024, the FTC and DOJ announced that they are launching an investigation that will be 
+directed at several other players including Amazon, Alphabet, and others into this issue, but this 
+(at least initially) did not stop Apple from wanting to appont a board observer on its behalf on 
+OpenAI’s board as well.183  
+Remedies under Section 8 are primarily aimed at preventing anti-competitive practices 
+through the removal of interlocking directorates, where the same individuals serve on the boards 
+of competing companies. The government can enforce this by requiring the removal of the 
+interlock and, in some cases, by seeking an injunction to prevent future interlocks.  In recent years, 
+the DOJ and FTC have focused on potential interlock directorates in relation to portfolio 
+companies securing board seats in competing companies in a way that would potentially allow 
+them to engage in anticompetitive conduct.184 One example that illustrates this focus is the case of 
+the investment firm Thoma Bravo, whose representatives sat as directors in three software 
+companies: N-able, Dynatrace, and SolarWinds.185 In response to the DOJ’s concerns about the 
+                                                 
+181 15 U.S.C. § 19. For more on the issue of interlocking directorates see generally Yaron Nili, Horizontal 
+Directors, 114 Northwestern University L. Rev. 1179 (2020). 
+182 Michelle Yost Hale, Kimberley Biagioli & Robert S. Crauthers, DOJ Launches Enforcement Initiative Against 
+“Interlocking Directorates,” WILSON SONSINI (Sept. 22, 2022), https://www.wsgr.com/en/insights/doj-launches-
+enforcement-initiative-against-interlocking-directorates.html.  
+183 See, e.g., David McCabe, Federal Trade Commission Launches Inquiry Into A.I. Deals by Tech Giants, N.Y. 
+TIMES (Jan. 25, 2024), https://www.nytimes.com/2024/01/25/technology/ftc-ai-microsoft-amazon-google.html; 
+Apple 
+Reportedly 
+Gains 
+Observer 
+Seat 
+on 
+OpenAI 
+Board, 
+PYMNTS 
+(July 
+3, 
+2024), 
+https://www.pymnts.com/technology/artificial-intelligence/2024/apple-reportedly-gains-observer-seat-on-openai-
+board/ (explaining that the role will be filled by Phil Schiller, the head of Apple’s App Store and former marketing 
+chief, and that this role provides Apple with a deeper understanding of OpenAI’s strategies and developments.) 
+184 DOJ Investigating “Interlocking Directorates” in PE Industry, LATHAM & WATKINS (Oct. 5, 2022), 
+https://www.lw.com/admin/upload/SiteAttachments/Alert-3018.pdf; Dep’t of Just., Press Release, Justice 
+Department’s Ongoing Section 8 Enforcement Prevents More Potentially Illegal Interlocking Directorates (March 9, 
+2023), 
+https://www.justice.gov/opa/pr/justice-department-s-ongoing-section-8-enforcement-prevents-more-
+potentially-illegal. 
+185 Dep’t of Just., Press Release, Justice Department’s Ongoing Section 8 Enforcement Prevents More Potentially 
+Illegal Interlocking Directorates (March 9, 2023), https://www.justice.gov/opa/pr/justice-department-s-ongoing-
+
+--- PAGE 37 ---
+BOARD OBSERVERS 
+37 
+ 
+37
+alleged interlock directorates between Dynatrace and SolarWinds, three Thoma Bravo 
+representatives resigned from the SolarWinds’s board in October 2022 and two separate Thoma 
+Bravo designees resigned from the N-able board in November 2022.186 Another illustrative 
+example is the case of Skillsoft Corp. and Udemy Inc., companies providing online corporate 
+education services.187 The DOJ raised anticompetitive concerns because one director of the 
+investment firm Prosus sat on both boards at the same time, resulting in the removal of that director 
+without admitting to liability.188 As for the private parties, while they are technically allowed to 
+sue for damages and Remedies under Section 8, this avenue is typically not pursued. 
+In addition, one potential way by which investors may attempt to avoid Section 8 liability, 
+and minimize the attention-drawing influence and dominance that CVCs have on the entities they 
+invest in, is using contractual innovation in deal-making, i.e., using board observers. This 
+contractual innovation, which could help avoid some regulatory scrutiny and oversight, is what 
+Microsoft notably got as part of its relations with OpenAI.189 But should using a board observer 
+rather than a traditional director at OpenAI, while potentially having representatives in some of 
+the other AI competitors companies it invests in be enough to help Microsoft – or other big tech 
+entities in a similar position – to avoid interlocking-related concerns?  The basic threshold for 
+Section 8 to apply is that a “person” serves as an officer or director of competing corporations.190 
+Board observers are neither officers nor directors, hence investors may use them to gain some of 
+the advantages associated with having directors in a company, without triggering Section 8 
+liability.191 For example, they may be used to get access to sensitive information and advocate for 
+a preferred outcome on significant business decisions.192 
+This loophole has not escaped the eyes of antitrust enforcers, who have started recognizing 
+that, while board observers do not have formal voting rights, and are not captured under Section 
+8, their access to data and opportunities to control may create anticompetitive concerns. For 
+example, in a December 2020 advance notice of proposed rulemaking, the FTC observed that 
+“[b]oard observers gain insight into an issuer’s strategic decision-making, which is not only useful 
+to the investor sponsoring the board observer, but may also be useful to competitors in the market, 
+especially when those board observers also serve as officers or directors of a competitor. 
+Companies likely benefit from interacting with board observers because company management 
+                                                 
+section-8-enforcement-prevents-more-potentially-illegal. 
+186 Id.   
+187 Dep’t of Just., Press Release, Antitrust Div., Directors Resign from the Boards of Five Companies in Response 
+to Justice Department Concerns about Potentially Illegal Interlocking Directorates (Oct. 19, 2022), 
+https://www.justice.gov/opa/pr/directors-resign-boards-five-companies-response-justice-department-concerns-
+about-potentially. 
+188 Id.  
+189 See e.g., Metz, supra note  7; Anthony Di Pizio, Microsoft Adds Another AI Company to Its Arsenal. Here’s 
+What Investors Should Know, MOTLEY FOOL (May 10, 2023), https://www.fool.com/investing/2023/05/10/microsoft-
+adds-ai-company-arsenal-investors-know/. 
+190 15 U.S.C. § 19. 
+191 Notice of Proposed Rule Making to 17 C.F.R. Parts 801 and 803, 88 Fed. Reg. 42178, 42190 (proposed June 
+29, 2023), https://www.govinfo.gov/content/pkg/FR-2023-06-29/pdf/2023-13511.pdf [hereinafter Notice of Proposed 
+Rule Making] (“Board observers are not subject to the Section 8 ban on interlocking directorates . . . .”). 
+192 See Fed. Trade Comm’n, Statement of Commissioner Rohit Chopra Joined by Commissioner Rebecca Kelly 
+Slaughter In the Matter of Altria Grp., Inc. and JUUL Labs, Inc., Commission File No. 1910075, at 4 (Apr. 2, 2020), 
+https://www.ftc.gov/system/files/documents/public_statements/1570265/statement_of_comm_chopra_in_the_matter
+_of_altria-juul.pdf [hereinafter Statement of Commissioner Chopra] (“Typically, a board observer is like a regular 
+member of a board of directors, but without a formal vote. While they don’t have a vote, they certainly have a say.”). 
+
+--- PAGE 38 ---
+BOARD OBSERVERS 
+38 
+ 
+38
+can obtain additional investor insight without having to alter the composition or voting balance on 
+the board.”193 
+These anticompetitive concerns associated with the use of board observers, coupled with 
+their increasing prevalence,194 have also led the FTC and the DOJ to take a number of additional 
+steps. To start, the regulators clarified that interlocking directorates involving board observers 
+may, under certain circumstances (e.g., the sharing of competitively sensitive information), be 
+covered under Section 5 of the FTC Act, which prohibits “unfair methods of competition in or 
+affecting commerce.”195 Specifically, in a 2022 policy statement, the FTC clarified that it interprets 
+Section 5 to cover board interlocking directors and officers of competing firms, including 
+interlocking not covered by the Clayton Act.196 This can potentially mean an authority over 
+interlocking directorates involving board observers. Furthermore, the FTC and DOJ issued 
+proposed rules that would amend the Hart-Scott-Rodino Act of 1976 reporting obligations in the 
+U.S. to require disclosure of information about officers, directors, and board observers who 
+currently serve, or within the two years prior to filing had served, in either parties of a 
+transaction.197 This information would allow the FTC and the DOJ “to know of existing, prior, or 
+potential interlocking directorates and to assess the competitive implications of such 
+relationships.”198 
+Yet, despite these actions, to date the FTC and DOJ have not taken any formal enforcement 
+actions against board observers under Section 5. Meanwhile, it seems that the practice of using 
+board observers has further developed, and has become much more common than ever before. 
+Therefore, it remains to be seen whether and under what circumstances the regulators will start 
+taking formal enforcement steps in connection with board observers, such as in the case of 
+Microsoft and OpenAI has been. 
+ 
+D. 
+CFIUS Regulation  
+The Committee on Foreign Investment in the U.S. (CFIUS) operates pursuant to section 
+721 of the Defense Production Act of 1950, as amended and implemented by Executive Order 
+11858,199 which was given by then-President Gerald Ford, and the regulations at chapter VIII of 
+title 31 of the Code of Federal Regulations.200 CFIUS is an inter-agency committee tasked with 
+                                                 
+193 85 Fed. Reg. 77042, 77050 (Dec. 1, 2020). 
+194 Premerger Notification Reporting and Waiting Period Requirements, supra note 4 (“In the Commission’s 
+[FTC’s] experience, board observers have become more prevalent and could be privy to the same information as 
+members of the board.”) 
+195 Pub. L. No. 63-203, 38 Stat. 717; 15 U.S.C. § 45(a)(1); Statement of Commissioner Chopra, supra note 191 
+(“As part of the transaction between Altria and JUUL, Altria was given the right to appoint a board observer to JUUL’s 
+board of directors. There is significant risk that Altria’s Chief Growth Officer, and later its Chief Financial Officer, 
+may have had access to competitively sensitive information on a wide range of topics related to JUUL’s business 
+strategy, just like any other board member. I have reason to believe this arrangement undermines a key purpose of 
+Section 8 of the Clayton Act’s prohibition on interlocking directorates and was therefore unlawful under Section 5 of 
+the FTC Act, pursuant to the Commission’s 2015 Policy Statement.”). 
+196 FTC Policy Statement, supra note179, at 13–14. 
+197 Notice of Proposed Rule Making, supra note 157, at  42179.  
+198 Id. 
+199 Exec. Order No. 11,858, 3 C.F.R. §990 (1971-1975). 
+200 U.S. DEP’T OF THE TREASURY, Committee on Foreign Investment in the United States (CFIUS), 
+https://home.treasury.gov/policy-issues/international/the-committee-on-foreign-investment-in-the-united-states-cfius 
+
+--- PAGE 39 ---
+BOARD OBSERVERS 
+39 
+ 
+39
+reviewing the national security implications of foreign investments in U.S. companies or 
+operations.201 Its role and the scope of its review process have evolved over time, especially in 
+response to changing global economic and security landscapes. Therefore, due to the nature of its 
+work, its efforts often appear in the news, but it received more attention than usual from the 
+mainstream media in August 2020 due to a potential TikTok ban.202 Focusing on national security 
+concerns, then-President Donald Trump directed the dissolution of the merger between 
+ByteDance, the Chinese owner of TikTok, and musical.ly, a U.S. company, leveraging CFIUS as 
+the driving force.203 CFIUS is well equipped for these types of challenges. Indeed, it is an inter-
+agency body that consists of twelve members: nine Cabinet members, two ex officio members, 
+and additional appointees by the President. Its primary role is to assist the President in overseeing 
+the national security implications of foreign direct investment in the U.S. economy.204  
+In the past, CFIUS typically examined a limited number of deals annually.205 Mitigation 
+measures were commonly imposed on transactions with evident national security implications, 
+particularly those involving foreign government-controlled investments in U.S. defense 
+contractors.206 Historically, functioning with minimal public awareness, CFIUS faced intensified 
+examination following the September 11, 2001, terrorist attacks and the 2006 proposed takeover 
+of commercial operations at six U.S. ports by Dubai Ports World. 207  The increased national 
+security and economic concerns during this period led to a reassessment of CFIUS’s review 
+procedures, drawing attention from members of Congress and the public. The perceived lack of 
+transparency in CFIUS’s operations prompted questions about Congress’s ability to effectively 
+exercise its oversight responsibilities. In response to these concerns, changes were introduced in 
+the first session of the 110th Congress through the adoption of the Foreign Investment and National 
+Security Act of 2007 (FINSA).208 FINSA expanded CFIUS’s oversight powers and required greater 
+scrutiny of transactions involving foreign government-controlled entities. It also provided for 
+increased Congressional oversight of CFIUS decisions. 
+                                                 
+(last visited Feb. 7, 2024). 
+201 Id. 
+202 See Nizan Geslevich Packin & Hadar Yoana Jabotinsky, Blocking As Regulation: Blacklisting GenAI, 73 AM. 
+UNIV. L. REV. (forthcoming 2024) (discussing TikTok and former President Trump’s interest in banning it). 
+203 
+See 
+Anat 
+Alon-Beck, 
+TikTok, 
+Your 
+Time 
+Is 
+Up, 
+FORBES 
+(Dec. 
+8, 
+2020), 
+https://www.forbes.com/sites/anatalonbeck/2020/12/08/tiktok-your-time-is-up/?sh=7bf2f0dc7179.; see also Chris 
+Griner, Christopher Brewster, Shannon Reaves & Jonathan Labib, CFIUS Won’t Be ‘Weaponized’ Under the Biden 
+Administration, BLOOMBERG L. (Dec. 24, 2020), https://news.bloomberglaw.com/banking-law/cfius-wont-be-
+weaponized-under-the-biden-administration. 
+204  CONG. RSCH. SERV. RL33388, THE COMMITTEE ON FOREIGN INVESTMENT IN THE UNITED STATES (CFIUS) 
+(2018), https://crsreports.congress.gov/product/pdf/RL/RL33388/68 [hereinafter CONG. RSCH. SERV., CFIUS 2018]. 
+205 See also Kristen Eichensehr & Cathy Hwang, National Security Creep in Corporate Transactions, 123 
+COLUM. L. REV. 549 (2023). 
+206 David Zaring, CFIUS as a Congressional Notification Service, 83 S. CAL. L. REV. 81, 87 (2009).  
+207 CONG. RSCH. SERV., CFIUS 2018, supra note 169, at Summary (“Prompted by this case, some Members were 
+questioning the ability of Congress to exercise its oversight responsibilities given the general view that CFIUS’ s 
+operations lacked transparency.”) See JAMES K. JACKSON, CONG. RSCH. SERV., THE COMMITTEE ON FOREIGN 
+INVESTMENT 
+IN 
+THE 
+UNITED 
+STATES 
+(CFIUS) 
+(2006),  
+https://apps.dtic.mil/sti/pdfs/ADA478850.pdf 
+.https://apps.dtic.mil/sti/pdfs/ADA478850.pdf. 
+208 Foreign Investment and National Security Act of 2007. The bill establishes a framework for the review of 
+foreign acquisitions of U.S. assets by CFIUS. Among other requirements, the bill requires sign-off at the assistant 
+secretary level (or above) that a transaction does not fall into one of these categories and need not go beyond the 30-
+day review period. Similar sign-off is required at the close of the 45-day investigation period to confirm that the 
+transaction does not threaten national security. 
+
+--- PAGE 40 ---
+BOARD OBSERVERS 
+40 
+ 
+40
+But this was not enough. Notably, the 115th Congress witnessed significant reform efforts 
+with the adoption of measures collectively known as the Foreign Investment Risk Review 
+Modernization Act of 2017 (FIRRMA). FIRRMA represents the most comprehensive overhaul of 
+CFIUS since the enactment of FINSA in 2007, greatly expanding the powers of CFIUS. FIRRMA 
+was enacted to address growing national security concerns over foreign investments, particularly 
+in critical technologies and infrastructure. It broadened the scope of transactions subject to CFIUS 
+review, including minority investments and real estate transactions near sensitive U.S. government 
+sites. FIRRMA also introduced mandatory filing requirements for certain transactions and 
+extended the timeline for CFIUS reviews, allowing more thorough analysis of complex deals.209 
+Much like the prior efforts to amend the CFIUS, this too has been prompted by specific foreign 
+investment transactions that raised national security concerns.210 
+Several notable instances demonstrate the application of the FINSA authority by U.S. 
+presidents.  First, in 2012, President Barack Obama invoked FINSA to prevent Ralls Corporation, 
+owned by Chinese nationals, from acquiring a U.S. wind farm energy company situated near a 
+Department of Defense facility. Then, in 2016, President Obama again utilized FINSA to forbid a 
+Chinese investment firm from purchasing Aixtron, a German company with assets in the U.S..211 
+Second, President Trump exercised FINSA powers in 2017 to prohibit the acquisition of Lattice 
+Semiconductor Corp. by Chinese investment firm Canyon Bridge Capital Partners. In 2018, 
+President Trump further applied FINSA to block Broadcom’s proposed acquisition of Qualcomm, 
+highlighting the Act’s strategic importance in safeguarding U.S. national security interests against 
+foreign investments.212 
+In recent years, there has been a notable surge in CFIUS activities, and its activities have 
+been mentioned by different Senate committees, including those that deal with banking, housing 
+and urban affairs.213 As a result, CFIUS has started reviewing hundreds of transactions each year, 
+blocking several, and, through presidential orders, mandating the unwinding of deals even after 
+their completion.214 Indeed, CFIUS’s increased scrutiny marks a major broadening of its reach, 
+that was driven by a considerable expansion by Congress in 2018. 
+1. 
+Corporate Transactions. 
+Corporate transactions often undergo various regulatory reviews, but national security 
+considerations have always held a distinct status. The review process conducted by the CFIUS is 
+particularly characterized by secrecy.215 Due to this very secretive nature of CFIUS’s proceedings, 
+practitioners and academics worry that transactional deal parties may find it challenging to ex-ante 
+                                                 
+209 See CONG. RSCH. SERV., CFIUS 2018, supra note 169. 
+210 Id. 
+211 Id. 
+212 Id. 
+213 See, e.g., National Security Challenges: Outpacing China in Emerging Technology, U.S. Senate Committee 
+On 
+Banking, 
+Housing, 
+and 
+Urban 
+Affairs, 
+Full 
+Committee 
+Hearing 
+(2024), 
+https://www.banking.senate.gov/hearings/national-security-challenges-outpacing-china-in-emerging-technology. 
+214 See Farhad Jalinous, Karalyn Mildorf, Keith Schomig, Ryan Brady & Timothy Sensenig, CFIUS 2021 Annual 
+Report Reveals Record Filings and Continued Encouraging Trends, WHITE & CASE LLP (Aug. 5, 2022), 
+https://www.whitecase.com/insight-alert/cfius2021-annual-report-reveals-record-filings-and-continued-encouraging-
+trends. 
+215 See also Eichensehr &  Hwang, supra note 205, at 552 (Bloomberg, acknowledging the challenge, recently 
+expressed skepticism, wishing “‘[g]ood luck’” to those attempting to comprehend CFIUS's operations and 
+highlighting that CFIUS investigations function as an effective black box.). 
+
+--- PAGE 41 ---
+BOARD OBSERVERS 
+41 
+ 
+41
+assess the likelihood of a CFIUS review or disruption of their transaction.216 The CFIUS process 
+operates within the framework of statutory guidelines, establishing a legal standard that grants the 
+President the authority to suspend or block a transaction. This authority is exercised when no other 
+existing laws apply, and there is “credible evidence” indicating that the transaction poses a threat 
+to national security.217 It should be noted that the Office of the Director of National Intelligence is 
+charged with providing coordinated intelligence assessments for each transaction that is under 
+review. 
+CFIUS primarily serves to assess foreign investors’ acquisitions of U.S. companies, aiming 
+to identify and address any potential national security implications in such investments.218 The 
+committee has the authority to make one of three determinations: (1) the investment poses no 
+national security concerns and can proceed without impediment, (2) there are concerns, but they 
+can be resolved through a mitigation agreement, or (3) the investment presents a significant 
+national security risk, prompting a recommendation to the President to either unwind the 
+transaction or prevent it from proceeding.219  
+While CFIUS has held the authority to scrutinize deals since 1975, as mentioned above, 
+the Trump administration is the one that introduced the newest regulations that amplified the U.S. 
+government’s oversight capabilities over big tech and digital infrastructure and platforms-based 
+types of transactions.220  Indeed, the enactment of the FIRRMA has expanded the range of 
+transactions subject to CFIUS review.221 FIRRMA mandates filing for specific transaction types 
+that were previously purely voluntary,222 extends the review timeline, and allocates additional 
+resources to the committee.223  Pre-FIRRMA, CFIUS only assessed controlling transactions. 
+However, post-FIRRMA, the committee has the jurisdiction to evaluate minority, non-controlling 
+transactions within Critical Technology, Critical Infrastructure, and Data-Sensitive sectors.224  
+Additionally, it should be noted that prior to 2018, the filing was voluntary and not mandatory. 
+But, FIRRMA changed that, and it is now mandatory in these cases.  Finally, in the past, there 
+were safe harbor conditions to avoid CFIUS reviews. However, a key concession in the final 
+FIRRMA bill was to exempt passive investments by Chinese investors. The concern was about 
+Chinese influence in Silicon Valley. Therefore, in practical terms this means that the foreign 
+(Chinese or other) investor cannot have any form of control over a startup, which includes:  (1) no 
+board seat or board observer rights, (2) only a limited ownership stake (e.g., at least less than 15%), 
+                                                 
+216 Id. 
+217 CONG. RSCH. SERV., CFIUS 2018, supra note 169 (National security risks, in this context, are broadly 
+interpreted to encompass transactions that could potentially impair the country's national security.). 
+218 JAMES K. JACKSON, CONG. RSCH. SERV., RL33388, THE COMMITTEE ON FOREIGN INVESTMENT IN THE UNITED 
+STATES (CFIUS) 1 (2020), https://crsreports.congress.gov/product/pdf/RL/RL33388. 
+219 JAMES K. JACKSON & CATHLEEN D. CIMINO-ISAACS, CONG. RSCH. SERV. IF10952, CFIUS REFORM UNDER 
+FIRRMA (2020), https://sgp.fas.org/crs/natsec/IF10952.pdf. 
+220 Alon-Beck, supra note 168. 
+221 Foreign Investment Risk Review Modernization Act § 1703 (definition of covered transaction expanded). The 
+term “covered transaction” means “any merger, acquisition, or takeover...by or with any foreign person which could 
+result in foreign control of any person engaged in interstate commerce in the United States.” 50 U.S.C.S. app. 
+§2170(d)(3). 
+222 Id, at § 1706. 
+223 Id, at §1723. 
+224 John M. Beahn & Robert S. Larussa, Final CFIUS Regulations Implement Significant Changes by Broadening 
+Jurisdiction 
+and 
+Updating 
+Scope 
+of 
+Reviews, SHEARMAN 
+& 
+STERLING 
+(Jan. 
+14, 
+2020), 
+https://www.shearman.com/perspectives/2020/01/final-cfius-regulations-implement-changes-by-broadening-
+jurisdiction-and-updating-scope-of-reviews. 
+
+--- PAGE 42 ---
+BOARD OBSERVERS 
+42 
+ 
+42
+and (3) no rights to access technical information that is non-public.225  
+This means that in the past, when filing was voluntary, investors could theoretically choose 
+not to disclose board observers serving on their behalf, as they enjoyed the above-mentioned safe 
+harbors, and specifically in situations of non-controlling investments. As of 2018, with the changes 
+set forth by FIRRMA, investors must disclose these positions. Therefore, as far as the U.S. 
+government is concerned, there is no difference between traditional board member and board 
+observer positions as all must be disclosed.226 This might be useful for other regulatory bodies, 
+which should also examine and consider paying closer attention to the board observer position. 
+2. 
+Passive Investments and Board Observers 
+Some commentators believe that China poses a growing threat to the U.S. national security. 
+Perhaps nowhere is that risk more acute than with the development of advanced technology. China 
+has used advanced technology – much of it stolen from the U.S., some of it sent there through 
+corporate outsourcing – to ramp up its military modernization and build a mass surveillance state 
+that commits deplorable human rights violations, including the detention of millions of Uighurs in 
+Xinjiang. Addressing these threats from the Chinese government, and improving the U.S.’ 
+domestic capability to compete with China, have been a top priority of the U.S. Senate Committee 
+on Banking, Housing, and Urban Affairs, Full Committee Hearing in the 2020’s.227 
+In the realm of national security and financial regulation, the pivotal roles of FIRRMA and 
+CFIUS in scrutinizing foreign investments, especially in the Technology, Infrastructure, and Data 
+(TID) sectors, have been notably expanded. The focus now encompasses not just direct 
+investments but also passive ones, where foreign entities may lack overt control. Passive 
+investments, traditionally less scrutinized, are now re-characterized under FIRRMA to include 
+investments where foreign entities may not have a substantial stake (less than 10% interest) or 
+direct control. This redefinition ensures a more comprehensive review of foreign investments, 
+capturing scenarios where even minimal stakes could pose a national security risk. This enhanced 
+scrutiny is critical in an era where technological advancements and data security are paramount to 
+national security.228 The changes in the treatment of passive investments underscore the evolving 
+landscape of financial transactions and the increasing complexity of corporate structures in the 
+global economy. By expanding the definition of what constitutes a passive investment, FIRRMA 
+and CFIUS effectively close loopholes that previously allowed certain foreign investments to 
+escape thorough scrutiny. This proactive approach is essential in safeguarding sensitive U.S. 
+industries from indirect foreign influence that could undermine national security. Therefore, 
+                                                 
+225 See Sabrina Yuan & Art Dicker, The Real Impact of CFIUS on Venture Capital in Silicon Valley, CHINA US 
+FOCUS (June 27, 2019), https://www.chinausfocus.com/finance-economy/the-real-impact-of-cfius-on-venture-
+capital-in-silicon-valley. 
+226 Based on several conservations with and interviews of VC lawyers. 
+227 National Security Challenges: Outpacing China in Emerging Technology, U.S. Senate Committee on Banking, 
+Housing, and Urban Affairs, Full Committee Hearing (2024) (statement of Chairman Sherrod Brown) 
+https://www.banking.senate.gov/imo/media/doc/brown_statement_1-18-24.pdf.  
+228 Michael G. McGovern, Christopher P. Conniff, Brendan C. Hanifin, Sean Seelinger & Emerson Siegle, 
+Congress Introduces Bill to Expand CFIUS's Review Authority, ROPES & GRAY (Nov. 14, 2017), 
+https://www.ropesgray.com/en/insights/alerts/2017/11/congress-introduces-bill-to-expand-cfiuss-review-authority 
+(“Senator John Cornyn, one of the bill's co-sponsors, emphasized in a statement announcing the legislation that ‘[b]y 
+exploiting gaps in the existing CFIUS review process, potential adversaries, such as China, have been effectively 
+degrading our country’s military technological edge by acquiring, and otherwise investing in, U.S. companies.’”). 
+
+--- PAGE 43 ---
+BOARD OBSERVERS 
+43 
+ 
+43
+passive investments now include investments where foreign investors do not have access to 
+material nonpublic technical information or do not hold board positions or observer roles.  
+The role of board observers, on which this Article focuses, is less formal than a traditional 
+board membership, but has become increasingly significant under FIRRMA’s framework. Board 
+observers’ capacity to attend board meetings and access strategic information endows them with 
+potential to exert considerable influence, which could be a conduit for subtle foreign encroachment 
+into sensitive sectors.  Given this potential of indirect influence, FIRRMA, implemented through 
+CFIUS, underscores a proactive approach to safeguard U.S. national interests. It focuses on 
+preempting indirect foreign influence in critical sectors, delineating a robust defense mechanism 
+against possible security breaches posed by foreign investments, particularly those seemingly 
+passive or indirect. By broadening the spectrum of scrutiny, FIRRMA and CFIUS aim to fortify 
+the U.S. against vulnerabilities in its crucial TID sectors. This expansion of oversight reflects a 
+nuanced understanding of the complexities inherent in modern financial transactions and the 
+subtleties of corporate governance – including the board observer vehicle – in the context of 
+national security.  
+Recent changes announced by CFIUS, including the modification of “Springing Rights,” 
+further emphasize this thorough evaluation.229 This shift indicates a strategic move towards a more 
+stringent and proactive regulatory approach, aligning with the broader objectives of FIRRMA in 
+reinforcing  U.S. defenses against potentially risky foreign investments in vital sectors. The new 
+approach to “Springing Rights” impacts sovereign wealth funds (SWFs) and other foreign 
+investors, requiring more immediate and comprehensive compliance with CFIUS regulations.230 
+The changes highlight the evolving nature of national security considerations in the realm of 
+international business transactions, and how President Joseph Biden has used them as a tool of 
+enforcement.231  
+E. 
+ERISA  
+Pension plans typically invest in operating companies—entities not involved in investment 
+management services—without influencing the regulatory status of their investment targets.232 
+Before the 1986 enactment of the Plan Asset Regulation by the U.S. Department of Labor (DOL), 
+there was ambiguity regarding whether VC and PE funds qualified as operating companies and if 
+their assets fell under ERISA’s purview.233 Fund sponsors contended that their role was more 
+entrepreneurial, involving the active management and development of businesses, distinguishing 
+them from standard investment managers.234 This argument led to the DOL’s introduction of the 
+Plan Asset Regulation, which established the VCOC classification to ensure that fund sponsors 
+                                                 
+229 Justin Huff & Lawrence Ward, Recent Changes in the CFIUS Evaluation Process, JD SUPRA (June 14, 2023), 
+https://www.jdsupra.com/legalnews/recent-changes-in-the-cfius-evaluation-3670519/. 
+230 Kenneth J. Nunnenkamp & Giovanna M. Cinelli, How the CFIUS Springing Rights FAQ Could Impact 
+Sovereign Wealth Funds, MORGAN LEWIS (July 18, 2023), https://www.morganlewis.com/pubs/2023/07/how-the-
+cfius-springing-rights-faq-could-impact-sovereign-wealth-funds. 
+231 Carly Sadicario, CFIUS Under the Biden Administration, COLUM. BUS. L. REV. ONLINE (Mar. 29, 2021), 
+https://journals.library.columbia.edu/index.php/CBLR/announcement/view/401. 
+232 Operating as a VCOC and the Management Rights Letter, MORGAN, LEWIS & BOCKIUS LLP, 
+https://www.morganlewis.com/-/media/files/special-
+topics/vcpefdeskbook/fundoperation/vcpefdeskbook_operatingasavcoc.pdf?rev=b8ae9f285d7d423eb22454d4c66fdc
+81 (last visited Feb. 7, 2024). 
+233 Id. 
+234 Id. 
+
+--- PAGE 44 ---
+BOARD OBSERVERS 
+44 
+ 
+44
+actively engaged with their portfolio companies.235 
+Under this regulation, when an employee benefit plan subject to ERISA or the Internal 
+Revenue Code’s prohibited transaction rules (usually a private pension plan or an IRA) acquires 
+an equity interest in a non-publicly traded investment fund or a mutual fund, the plan’s assets are 
+considered to include both that equity interest and the fund’s underlying assets, unless: The fund 
+is classified as an operating company, such as a VCOC, or, ERISA-subject plan investment is less 
+than 25% of each class of the fund’s equity interests (known as the 25% test).236 
+Without these exemptions, the fund’s assets are treated as plan assets, making the fund 
+manager an ERISA fiduciary, subject to ERISA and the Internal Revenue Code’s extensive 
+prohibited transaction rules.237 This situation could lead to a fund manager’s carried interest being 
+deemed a prohibited transaction. Therefore, in the relevant intricate landscape of VC and PE 
+investments, the use of a VCOC letter or a management rights letter has become very popular. The 
+letter contains terms covering information, inspection and other important governance and 
+management rights in a company in which investors have invested. It is a contract between an 
+investor and a company in which the investor holds a stake, and confers specific rights on the 
+investor, enabling their involvement in the governance and operational aspects of the company. 
+These rights facilitate a more active role for the investor in steering and overseeing the company’s 
+management and operational decisions. It can say, for instance, that the company’s leadership has 
+to meet with the investors for “consultation and advice,” offer access to management and financial 
+information, and, occasionally, their offices, and often even allow the investors to attend the 
+company’s board meetings.238  
+Management rights letters, therefore, showcase as a nuanced strategy, particularly in 
+navigating the complex framework of the ERISA.239 These documents, often pivotal in investment 
+negotiations, serve as a key instrument for investors seeking to exert influence while 
+simultaneously circumventing certain regulatory hurdles associated with ERISA. The primary 
+utility of management rights letters lies in their ability to confer specified rights upon investors. 
+These semi-board observer type of rights typically represent a tangible extension of the investor’s 
+influence within the operational mechanics of the company.240 For VC and PE investors, these 
+rights are more than just tools for oversight; they are important levers for guiding strategic 
+directions and safeguarding their investments.241 Legally, the significance of management rights 
+letters is magnified when viewed through the prism of ERISA regulations. ERISA, with its 
+comprehensive set of rules and fiduciary obligations, casts a wide net over investment activities, 
+particularly those involving pension plan assets. ERISA’s stringent stipulations mean that without 
+appropriate safeguards, investment funds risk being classified as “plan assets.” Such a 
+classification under ERISA would subject fund managers to a heightened level of fiduciary duty, 
+                                                 
+235 Id. 
+236 Id. 
+237 Id. 
+238 See Poe, supra note 44. 
+239 Id. 
+240 Id. 
+241 For more on PE, and how it is structured and operates see generally Steven M. Davidoff Solomon, The Failure 
+of Private Equity, 82 S. CAL. L. REV. 481, 482 (2009) (also analyzing failure of private equity firms after 2007). For 
+more on the management rights see generally What is a Management Rights Letter and Why is My Investor Asking 
+for It?, DLA PIPER (2019), https://www.dlapiperaccelerate.com/knowledge/2019/what-is-a-management-rights-
+letter-and-why-is-my-investor-asking-for-it.html. 
+
+--- PAGE 45 ---
+BOARD OBSERVERS 
+45 
+ 
+45
+along with the attendant risks and liabilities.242 
+Finally, the U.S. DOL has issued minimal guidance on what would be a sufficient level of 
+management rights for the purpose of VCOC letters, and does not mandate that an investor be able 
+to direct or govern the actions of a portfolio company. 243 Therefore, these management rights 
+letters, which effectively give rights that are similar to the ones granted by the board observer 
+vehicle, represent a sophisticated intersection of legal strategy and investment oversight. They are 
+pivotal in enabling VC and PE firms to navigate the regulatory complexities of ERISA, 
+maintaining a delicate balance between exerting influence and avoiding the onerous fiduciary 
+responsibilities that might otherwise ensnare their funds. As the investment landscape continues 
+to evolve, the role of these letters in shaping the dynamics of investor-company relationships and 
+regulatory compliance should be an area of critical importance and ongoing scrutiny, especially in 
+connection with the board observer mechanism in general. 
+VI. 
+PRACTICAL IMPLICATIONS AND FUTURE RESEARCH 
+The impact of board observers on boardroom discussions is multifaceted and significant. 
+When an observer is present, the dynamic in the boardroom can change considerably. Indeed, 
+interviews with directors,244 and insights from psychology literature reveal that the mere presence 
+of an observer can impact decision-making processes, and therefore warrants further investigation. 
+Specifically, the Hawthorne Effect, a well-established concept, suggests that individuals improve 
+their performance when they know they are being observed.245 This phenomenon was first 
+observed in the 1920s and 1930s during experiments at the Western Electric Hawthorne Works, 
+where changes in work conditions, led to increased productivity merely because workers knew 
+they were being watched.246  Similarly, psychological effects of being watched by others have been 
+proven a powerful tool in boosting honest or charitable behaviors,247 and enhancing cooperation 
+in real-world settings.248 Likewise, this watching effect increases self-awareness,249 and causes 
+individuals to consciously modify their behavior to increase compliance with social standards.250 
+                                                 
+242 See Poe, supra note 44.  
+243 Id.  
+244 Based on several conservations with and interviews of VC lawyers. 
+245 
+Hawthorne 
+Effect, 
+Oxford 
+Dictionaries, 
+http://oxforddictionaries.com/definition/american_english/Hawthorne÷effect? 
+region=us&q=hawthorne+effect; 
+Steven D. Levitt & John A. List, Was There Really A Hawthorne Effect at the Hawthorne Plant? An Analysis of the 
+Original Illumination Experiments, 3 Am. Econ. J.: Applied Econ. 224, 229-36 (2011) (offering a statistical analysis 
+of Hawthorne data). 
+246 See Mcelroy, supra note 110, at 1887.  
+247 Nicky Hayes, Principles of Social Psychology 159 (1993) (finding that individuals perform tasks faster and 
+more effectively in front of others); Erol Kohli et al., Variability in the Hawthorne Effect with Regard to Hand Hygiene 
+Performance in High- and Low-Performing Inpatient Care Units, 30 Infection Control & Hosp. Epidemiology 222 
+(2009) (observing differences in the Hawthorne Effect related to hand hygiene performance between high- and low-
+performing units); Michael Ekstrom, Do Watching Eyes Affect Charitable Giving? Evidence from a Field Experiment, 
+15 Exp. Econ. 530 (2012); Daniel Nettle, Kenneth Nott & Melissa Bateson, 'Cycle Thieves, We Are Watching You': 
+Impact of a Simple Signage Intervention Against Bicycle Theft, 7 PLoS ONE e51738 (2012). 
+248 Melissa Bateson, Daniel Nettle & Gilbert Roberts, Cues of Being Watched Enhance Cooperation in a Real-
+World Setting, 2 Biol. Letters 412 (2006). 
+249 Marta Baltazar et al., Eye Contact Elicits Bodily Self-Awareness in Human Adults, 133 Cognition 120 (2014) 
+250 Claus Wedekind & Manfred Milinski, Cooperation Through Image Scoring in Humans, 288 Science 850 
+(2000); Manfred Milinski, Dirk Semmann & Hans-Jürgen Krambeck, Reputation Helps Solve the 'Tragedy of the 
+Commons', 415 Nature 424 (2002). 
+
+--- PAGE 46 ---
+BOARD OBSERVERS 
+46 
+ 
+46
+However, the reliability of these effects is contested.251 For example, some scholars have 
+noted that an analysis of the Hawthorne effect cannot be limited to examining outcomes alone; it 
+must also consider “how the work environment is changed, by whom, with what accompanying 
+information, and the perceptions of those changes by the individuals directly affected by them.”252 
+Similarly, a systematic review and meta-analysis of 91 studies questions the validity of a watching 
+eyes effect, finding only a small significant influence of eye cues on behavior and highlighting 
+inconsistencies across various moderating factors.253  Given this mixed evidence, further research 
+is essential to understand the nuanced impact of observers in the boardroom. Investigating this 
+could reveal whether increased self-awareness and adherence to norms due to being watched 
+translate into better decision-making and governance at the highest levels of corporate 
+management. Such insights could potentially lead to more effective governance practices and 
+policies, ensuring that board members' behavior aligns with the best interests of stakeholders and 
+the broader community.  
+Fiduciary duties, or the lack thereof, for board observers in the U.S. represent a critical 
+issue that warrants further research. Currently, board observers do not owe fiduciary duties to the 
+company or its shareholders, which raises significant concerns. These observers have access to 
+crucial information and can influence company decisions, yet they are not bound by the same legal 
+obligations as directors. It is not yet obvious what type of accountability, liability, and legal 
+requirements should be associated with the board observer role. Future research must include an 
+expanded analysis of how such liabilities should be assigned. Perhaps a sliding scale of 
+accountability or legal liability based on the nature of the role, exposure, etc., could be developed. 
+Alternatively, there could be clear and mandatory disclosure requirements as implied by the FTC 
+in certain situations like mergers. Addressing these concerns is essential to ensure board observers 
+do not exploit their positions to the disadvantage of the company and its stakeholders. 
+When researching the legal duties of a director and determining what these should 
+encompass, it is crucial to understand if the fact that board observers do not vote —unlike 
+traditional board members—actually makes a difference in the real world. While formal votes do 
+occur in board meetings, no empirical data specifically detailing the frequency of formal votes in 
+board meetings is available.  Moreover, commentators have argued that boards generally aim for 
+consensus,254 and if that is the case many decisions can be made collaboratively without formal 
+voting.255 More specifically, a study focusing on Israeli companies with significant government 
+                                                 
+251 Mcelroy, supra note 110 at 1888. 
+252 Frank Merrett, Reflections on the Hawthorne Effect, 26 Educ. Psychol. 143, 146 (2006). 
+253 Ruibing Wang et al., How Do Eye Cues Affect Behaviors? Two Meta-Analyses, 43 Curr. Psychol. 1084 (2024), 
+https://link.springer.com/article/10.1007/s12144-023-04395-6. 
+254 Matthew Wansley, Beach Money Exits, 45 J. Corp. L. 151, 174–75 (2019) (noting that startup lawyers describe 
+board meetings as non-confrontational and consensus-driven); Vice Chancellor Leo E. Strine, Jr., Toward A True 
+Corporate Republic: A Traditionalist Response to Bebchuk's Solution for Improving Corporate America, 119 Harv. 
+L. Rev. 1759, 1768 (2006)(describing how “[d]ue to her knowledge of how corporate boards work, the traditionalist 
+has little interest in initiatives that single out specific board members for defeat or embarrassment. . . . [as] boards 
+almost always work by consensus and it is therefore silly to hold a solitary director responsible for a company's poor 
+performance or lack of responsiveness to shareholder interests.”); Corporate Governance A Discussion with Margaret 
+(Peggy) Foran, Vice President, Secretary, and Chief Governance Officer for Prudential Financial, Fed. Law., March 
+2014, at 38, 39 (commenting on how “[b]oards generally use consensus as a way to operate”); Suster, supra note 149 
+("almost nothing controversial is ever voted on at a startup board meeting.”) 
+255 Several studies provide insights into the nature of board meetings and voting behaviors. For instance, a study 
+analyzing the minutes of board meetings of Israeli companies found that a significant portion of board meetings 
+
+--- PAGE 47 ---
+BOARD OBSERVERS 
+47 
+ 
+47
+equity interest showed that boards tend to be highly consensus-driven, resulting in fewer formal 
+votes than expected.256 This reflects the consensus-driven nature of these meetings, and how they 
+reduce the need for frequent formal voting. 
+In addition, a crowding-out effect is another issue that should be further explored, as the 
+use of board observers can potentially crowd-out more meaningful investor activism, regulation, 
+or oversight. Activist investors who are satisfied with a board observer seat may agree not to agitate 
+for change in exchange for their position. This arrangement can preclude valuable activism and 
+investor pressures that might otherwise benefit the company. Additionally, it may allow bad actors 
+who would otherwise have been directors to avoid liability, as observers do not face similar risks. 
+On the regulatory side, the possibility of appointing board observers might reduce the perceived 
+need for other mechanisms to regulate or oversee private companies. Regulatory efforts might 
+diminish if board observers are seen as sufficient monitors, which could undermine comprehensive 
+oversight. 
+Furthermore, as mentioned above, in the case of Obasi, an important legal decision shed 
+some light on the issue of board observers, at least in the conext of securities regulations. However, 
+further research is needed to explore the different perspectives associated with all the relevant 
+stakeholders including the investors, management, companies, and employees. For investors, 
+especially in strategic corporate investment contexts, detailed insights are essential to comprehend 
+the full impact of board observers. From the company’s standpoint, granting observer rights can 
+present challenges, as sensitive discussions and information might necessitate more than 
+contractual agreements such as NDAs, and the exclusion of observers to protect trade secrets or 
+attorney-client privilege. Addressing these concerns without well-defined contractual agreements 
+between the company and the investors can be difficult. 
+Finally, the Obasi court's ruling specifically concerned shareholders’ liability under 
+Section 11, related to omissions in a company’s registration statement. Yet, in a footnote, the court 
+indicated the potential for a broader interpretation of “director” in other contexts, such as 
+evaluating insider trading liability under Section 16 of the Securities Act. This detail is significant. 
+Should regulatory bodies focus on board observers, there is a possibility they might either 
+introduce new regulations or enhance the enforcement of existing laws, something that would need 
+to be properly addressed via insurance schemes.257  
+VII. 
+CONCLUSION 
+The rise of board observers in corporate governance, particularly over the last decade in 
+the VC-startup ecosystem, marks a significant shift in business practices, including investor 
+activisim, as well as in regulatory environments. This Article, utilizing empirical data, is the first 
+to explore the role of board observers. It emphasizes the benefits, as well as the complexities and 
+                                                 
+involves discussions and consensus-building rather than formal voting. Michael Weisbach & Miriam Schwartz-Ziv, 
+What Do Boards Really Do? Evidence from Minutes of Board Meetings, Harv. L. Sch. F. on Corp. Governance (Nov. 
+14, 2011), https://corpgov.law.harvard.edu/2011/11/14/what-do-boards-really-do-evidence-from-minutes-of-board-
+meetings/. 
+256 Id. (analyzing the minutes of board meetings of eleven such companies and showing that in 99% of the 
+cases, boards were presented with only one option). 
+257 Priya Cherian Huskins, Esq., Insights: Are Corporate Board Observers Liable Just Like Directors?, 
+STANFORD 
+LAW 
+SCHOOL, 
+Nov. 
+13, 
+2019, 
+https://conferences.law.stanford.edu/vcs2020/wp-
+content/uploads/sites/79/2020/01/Are-Corporate-Board-Observers-Liable_-_-Woodruff-Sawyer.pdf (last visited July 
+17, 2024)(explaining that “board observers typically would not have an indemnication agreement from a company”) 
+
+--- PAGE 48 ---
+BOARD OBSERVERS 
+48 
+ 
+48
+challenges, inherent in this corporate governance vehicle. The interaction between OpenAI and 
+Microsoft serves as a prime example of just some of the complex dynamics and strategic 
+importance of board observer roles in contemporary corporate relations, but there is much more to 
+the story than that. Moving forward, it is crucial to deepen research to fully grasp the impact of 
+board observers on corporate governance and the operating of the startup and portfolio companies 
+in which board observers operate, representing the interests of investors. Such insights will be 
+instrumental in determining whether corporate governance frameworks need adjustments to 
+accommodate the distinct responsibilities and potential liabilities of board observers. As the 
+business world continues to evolve, our understanding and regulation of this vital corporate 
+governance tool must also progress, particularly considering its use by various players for 
+regulatory arbitrage, compliance, or risk mitigation. 
+
