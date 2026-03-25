@@ -50,6 +50,9 @@ Thumbs.db
 # Quarto rendering artifacts
 /.quarto/
 
+# Interview consent forms (privacy)
+Interviews/consent/
+
 # Output artifacts — uncomment lines below based on your preference
 # *.rds
 # output/**/*.rds
