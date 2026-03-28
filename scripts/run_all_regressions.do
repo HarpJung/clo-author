@@ -245,7 +245,14 @@ tab is_buy pre_event, cell
 reg is_buy pre_event same_industry pre_x_same, robust
 
 * Observer-clustered
-encode ciq_personid, gen(obs_id)
+* ciq_personid may be numeric — use directly or generate group
+cap confirm string variable ciq_personid
+if _rc == 0 {
+  encode ciq_personid, gen(obs_id)
+}
+else {
+  gen obs_id = ciq_personid
+}
 reg is_buy pre_event same_industry pre_x_same, cluster(obs_id)
 
 * Year FE + HC1
