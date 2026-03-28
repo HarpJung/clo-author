@@ -1,0 +1,37 @@
+\section*{Appendix}
+
+\subsection*{A1: Robustness --- SIC3, BHARs, Connection Intensity}
+
+We verify that the main results are robust to alternative specifications. Using three-digit SIC codes for industry matching (a tighter definition), the M\&A Buyer coefficient at CAR$[-30,-1]$ is 4.94 percentage points ($p=0.004$, event-clustered). Using buy-and-hold abnormal returns instead of cumulative abnormal returns, the coefficient is 4.66 percentage points ($p=0.012$). Replacing the binary $Connected$ indicator with a continuous measure of the number of observer links between the event company and the portfolio company, we find a dose-response relationship: each additional link adds 0.86 percentage points to same-industry CARs ($p=0.007$).
+
+\subsection*{A2: Form D as Alternative Event Source}
+
+SEC Form~D filings represent capital raises by definitively U.S.\ private companies with clean regulatory filing dates. Using 2,827 Form~D events matched to observer companies, we find $Connected \times SameIndustry$ at CAR$[-10,-1]$ = 1.24 percentage points ($p=0.016$, Year~FE + HC1). The result survives VC-firm clustering ($p=0.012$) but not event-clustering, likely due to the smaller sample.
+
+\subsection*{A3: Placebo Tests}
+
+We conduct two placebo exercises with 500 iterations each, focused on the M\&A Buyer and Bankruptcy results at CAR$[-30,-1]$.
+
+\textit{Network shuffle:} We randomly reassign which portfolio stocks are ``connected'' for each event, maintaining the number of connected stocks per event. For M\&A Buyer, 85.8\% of placebo coefficients fall below the actual coefficient (empirical $p=0.142$). For Bankruptcy, 94.0\% fall below (empirical $p=0.060$).
+
+\textit{Random event dates:} We keep the real network but assign random trading dates. For M\&A Buyer, 95.2\% of placebos fall below the actual coefficient (empirical $p=0.048$). For Bankruptcy, 97.8\% fall below (empirical $p=0.022$). The timing of actual events matters; random dates do not produce the same information spillover.
+
+\subsection*{A4: Abnormal Volume}
+
+Connected stocks do not show abnormally high trading volume relative to non-connected stocks around events. This null result does not support a simple informed trading mechanism and is consistent with information reaching prices through channels other than concentrated trading in individual stocks.
+
+\subsection*{A5: Form 4 Insider Trading Patterns}
+
+Among the 14,022 Form~4 trades filed by our observers (purchases and sales only), same-industry trades in the 30~days before events show a buy share of 62.7\%, compared to 42.3\% in the baseline period ($p=0.024$, Fisher exact test). In a logistic regression, the odds ratio for $PreEvent \times SameIndustry$ is 2.75 ($p=0.030$, HC1). The result does not survive observer-level clustering due to the small number of pre-event same-industry trades ($N=20$).
+
+\subsection*{A6: IRA Textual Analysis}
+
+We analyze 320 S-1 IRA exhibits for observer provision language. Fiduciary language (``act in a fiduciary manner'') did not disappear immediately after the 2020 NVCA change, with the rate peaking in 2021 during the IPO boom. However, explicit ``no fiduciary duty'' disclaimers increased from 46\% to 62\% of filings ($p=0.012$). The NVCA 2023 vs.\ 2025 template comparison reveals the expansion of exclusion grounds from ``conflict of interest'' to ``competitive harm or competitive disadvantage.''
+
+\subsection*{A7: Alternative Break Years}
+
+Testing the NVCA shock at alternative break dates: 2018 ($p=0.864$), 2019 ($p=0.624$), 2020 ($p=0.001$), 2021 ($p=0.011$), 2022 ($p=0.005$). The 2020 break produces the strongest interaction for CAR$[-10,-1]$. Pre-2020 breaks yield null results, ruling out a pre-existing trend.
+
+\subsection*{A8: Network Supplementation}
+
+All results are robust to network supplementation with BoardEx and Form~4 data. The supplemented network (5,712 edges, 1,416 observers, 2,744 public firms) produces equal or stronger results than the original CIQ-only network (3,725 edges, 1,140 observers, 1,694 public firms). M\&A Buyer $Connected \times SameIndustry$ at CAR$[-30,-1]$: original 4.54 pp ($p=0.008$), supplemented 4.57 pp ($p=0.001$).

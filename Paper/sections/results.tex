@@ -1,0 +1,40 @@
+\section{Results}
+\label{sec:results}
+
+\subsection{Baseline: Connected vs.\ Non-Connected}
+
+Table~\ref{tab:baseline} reports the baseline control group regression for executive and board changes, the largest event category (2,348 events on the supplemented network). The dependent variable is market-adjusted CAR$[-5,-1]$, the cumulative abnormal return over the five trading days preceding the public announcement.
+
+The coefficient on $Connected$ is 0.28 percentage points ($p=0.010$, event-clustered). Connected portfolio companies earn significantly higher returns than non-connected stocks exposed to the same market conditions on the same dates. The result survives all six specifications: HC1 ($p=0.006$), stock-clustered ($p=0.007$), year~FE with event-clustering ($p=0.009$), and year~FE with stock-clustering ($p=0.006$). It does not survive stock fixed effects, which absorb the stock-level mean return and partially capture network position.
+
+The $SameIndustry$ coefficient is $-0.21$ percentage points and statistically insignificant ($p=0.137$). Being in the same industry as the event company, without a network connection, does not produce abnormal returns. The interaction $Connected \times SameIndustry$ is also insignificant ($p=0.796$). For routine executive changes, the connection itself matters regardless of industry match.
+
+\subsection{Event-Type Heterogeneity}
+
+The baseline result aggregates across heterogeneous events, many of which carry limited private information. Table~\ref{tab:eventtype} disaggregates by event type, revealing that the information channel operates selectively.
+
+\paragraph{M\&A Buyer Events.} When the observer's private company announces that it is acquiring another firm, same-industry connected portfolio companies earn abnormal returns of 4.57 percentage points over the prior month (CAR$[-30,-1]$; $p=0.001$, event-clustered). This result is the paper's central finding. It survives all six non-stock-FE specifications at $p<0.01$: HC1 ($p=0.008$), stock-clustered ($p=0.004$), year~FE with event-clustering ($p=0.001$), and year~FE with stock-clustering ($p=0.004$). The effect persists at shorter horizons: CAR$[-10,-1]$ = 2.43 percentage points ($p=0.039$).
+
+The non-interacted coefficients clarify the mechanism. $Connected$ alone is $-0.78$ percentage points and insignificant ($p=0.318$). $SameIndustry$ alone is $-0.51$ percentage points and insignificant ($p=0.708$). Neither the network connection by itself nor the industry match by itself produces the effect. Only the combination---being connected through the observer network \textit{and} operating in the same industry as the acquisition---generates abnormal returns. This pattern is consistent with industry-relevant private information flowing through the network: the board approves the acquisition weeks before announcement, the observer learns the target and terms, and same-industry connected firms---for whom this information is directly relevant to competitive positioning---show price effects.
+
+The sample consists of 124 M\&A Buyer events on the supplemented network, producing 14,226 stock-event observations (358 connected, of which 28 are connected and same-industry). With the original CIQ-only network (105 events, 219 connected, 22 same-industry), the coefficient is 4.54 percentage points ($p=0.008$, event-clustered).
+
+\paragraph{Bankruptcy Events.} When the observer's company is heading toward bankruptcy, same-industry connected firms earn 9.45 percentage points over the prior month (CAR$[-30,-1]$; $p=0.043$, event-clustered). The effect is also significant at CAR$[-10,-1]$ (6.28 pp, $p=0.047$) and CAR$[-1,0]$ (1.22 pp, $p=0.033$). The consistent positive drift across all pre-event windows is compatible with information about restructuring, asset sales, and filing timelines leaking gradually through the network. Same-industry firms benefit from a competitor's distress through reduced competition and potential asset acquisition opportunities.
+
+The sample is smaller---146 events, 359 connected observations, only 11 connected same-industry---making the large coefficient estimates noisy. The result survives event-clustering and stock-clustering but not stock fixed effects (collinearity with the small number of connected observations).
+
+\paragraph{M\&A Target Events.} When the observer's company is being acquired, the effect appears only at day $[-1,0]$: 1.08 percentage points ($p=0.027$, event-clustered). No pre-event windows from $[-30,-1]$ through $[-5,-1]$ are significant. This pattern is consistent with acquisition targets being the tightest of board secrets, with information leaking only at the last moment before public disclosure.
+
+\paragraph{Routine Events.} We find no significant results for private placements (4,344 events), product and client announcements (4,344 events), or CEO/CFO changes analyzed individually (489 events). The information channel is event-type specific: it operates for material, confidential board decisions but not for routine corporate activities.
+
+\subsection{Regulatory Shocks}
+
+\paragraph{NVCA 2020: Fiduciary Language Removal.} Table~\ref{tab:shocks} Panel~A reports the interaction $SameIndustry \times Post2020$ estimated on the connected-firm sample with year fixed effects. At CAR$[-10,-1]$, the interaction coefficient is 3.23 percentage points ($p=0.001$), indicating that same-industry spillover increased after the NVCA removed fiduciary language from the observer template. Before 2020, same-industry CAR$[-10,-1]$ averaged 0.04 percentage points ($p=0.823$)---indistinguishable from zero. After 2020, it averaged 2.95 percentage points ($p<0.001$). A placebo test using January 2024 as an alternative break date yields a null result ($p=0.510$). Analysis of alternative break years confirms that 2020 produces the strongest interaction; pre-2020 breaks generate no significant effects.
+
+\paragraph{Clayton Act January 2025: Antitrust Extension.} Panel~B reports the analogous specification using $PostJan2025$ on the post-2020 subsample. The interaction coefficient at CAR$[-10,-1]$ is $-10.19$ percentage points ($p<0.001$), indicating that same-industry spillover decreased sharply after the DOJ/FTC extended interlocking directorate rules to observers. The placebo at January 2024 is insignificant ($p=0.470$). With the supplemented network, the Clayton Act effect strengthens further ($-4.88$ pp, $p=0.010$).
+
+\paragraph{Two Shocks, Opposite Directions.} The NVCA 2020 change loosened observer constraints and increased spillover. The Clayton Act 2025 change tightened scrutiny and decreased spillover. Two independent regulatory changes, operating on the same mechanism in opposite directions, both producing significant effects with clean placebos.
+
+The four-period trajectory of same-industry CAR$[-10,-1]$ summarizes the pattern: the effect is zero before 2020 (no shock), positive from 2020 to 2024 (NVCA loosened), reverses in January--September 2025 (Clayton Act tightened), and remains negative after October 2025 (NVCA further tightened competitive harm carve-outs). Information spillover through the observer network tracks the regulatory environment governing observer accountability.
+
+Figure~\ref{fig:yearbyear} plots year-by-year same-industry CARs, showing the regime shift at 2020 and the reversal at 2025.

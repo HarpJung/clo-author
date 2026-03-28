@@ -1,0 +1,83 @@
+\documentclass[12pt]{article}
+
+% Layout
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\doublespacing
+
+% Math
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Graphics and tables
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\usepackage{tabularx}
+\usepackage{multirow}
+
+% Citations
+\usepackage[authoryear,round]{natbib}
+
+% Links
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+
+% Title formatting
+\usepackage{titling}
+\pretitle{\begin{center}\large\bfseries}
+\posttitle{\end{center}}
+\preauthor{\begin{center}\normalsize}
+\postauthor{\end{center}}
+\predate{\begin{center}\normalsize}
+\postdate{\end{center}}
+
+% =====================================================================
+% TITLE
+% =====================================================================
+\title{Information Permeability of Board Observer Networks\thanks{We thank [acknowledgments]. All errors are our own.}}
+
+\author{
+Harper Jung\thanks{Harvard University. Email: hjung@g.harvard.edu.}
+}
+
+\date{\today}
+
+\begin{document}
+
+% Title page
+\maketitle
+\thispagestyle{empty}
+
+\begin{abstract}
+\noindent \singlespacing
+\input{sections/abstract}
+\end{abstract}
+
+\vspace{1em}
+\noindent \textbf{JEL Codes:} G30, G34, K22
+
+\vspace{0.5em}
+\noindent \textbf{Keywords:} board observers, information spillover, corporate governance, interlocking directorates, venture capital
+
+\newpage
+\setcounter{page}{1}
+
+% Main text
+\input{sections/introduction}
+\input{sections/institutional}
+\input{sections/data_design}
+\input{sections/results}
+\input{sections/conclusion}
+
+% References
+\newpage
+\singlespacing
+\bibliographystyle{aer}
+\bibliography{../Bibliography_base}
+
+% Appendix
+\newpage
+\appendix
+\input{sections/appendix}
+
+\end{document}

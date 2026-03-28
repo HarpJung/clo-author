@@ -1,0 +1,38 @@
+\section{Institutional Background}
+\label{sec:institutional}
+
+\subsection{The Three-Tier Board Architecture}
+
+Corporate governance in venture-backed firms operates through three distinct roles with sharply different legal obligations. \textit{Directors} (Tier~1) are formally elected members of the board with fiduciary duties---a duty of care and a duty of loyalty---breach of which creates personal liability. Directors vote on corporate actions, approve transactions, and oversee management. \citet{ewens2024board} document that startup boards typically include executive directors (founders/CEOs), investor directors (VC representatives), and independent directors who mediate between the two groups.
+
+\textit{Board observers} (Tier~2) attend all board meetings and receive all board materials---notices, minutes, consents, financial reports, and strategic documents---in the same manner as directors. The NVCA model Investor Rights Agreement specifies that the company ``shall invite a representative of such Investor to attend all meetings of the Board of Directors in a nonvoting observer capacity and, in this respect, shall give such representative copies of all notices, minutes, consents, and other materials that it provides to its directors.'' Observers participate in discussions, ask questions, and offer views, but they do not vote and, as we detail below, they owe no fiduciary duty to the company.
+
+\textit{Board advisors} (Tier~3) occupy the most informal tier. Advisory board members lend their names and expertise but typically have no contractual right to attend board meetings or receive board-level materials. As one of our practitioner interviewees described it, the advisory role is ``almost always more of an honorary position where you're sort of lending your name.''
+
+\subsection{Legal Status of Board Observers}
+
+The dominant legal view is that board observers are not directors and do not share directors' duties or liabilities. In \textit{Obasi Investment Ltd.\ v.\ Tibet Pharmaceuticals, Inc.}\ (3d Cir., 2019), the Third Circuit held that board observers are not ``directors'' or ``similar'' persons for purposes of Section~16(b) liability because they lack voting rights, their tenure is not dependent on shareholders, and they do not owe fiduciary duties \citep{packin2025board}. Observer rights are contractual, arising from investor rights agreements negotiated as part of VC financing transactions, not from corporate charter or bylaws. The company retains the right to exclude observers from any meeting to protect attorney-client privilege, trade secrets, or competitive information.
+
+\citet{packin2025board} provide the first systematic legal analysis of board observers, documenting five incentives for their use: (1) information access without governance responsibility; (2) monitoring without fiduciary exposure; (3) antitrust avoidance under Clayton Act Section~8; (4) CFIUS compliance under FIRRMA; and (5) the liability shield confirmed in \textit{Obasi}. They conclude that ``fiduciary duties, or the lack thereof, for board observers in the U.S.\ represent a critical issue that warrants further research'' (p.~1564).
+
+\subsection{Regulation Fair Disclosure and the Private Firm Exemption}
+
+Regulation Fair Disclosure (Reg~FD), adopted by the SEC in 2000, prohibits public companies from selectively disclosing material nonpublic information to certain market participants. Reg~FD applies only to issuers with securities registered under the Exchange Act---that is, public companies. Private companies are exempt.
+
+This distinction creates the regulatory gap our paper exploits. The private firms in our sample---where observers attend board meetings and learn about pending acquisitions, bankruptcies, and strategic changes---are not subject to Reg~FD. Nothing in the regulatory framework prevents the private firm's board from sharing material information with its observer. The observer then carries that information to the public companies where they serve as directors, crossing from an environment with no selective disclosure restrictions to one governed by Reg~FD.
+
+The NVCA model IRA explicitly addresses this boundary: observer rights ``shall terminate and be of no further force or effect immediately before the consummation of the IPO.'' This termination is widely understood to be driven by Reg~FD---once the company becomes a public issuer, having nonfiduciary attendees with full information access would create unacceptable disclosure risk. The termination provision confirms the industry's recognition that observer access to board-level information is incompatible with the public company disclosure regime.
+
+\subsection{NVCA Model IRA and Observer Provisions}
+
+The National Venture Capital Association publishes a model Investor Rights Agreement that serves as the de facto template for VC financing transactions. Two changes to the observer provisions are relevant to our identification strategy.
+
+In 2020, the NVCA removed the clause directing observers to ``act in a fiduciary manner with respect to all information so provided.'' Before this change, some IRAs included language suggesting observers owed a quasi-fiduciary obligation to the observed company. After 2020, the model template imposes no such obligation, relying solely on confidentiality agreements. Our textual analysis of 320 S-1 IRA exhibits confirms that ``no fiduciary duty'' disclaimers increased from 46\% to 62\% of filings after 2020 ($p=0.012$, Fisher exact test).
+
+In October 2025, the NVCA further revised the template to expand the grounds for excluding observers from meetings. The 2023 version permitted exclusion for ``conflict of interest'' or if the observer ``is a Competitor.'' The 2025 version restructured these grounds into three separate triggers: (x)~``competitive harm or competitive disadvantage,'' (y)~conflicts of interest, and (z)~Competitor status. The broader ``competitive harm'' standard gives companies substantially more discretion to restrict observer access.
+
+\subsection{Clayton Act Section 8 Extension to Observers}
+
+Section~8 of the Clayton Act prohibits interlocking directorates between competing companies above certain asset thresholds. Historically, this prohibition applied only to directors and officers. In January 2025, the DOJ and FTC announced that board observers are subject to the same prohibition: ``even informal roles, such as board observers or designees, may trigger scrutiny if they functionally enable coordination between competitors'' (Cadwalader, 2025). The agencies conducted proactive sweeps to identify potential interlocks, including those involving private equity and common ownership structures.
+
+This extension is directly relevant to our setting. The observer connections we study---where the same person observes at one company and directs at another in the same industry---are precisely the arrangements the agencies targeted. The January 2025 announcement represents an exogenous shock to the regulatory risk of maintaining same-industry observer connections, providing a natural experiment to test whether antitrust scrutiny affects the information channel.
