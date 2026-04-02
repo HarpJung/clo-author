@@ -2,11 +2,11 @@
 
 \subsection*{A1. Alternative Specifications}
 
-Preliminary robustness checks suggest the main results are not sensitive to specification choices. Using three-digit SIC codes for industry matching (a tighter definition), the M\&A Buyer coefficient at CAR$[-30,-1]$ is 4.94 percentage points ($p=0.004$, event-clustered). Using buy-and-hold abnormal returns instead of cumulative abnormal returns, the coefficient is 4.66 percentage points ($p=0.012$). Replacing the binary $Connected$ indicator with a continuous measure of the number of observer links between the event company and the portfolio company, a dose-response relationship emerges. Each additional link adds 0.86 percentage points to same-industry CARs ($p=0.007$).
+Preliminary robustness checks suggest the main results are robust to the alternative specifications considered. Using three-digit SIC codes for industry matching (a tighter definition), the M\&A Buyer coefficient at CAR$[-30,-1]$ is 4.94 percentage points ($p=0.004$, event-clustered). Using buy-and-hold abnormal returns instead of cumulative abnormal returns, the coefficient is 4.66 percentage points ($p=0.012$). Replacing the binary $Connected$ indicator with a continuous measure of the number of observer links between the event company and the portfolio company, a gradient emerges. Each additional link adds 0.86 percentage points to same-industry CARs ($p=0.007$).
 
 \subsection*{A2. Form D as Alternative Event Source}
 
-SEC Form~D filings represent capital raises by definitively U.S.\ private companies with clean regulatory filing dates. Using 2,827 Form~D events matched to observer companies, $Connected \times SameIndustry$ at CAR$[-10,-1]$ = 1.24 percentage points ($p=0.016$, Year~FE + HC1). The result survives VC-firm clustering ($p=0.012$) but not event-clustering, likely due to the smaller sample.
+SEC Form~D filings represent capital raises by companies that are definitively U.S.-domiciled and private with clean regulatory filing dates. Using 2,827 Form~D events matched to observer companies, $Connected \times SameIndustry$ at CAR$[-10,-1]$ = 1.24 percentage points ($p=0.016$, Year~FE + HC1). The result is robust to VC-firm clustering ($p=0.012$) but not event-clustering, likely due to the smaller sample.
 
 \subsection*{A3. Placebo Tests}
 
@@ -22,7 +22,7 @@ Connected stocks do not show abnormally high trading volume relative to non-conn
 
 \subsection*{A5. Form 4 Insider Trading Patterns}
 
-Among the 14,022 Form~4 trades filed by the observers in the sample, same-industry trades in the 30~days before events show a buy share of 62.7\%, compared to 42.3\% in the baseline period ($p=0.024$, Fisher exact test). In a logistic regression, the odds ratio for $PreEvent \times SameIndustry$ is 2.75 ($p=0.030$, HC1). The result does not survive observer-level clustering due to the small number of pre-event same-industry trades ($N=20$). This suggestive but underpowered result motivates additional mechanism investigation.
+Among the 14,022 Form~4 trades filed by the observers in the sample, same-industry trades in the 30~days before events show a buy share of 62.7\%, compared to 42.3\% in the baseline period ($p=0.024$, Fisher exact test). In a logistic regression, the odds ratio for $PreEvent \times SameIndustry$ is 2.75 ($p=0.030$, HC1). The result is not robust to observer-level clustering due to the small number of pre-event same-industry trades ($N=20$). This suggestive but underpowered result motivates further investigation into the trading mechanism.
 
 \subsection*{A6. IRA Textual Analysis}
 

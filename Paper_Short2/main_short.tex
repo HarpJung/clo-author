@@ -1,0 +1,192 @@
+\documentclass[12pt]{article}
+
+% Layout
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\singlespacing
+
+% Math
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Graphics and tables
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{threeparttable}
+\usepackage{tabularx}
+\usepackage{multirow}
+
+% Citations (Chicago author-date)
+\usepackage{chicago}
+
+% Links
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+
+% Title formatting
+\usepackage{titling}
+\pretitle{\begin{center}\large\bfseries}
+\posttitle{\end{center}}
+\preauthor{\begin{center}\normalsize}
+\postauthor{\end{center}}
+\predate{\begin{center}\normalsize}
+\postdate{\end{center}}
+
+% Tighter spacing for short version
+\usepackage{enumitem}
+\setlist{nosep}
+
+% =====================================================================
+% TITLE
+% =====================================================================
+\title{Information Permeability of Board Observer Networks\\A Research Proposal}
+
+\author{
+Harper Jung\thanks{Harvard University. Email: hjung@g.harvard.edu.}
+}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\begin{abstract}
+\noindent
+Board observers, nonvoting attendees with full access to board meetings and materials but no fiduciary duty, are used by 82\% of venture capital entities, yet no empirical study has examined their role in corporate information flow. I construct a person-level network linking 1,416 observers at private firms to their concurrent board directorships at public firms and test whether material events at private companies produce abnormal returns at connected public portfolio companies before public disclosure. Preliminary results suggest that connected same-industry firms earn cumulative abnormal returns of 4.6 percentage points before M\&A announcements and 9.5 percentage points before bankruptcy filings, with no effect for routine events. Two regulatory shocks provide plausibly exogenous variation in opposite directions, namely the NVCA's 2020 removal of fiduciary language and the DOJ/FTC's January 2025 extension of Clayton Act Section~8 to observers. I outline the identification strategy and discuss extensions that would strengthen the analysis.
+
+\medskip
+\noindent \textbf{JEL Codes:} G30, G34, K22 \quad \textbf{Keywords:} board observers, information spillover, corporate governance, venture capital
+\end{abstract}
+
+\newpage
+\setcounter{page}{1}
+
+% =====================================================================
+\section{Introduction}
+\label{sec:intro}
+% =====================================================================
+
+Venture-backed governance operates through a three-tier architecture that has received asymmetric academic attention. Directors, with fiduciary duties and voting rights, are the subject of a vast literature \cite{hermalin2003boards,adams2010role}. Board advisors occupy an informal tier with limited access. Between them sit board observers, individuals who attend every board meeting, receive every board document, and participate in every strategic discussion, yet owe no fiduciary duty, hold no voting rights, and bear no personal liability. According to the NVCA's Q4 2023 CFO Working-Group Survey, 82\% of VC entities appoint board observers, with universal adoption among firms managing more than \$500 million in assets \cite{packin2025board}. Despite this prevalence, no systematic empirical study has examined the role. \citeN{carter2025} calls explicitly for research on board observers, and \citeN{ewens2024board} acknowledge their existence in a footnote before excluding them from analysis.
+
+This proposal asks whether the observer role creates information channels that would not exist under a traditional director-only board. Observers possess the same information as directors but face none of the legal constraints governing how directors handle that information, a disparity I term the \textit{accountability gap}. If this gap matters for information flow, the effects should be detectable in the stock prices of public companies connected to observers through their concurrent board roles.
+
+I construct a person-level network linking observers at private firms to their directorships at public firms. Using 57,000 material events at private companies from S\&P Capital IQ Key Developments (2015 to 2025) and daily stock returns from CRSP, I test whether connected public firms show abnormal returns in the weeks before events at the private firms become public.
+
+Three sets of preliminary findings motivate the proposed research. First, connected portfolio companies earn higher pre-event returns than non-connected stocks around the same events. For executive and board changes, the most common event type, connected firms outperform by 0.28 percentage points in the five days before announcement ($p=0.010$, event-clustered standard errors). Second, the effect is concentrated in material, confidential events where the information is industry-relevant. When an observer's private company announces an acquisition, same-industry connected firms earn cumulative abnormal returns of 4.6 percentage points over the prior month ($p=0.001$). Around bankruptcy filings, the figure is 9.5 percentage points ($p=0.043$). For routine events such as private placements and product announcements, there is no effect. Neither the connection alone nor the industry match alone produces the result. Only the interaction of both generates abnormal returns. Third, the information channel responds to regulatory changes that alter observer accountability. The NVCA's 2020 removal of fiduciary language increased spillover ($p=0.001$), while the DOJ/FTC's January 2025 extension of Clayton Act Section~8 to observers decreased it ($p<0.001$). Placebo tests at alternative break dates produce null results, though not all event types produce clean nulls. The network shuffle placebo for M\&A Buyer events yields $p=0.142$, falling short of conventional significance thresholds.
+
+The proposed contribution centers on a gap in the interlocking directorates literature. Existing work studies spillovers between public firms connected through shared directors \cite{kang2008director,shi2025shared,fracassi2017corporate}, a setting where both firms' information is semi-public and Regulation Fair Disclosure constrains selective disclosure. The observer channel differs because the observed firm is private, its board meetings are exempt from Reg~FD, and the observer carries no fiduciary duty. By focusing on \textit{pre-event} leakage rather than post-event reputation spillovers or decision mimicry, the proposed design can separate information transmission from other explanations for correlated returns. Two quasi-experimental regulatory shocks provide variation in the information constraints on observers rather than in the existence of the connection itself.
+
+An important caveat is that common VC exposure could independently explain some correlation in returns across portfolio companies. If the same venture fund invests in both a private company and has a relationship with a public company, shared information environments rather than the observer channel per se could generate the patterns I document. The proposed design addresses this concern through VC-clustered standard errors and robustness tests that condition on fund-level characteristics, but it cannot fully rule out this alternative channel.
+
+I frame the proposed analysis as evidence of \textit{information permeability} of the observer network rather than insider trading. The research design can show that information flows through the network and is consistent with that information reaching prices, but it does not claim to identify the specific transmission mechanism.
+
+% =====================================================================
+\section{Institutional Background}
+\label{sec:institutional}
+% =====================================================================
+
+\paragraph{Board observers in practice.} Corporate governance in venture-backed firms operates through three distinct tiers. Directors (Tier~1) are formally elected, owe fiduciary duties of care and loyalty, vote on corporate actions, and bear personal liability \cite{ewens2024board}. Board observers (Tier~2) attend all board meetings and receive all board materials, including notices, minutes, consents, and strategic documents. The NVCA model Investor Rights Agreement specifies that the company ``shall invite a representative of such Investor to attend all meetings of the Board of Directors in a nonvoting observer capacity and \ldots give such representative copies of all notices, minutes, consents, and other materials that it provides to its directors.'' Board advisors (Tier~3) occupy the most informal tier, lending expertise but typically lacking any contractual right to attend board meetings or receive board-level materials.
+
+\paragraph{Legal status.} The dominant legal view is that observers are not directors and do not share directors' duties or liabilities. In \textit{Obasi Investment Ltd.\ v.\ Tibet Pharmaceuticals, Inc.}\ (3d Cir., 2019), the Third Circuit held that board observers are not ``directors'' or ``similar'' persons because they lack voting rights and do not owe fiduciary duties \cite{packin2025board}. \citeN{packin2025board} provide the first systematic legal analysis, documenting five incentives for observer use, including information access without governance responsibility, monitoring without fiduciary exposure, and antitrust avoidance under Clayton Act Section~8.
+
+\paragraph{The Reg~FD gap.} Regulation Fair Disclosure prohibits public companies from selectively disclosing material nonpublic information. Private companies are exempt. The private firms in my sample, where observers learn about pending acquisitions, bankruptcies, and strategic changes, are not subject to Reg~FD. The observer carries information from this unregulated environment to public companies where they serve as directors. The NVCA model IRA terminates observer rights ``immediately before the consummation of the IPO,'' implicitly acknowledging this incompatibility.
+
+\paragraph{Two regulatory shocks.} In 2020, the NVCA removed the clause directing observers to ``act in a fiduciary manner with respect to all information so provided.'' After this change, the model template imposes no fiduciary obligation on observers, relying solely on confidentiality agreements. This change coincided with COVID-era economic disruption, a confound I address in the identification strategy. A textual analysis of 320 S-1 IRA exhibits shows that ``no fiduciary duty'' disclaimers increased from 46\% to 62\% after 2020 ($p=0.012$, Fisher exact test). In October 2025, the NVCA further revised the template to expand the grounds for excluding observers from meetings.
+
+In January 2025, the DOJ and FTC announced that board observers are subject to Clayton Act Section~8 interlocking directorate prohibitions, stating that ``even informal roles, such as board observers or designees, may trigger scrutiny if they functionally enable coordination between competitors.'' The observer connections under study, where the same person observes at one company and directs at another in the same industry, are precisely the arrangements the agencies targeted.
+
+% =====================================================================
+\section{Data and Proposed Research Design}
+\label{sec:data}
+% =====================================================================
+
+\subsection{Observer Network}
+
+The network is constructed from three WRDS-linked sources. S\&P Capital IQ Professionals identifies 4,915 individuals with ``observer'' titles at 3,058 companies. For each observer, I retrieve concurrent public company positions from CIQ, supplemented with BoardEx (510,276 person matches via WRDS crosswalk) and Form~4 insider filings (790,551 matches). The resulting network contains 1,416 observers with 4,775 edges to public firms, 84\% representing director or chairman roles. Cross-referencing Form~4 filings reveals that the CIQ-only network captures approximately half of all connections, motivating the supplementation. All results will be reported for both networks.
+
+\subsection{Events and Returns}
+
+Events come from CIQ Key Developments (\texttt{wrds\_keydev}), totaling 400,886 events filtered to private companies, excluding CRSP-listed periods, earnings announcements, and conferences, yielding approximately 57,000 events. Key types include M\&A (Buyer/Target), bankruptcy, executive changes, and private placements. The event date recorded in CIQ is the date of public disclosure. The observer learned about the underlying decision in the board meeting days, weeks, or months earlier.
+
+Daily returns from CRSP (2015 to 2025, 3.3 million observations) are used to compute market-adjusted CARs over windows from $[-30,-1]$ to $[0,+5]$, winsorized at the 1st and 99th percentiles, excluding penny stocks. This market-adjustment procedure is deliberately simple and does not control for standard risk factors such as the \citeN{fama1993common} three-factor model or DGTW characteristic-adjusted benchmarks \cite{daniel1997measuring}. A planned robustness exercise will re-estimate all specifications using Fama-French three-factor and DGTW-adjusted returns to ensure that the documented patterns do not reflect compensation for systematic risk.
+
+\subsection{Empirical Strategy}
+
+The baseline regression is
+\begin{equation}
+\label{eq:baseline}
+CAR_{i,e} = \beta_1 \cdot Connected_{i,e} + \beta_2 \cdot SameInd_{i,e} + \beta_3 \cdot Connected_{i,e} \times SameInd_{i,e} + \varepsilon_{i,e}
+\end{equation}
+where $i$ indexes portfolio stocks and $e$ indexes events. For each event at a private observed company, CARs are computed at all portfolio stocks, both connected and non-connected, so non-connected stocks serve as the control group. The identifying assumption is that, absent the observer link, connected stocks would exhibit the same average return behavior as non-connected stocks around the event date. I report results across six clustering/FE specifications, with event-clustered standard errors as the most conservative.
+
+This control group design has two limitations. First, connected and non-connected stocks may differ systematically on observable dimensions such as size, industry composition, and momentum. A planned robustness check will construct a matched control group by pairing each connected stock with non-connected stocks matched on size, two-digit industry, book-to-market, and twelve-month momentum. Second, a cross-contamination concern arises because non-connected stocks may be connected to other event companies through different observer links on overlapping dates, attenuating the estimated treatment effect. Future analysis will flag and exclude stocks experiencing overlapping connected and non-connected event windows.
+
+An alternative control group using director-connected firms (where the director sits on the boards of both the private and public company but does not hold an observer seat) would further sharpen identification. Such a comparison would hold the board-level connection constant while varying the presence of the observer role, directly testing whether the observer channel adds information flow beyond what directors provide.
+
+For the regulatory shocks, I estimate on the connected-firm sample
+\begin{equation}
+\label{eq:nvca}
+CAR_{i,e} = \gamma_1 \cdot SameInd_{i,e} + \gamma_2 \cdot SameInd_{i,e} \times PostShock_e + \alpha_t + \varepsilon_{i,e}
+\end{equation}
+where $PostShock$ captures the NVCA 2020 or Clayton Act January 2025 break, with year fixed effects and placebo tests at alternative dates. This specification is a before-after comparison rather than a canonical difference-in-differences design. Different-industry connected firms serve as the implicit control, on the assumption that the regulatory changes affected the willingness or ability of observers to transmit industry-relevant information but did not change the baseline return behavior of connected firms in unrelated sectors. This assumption would be violated if the changes also altered information flow for different-industry connections.
+
+\input{tables/tab_summary}
+
+% =====================================================================
+\section{Preliminary Results}
+\label{sec:results}
+% =====================================================================
+
+\subsection{Baseline and Event-Type Heterogeneity}
+
+\input{tables/tab_baseline_short}
+
+For executive and board changes (2,348 events), connected firms earn 0.28 pp higher CAR$[-5,-1]$ than non-connected firms ($p=0.010$, event-clustered), surviving all specifications except stock FE (Table~\ref{tab:baseline}). The loss of significance under stock fixed effects deserves careful consideration. Stock FE absorb permanent differences across firms, so the result could reflect selection into observer networks rather than information flow. Firms that attract observer-connected directors may simply be different in ways that correlate with returns. This ambiguity makes the event-type heterogeneity results especially important, because those tests isolate the information channel by comparing the same connected firms across events that differ in informational content.
+
+A note on reporting. The current tables report p-values but not standard errors directly. Future iterations will report standard errors alongside coefficients in all tables. P-values in the text correspond to the event-clustered specification unless otherwise stated.
+
+Disaggregating by event type (Table~\ref{tab:eventtype}) reveals the effect is concentrated in material events. I test six event types across four return windows, generating 24 coefficient estimates. Without formal multiple testing correction, the probability of finding at least one significant result by chance is nontrivial. The patterns below are suggestive, and I interpret them jointly.
+
+\begin{itemize}
+\item \textbf{M\&A Buyer.} $Connected \times SameInd$ at CAR$[-30,-1]$ = +4.57 pp ($p=0.001$). Survives all non-stock-FE specifications at $p<0.01$. Neither $Connected$ alone ($-0.78$ pp, $p=0.318$) nor $SameInd$ alone ($-0.51$ pp, $p=0.708$) is significant. Only the interaction matters. The identifying cell contains 28 connected same-industry observations from 124 events. The coefficient magnitudes are large relative to the insider trading literature, where typical CARs range from one to three percentage points \cite{ahern2017information}. This may reflect the longer event window, the industry concentration, or disproportionate influence from a small number of extreme returns. The network shuffle placebo yields $p=0.142$, which does not reject the null at conventional levels. The random event-date placebo does reject ($p=0.048$).
+\item \textbf{Bankruptcy.} $Connected \times SameInd$ at CAR$[-30,-1]$ = +9.45 pp ($p=0.043$). The identifying cell contains only 11 stock-event pairs. A single outlier could materially change or eliminate this result. The point estimate is several times larger than typical CARs in the insider trading literature.
+\item \textbf{M\&A Target.} Effect appears only at CAR$[-1,0]$ = +1.08 pp ($p=0.027$). No pre-event drift, consistent with target-side information being held tightly until the circle of informed parties expands in the final hours before disclosure. This temporal signature is distinct from the M\&A Buyer pattern.
+\item \textbf{Routine events} (private placements, product announcements). No significant results.
+\end{itemize}
+
+\input{tables/tab_eventtype}
+
+\subsection{Regulatory Shocks}
+
+\input{tables/tab_shocks}
+
+\paragraph{NVCA 2020.} $SameInd \times Post2020$ at CAR$[-10,-1]$ = +3.23 pp ($p=0.001$). The pre-2020 same-industry CAR averaged 0.04 pp ($p=0.823$), indistinguishable from zero. After 2020, it averaged 2.95 pp ($p<0.001$). A placebo at January 2024 is null ($p=0.510$). Alternative break years confirm 2020 is the strongest.
+
+\paragraph{Clayton Act 2025.} $SameInd \times PostJan2025$ at CAR$[-10,-1]$ = $-10.19$ pp ($p<0.001$). A placebo at January 2024 is null ($p=0.470$). The supplemented network yields $-4.88$ pp ($p=0.010$). The post-January 2025 sample is still short (approximately nine months), and these estimates will become more precise as additional data accumulates.
+
+\paragraph{Two shocks, opposite directions.} The NVCA 2020 revision removed perceived fiduciary obligations and spillover moved from zero to positive. The January 2025 Clayton Act extension imposed antitrust scrutiny and spillover reversed. Two independent regulatory changes affecting the same mechanism in opposite directions, both with clean placebos.
+
+% =====================================================================
+\section{Expected Contributions and Next Steps}
+\label{sec:conclusion}
+% =====================================================================
+
+The accountability gap at the center of this proposal has persisted for decades without empirical scrutiny. The preliminary evidence suggests it matters, but the more consequential finding would be that legal accountability structures shape information flow in predictable, regulable ways.
+
+If successful, this research would make three contributions. First, it would document a private-to-public information channel operating through the Reg~FD exemption, distinct from public-firm interlock spillovers. Second, it would identify pre-event information leakage rather than post-event spillovers. Third, it would provide quasi-experimental evidence from two opposite-direction regulatory shocks on the role of legal accountability in governing information flow.
+
+\paragraph{Planned extensions.} The most serious identification threat is common VC exposure, where the VC fund itself may drive correlated returns through portfolio-wide actions unrelated to the observer channel. Three tests address this threat directly. (1)~Industry $\times$ event-date fixed effects would absorb common shocks, isolating the observer-specific component. (2)~A director-connected control group would test whether the effect operates through observer-specific access or general VC exposure. (3)~Wild cluster bootstrap inference would address the small number of clusters in same-industry subsamples. Additional extensions include Fama-French or DGTW characteristic-adjusted returns, calendar-time portfolios, year-by-year event study coefficients around the regulatory breaks, and sample expansion through public observed company events.
+
+\paragraph{Channel identification.} A central extension is identifying the transmission mechanism. Candidate channels include direct insider trading by the observer (testable via Form~4 filings), VC-level portfolio rebalancing (testable via 13F holdings), strategic decision-making at the connected public firm, and information diffusion through the broader VC ecosystem. The null result on abnormal volume tentatively argues against concentrated trading by a single informed party.
+
+\paragraph{Limitations.} The network captures an estimated half of observer-to-public-firm connections. Same-industry samples for M\&A and bankruptcy are small (11 to 28 observations), making coefficient estimates noisy despite their statistical significance. The network shuffle placebo for M\&A Buyer yields $p=0.142$, which does not reject at conventional levels. The specific transmission mechanism is unidentified, though the regulatory responsiveness suggests the observer's legal position is a necessary condition. The post-January 2025 sample remains short, and the Clayton Act estimates should be treated as preliminary.
+
+% =====================================================================
+% References
+% =====================================================================
+\newpage
+\bibliographystyle{chicagoa}
+\bibliography{../Bibliography_base}
+
+\end{document}

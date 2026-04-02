@@ -1,0 +1,52 @@
+\section{Data and Proposed Research Design}
+\label{sec:data}
+
+\subsection{Observer Network Construction}
+
+The observer network draws from three sources linked through WRDS person-matching crosswalks. The primary source is S\&P Capital IQ Professionals, which identifies 4,915 unique individuals with ``observer'' in their position title at 3,058 companies. For each observer, all concurrent positions at public companies are retrieved using CIQ's person-level records. These connections are supplemented with BoardEx (using the WRDS BoardEx--CIQ crosswalk, 510,276 person matches) and Thomson Reuters Form~4 insider filing data (using the WRDS TR--CIQ crosswalk, 790,551 person matches). Each database uses its own person identifier. The WRDS crosswalks link them through name and security matching with quality scores.
+
+The resulting network contains 1,416 observers with at least one connection to a public firm. Of the 4,775 observer-to-public-firm edges, 84\% represent board director or chairman roles at the public company. The network is person-level. The same individual sits as a nonvoting observer at a private company and as a voting director at a public company, personally bridging the two boardrooms. A cross-reference against Form~4 filings confirms that the CIQ-only network captures approximately half of all connections, because many observers who file insider trading reports at their public company appear only in the Form~4 data. This finding motivates the BoardEx and Form~4 supplementation, and all results will be reported for both the original CIQ network and the supplemented network.
+
+\subsection{Events and Returns}
+
+Events come from the CIQ Key Developments database (\texttt{wrds\_keydev}), which records press releases, SEC filings, court records, and news articles for public and private companies. The database provides 400,886 events with event type classifications, company role indicators (Target, Buyer, Seller), and source attributions. The sample is restricted to private companies (CIQ type = ``Private Company''), excluding events that occurred while the company was CRSP-listed (using CCM link dates to identify public trading periods) and dropping earnings announcements (contaminated by foreign-listed companies classified as ``Private'' in CIQ) and conference-related events (noise). The filtered sample contains approximately 57,000 events.
+
+Key event types include M\&A announcements with role indicators (Buyer or Target), bankruptcy filings and related proceedings, executive and board changes, and private placements. The event date recorded in CIQ is the date of public disclosure, specifically the press release, SEC filing, or news article. The observer learned about the underlying decision in the board meeting days, weeks, or months earlier.
+
+Daily stock returns come from CRSP (\texttt{dsf} through 2024, \texttt{dsf\_v2} for 2025), covering 1,909 portfolio stocks from January 2015 through December 2025 (3.3 million daily observations). Cumulative abnormal returns (CARs) are computed by summing market-adjusted daily returns over event windows ranging from $[-30,-1]$ to $[0,+5]$, where day 0 is the public disclosure date. Market-adjusted returns subtract the equal-weighted mean return across all portfolio stocks on each day. This market-adjustment procedure is deliberately simple and does not control for standard risk factors such as the \citeN{fama1993common} three-factor model or DGTW characteristic-adjusted benchmarks \cite{daniel1997measuring}. A planned robustness exercise will re-estimate all specifications using Fama-French three-factor and DGTW-adjusted returns to ensure that the documented patterns do not reflect compensation for systematic risk. All CARs are winsorized at the 1st and 99th percentiles, and stocks with average price below \$5 are excluded to mitigate microstructure noise.
+
+\subsection{Proposed Empirical Strategy}
+
+For each event at a private observed company, CARs are computed at all portfolio stocks, both connected (through the observer network) and non-connected, around the event date. Non-connected stocks in the same event window serve as the control group. The identifying assumption is that, absent the observer link, connected stocks would exhibit the same average return behavior as non-connected stocks around the event date. The baseline regression is
+\begin{equation}
+\label{eq:baseline}
+CAR_{i,e} = \beta_1 \cdot Connected_{i,e} + \beta_2 \cdot SameIndustry_{i,e} + \beta_3 \cdot Connected_{i,e} \times SameIndustry_{i,e} + \varepsilon_{i,e}
+\end{equation}
+where $i$ indexes portfolio stocks and $e$ indexes events. $Connected_{i,e}$ equals one if stock $i$ is linked to the event company through the observer network. $SameIndustry_{i,e}$ equals one if stock $i$ shares the same two-digit SIC code as the event company. The coefficient $\beta_3$ captures whether the connection effect is stronger when the information is industry-relevant.
+
+This control group design has two limitations that merit explicit discussion. First, connected and non-connected stocks may differ systematically on observable dimensions such as size, industry composition, book-to-market ratio, and recent momentum. If these characteristics also predict returns around event dates, the estimated $\beta_1$ and $\beta_3$ would reflect selection as well as information flow. A planned robustness check will construct a matched control group by pairing each connected stock with non-connected stocks matched on size, two-digit industry, book-to-market, and twelve-month momentum, then re-estimating Equation~\ref{eq:baseline} on the matched sample.
+
+Second, a cross-contamination concern arises because non-connected stocks may be connected to other event companies through different observer links on overlapping dates. When two events at different private firms overlap in calendar time and their observer networks share public stocks, a stock classified as ``non-connected'' for one event may simultaneously be ``connected'' for another. This would attenuate the estimated treatment effect by introducing information flow into the control group. Future analysis will flag and exclude stocks experiencing overlapping connected and non-connected event windows.
+
+An alternative control group using director-connected firms (where the director sits on the boards of both the private company and the public company but does not hold an observer seat) would further sharpen identification. Such a comparison would hold the board-level connection constant while varying the presence of the observer role, directly testing whether the observer channel adds information flow beyond what directors provide. This extension depends on identifying a sufficient number of director-only connections from the BoardEx data and will be explored in subsequent work.
+
+Results will be reported with six combinations of clustering and fixed effects, namely (1)~HC1 robust standard errors, (2)~event-clustered, (3)~stock-clustered, (4)~year~FE with event-clustering, (5)~year~FE with stock-clustering, and (6)~stock~FE with event-clustering. Event-clustered standard errors are the most conservative specification, accounting for correlation among all stock-level CARs generated by the same event on the same dates.
+
+\subsection{Identification Through Regulatory Shocks}
+
+The two regulatory changes described in Section~\ref{sec:institutional} provide quasi-experimental variation in the information constraints facing observer networks. For the NVCA 2020 fiduciary removal, the specification is
+\begin{equation}
+\label{eq:nvca}
+CAR_{i,e} = \gamma_1 \cdot SameIndustry_{i,e} + \gamma_2 \cdot SameIndustry_{i,e} \times Post2020_e + \alpha_t + \varepsilon_{i,e}
+\end{equation}
+on the connected-firm sample, where $Post2020_e$ equals one for events occurring in 2020 or later and $\alpha_t$ denotes year fixed effects. The coefficient $\gamma_2$ tests whether same-industry spillover increased after the fiduciary language removal.
+
+This specification is estimated on connected firms only and is therefore a before-after comparison rather than a canonical difference-in-differences design with separate treatment and control groups. The ``treatment'' dimension exploits within-sample variation in information relevance. Different-industry connected firms serve as the implicit control, on the assumption that the NVCA fiduciary removal affected the willingness or ability of observers to transmit industry-relevant information but did not change the baseline return behavior of connected firms operating in unrelated sectors. This assumption would be violated if the 2020 change also altered information flow for different-industry connections, for example if it emboldened observers to share all categories of information rather than only industry-specific material. A placebo test at alternative break dates will help evaluate whether the estimated shift is unique to the 2020 policy change or reflects a pre-existing trend.
+
+For the Clayton Act extension, the analogous specification uses $PostJan2025_e$ on the post-2020 subsample. The same identification logic applies in reverse. The January 2025 enforcement announcement targeted same-industry arrangements specifically, providing a directional prediction that same-industry spillover should decline while different-industry spillover remains unaffected. Placebo tests at alternative break dates will be used to rule out pre-existing trends.
+
+\subsection{Planned Extensions}
+
+\input{tables/tab_summary}
+
+Several extensions would strengthen the analysis. First, incorporating events at public observed companies would approximately triple the sample and improve statistical power. Second, a calendar-time portfolio approach would serve as an alternative to event-time CARs, addressing concerns about overlapping event windows. Third, as additional post-shock data accumulates through 2026, the Clayton Act and NVCA 2025 effects can be estimated with greater precision. Fourth, mechanism tests would provide evidence on the channels through which information reaches prices. Abnormal volume analysis, Form~4 insider trading patterns around events, and 13F institutional holdings changes would each help distinguish among direct trading by observers, network diffusion through the VC ecosystem, and strategic decisions at connected public companies influenced by observer-directors.

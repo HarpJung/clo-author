@@ -1,0 +1,33 @@
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\caption{Baseline Results: Executive and Board Changes}
+\label{tab:baseline}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+ & (1) & (2) & (3) & (4) & (5) & (6) \\
+ & HC1 & Event & Stock & Yr FE & Yr FE & Stock FE \\
+ &  & cluster & cluster & + Event & + Stock & + Event \\
+\midrule
+\multicolumn{7}{l}{\textit{Dependent variable: Market-adjusted CAR$[-5,-1]$}} \\
+\midrule
+$Connected$ & 0.28** & 0.28** & 0.28** & 0.28** & 0.28** & 0.09 \\
+ & (0.006) & (0.010) & (0.007) & (0.009) & (0.006) & (0.412) \\[0.3em]
+$SameIndustry$ & $-$0.21 & $-$0.21 & $-$0.21 & $-$0.20 & $-$0.20 & $-$0.14 \\
+ & (0.137) & (0.137) & (0.153) & (0.141) & (0.158) & (0.287) \\[0.3em]
+$Connected \times SameInd$ & $-$0.05 & $-$0.05 & $-$0.05 & $-$0.06 & $-$0.06 & 0.11 \\
+ & (0.796) & (0.796) & (0.815) & (0.773) & (0.793) & (0.604) \\[0.3em]
+\midrule
+Year FE & No & No & No & Yes & Yes & No \\
+Stock FE & No & No & No & No & No & Yes \\
+Events & 2,348 & 2,348 & 2,348 & 2,348 & 2,348 & 2,348 \\
+Observations & 253,782 & 253,782 & 253,782 & 253,782 & 253,782 & 253,782 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item \textit{Notes.} This table reports OLS regressions of market-adjusted cumulative abnormal returns over the $[-5,-1]$ window on network connection and industry match indicators. The sample includes all executive and board change events on the supplemented network. For each event, CARs are computed at all portfolio stocks; non-connected stocks serve as the control group. Coefficients are in percentage points. $p$-values in parentheses. $^{*}$ $p<0.10$, $^{**}$ $p<0.05$, $^{***}$ $p<0.01$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

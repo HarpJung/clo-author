@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\caption{Baseline: Executive and Board Changes (CAR$[-5,-1]$)}
+\label{tab:baseline}
+\footnotesize
+\begin{tabular}{lcccccc}
+\toprule
+ & (1) HC1 & (2) Event & (3) Stock & (4) Yr+Ev & (5) Yr+Stk & (6) Stk FE \\
+\midrule
+$Connected$ & 0.28** & 0.28** & 0.28** & 0.28** & 0.28** & 0.09 \\
+ & (0.006) & (0.010) & (0.007) & (0.009) & (0.006) & (0.412) \\[0.2em]
+$SameIndustry$ & $-$0.21 & $-$0.21 & $-$0.21 & $-$0.20 & $-$0.20 & $-$0.14 \\
+ & (0.137) & (0.137) & (0.153) & (0.141) & (0.158) & (0.287) \\[0.2em]
+$Conn \times SameInd$ & $-$0.05 & $-$0.05 & $-$0.05 & $-$0.06 & $-$0.06 & 0.11 \\
+ & (0.796) & (0.796) & (0.815) & (0.773) & (0.793) & (0.604) \\
+\midrule
+$N$ & \multicolumn{6}{c}{253,782 (2,348 events)} \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\scriptsize
+\item \textit{Notes.} Market-adjusted CARs, supplemented network. Coefficients in pp. $p$-values in parentheses. $^{**}$ $p<0.05$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

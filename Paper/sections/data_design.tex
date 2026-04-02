@@ -1,38 +1,44 @@
-\section{Data and Research Design}
+\section{Data and Proposed Research Design}
 \label{sec:data}
 
-\subsection{Observer Network}
+\subsection{Observer Network Construction}
 
-We construct the observer network from three sources linked through WRDS person-matching crosswalks. The primary source is S\&P Capital IQ Professionals, which identifies 4,915 unique individuals with ``observer'' in their position title at 3,058 companies. For each observer, we retrieve all concurrent positions at public companies using CIQ's person-level records. We supplement these connections with BoardEx (using the WRDS BoardEx--CIQ crosswalk, 510,276 person matches) and Thomson Reuters Form~4 insider filing data (using the WRDS TR--CIQ crosswalk, 790,551 person matches). Each database uses its own person identifier; the WRDS crosswalks link them through name and security matching with quality scores.
+I construct the observer network from three sources linked through WRDS person-matching crosswalks. The primary source is S\&P Capital IQ Professionals, which identifies 4,915 unique individuals with ``observer'' in their position title at 3,058 companies. For each observer, I retrieve all concurrent positions at public companies using CIQ's person-level records. I supplement these connections with BoardEx (using the WRDS BoardEx--CIQ crosswalk, 510,276 person matches) and Thomson Reuters Form~4 insider filing data (using the WRDS TR--CIQ crosswalk, 790,551 person matches). Each database uses its own person identifier. The WRDS crosswalks link them through name and security matching with quality scores.
 
-The resulting network contains 1,416 observers with at least one connection to a public firm. Of the 4,775 observer-to-public-firm edges, 84\% represent board director or chairman roles at the public company. The network is person-level: the same individual sits as a nonvoting observer at a private company and as a voting director at a public company, personally bridging the two boardrooms. We verify network completeness by cross-referencing Form~4 filings---if an observer files an insider trading report at a public company, they demonstrably have a connection there. This exercise reveals that the CIQ-only network captures approximately half of all connections, motivating the BoardEx and Form~4 supplementation. All results are reported for both the original CIQ network and the supplemented network.
+The resulting network contains 1,416 observers with at least one connection to a public firm. Of the 4,775 observer-to-public-firm edges, 84\% represent board director or chairman roles at the public company. The network is person-level. The same individual sits as a nonvoting observer at a private company and as a voting director at a public company, personally bridging the two boardrooms. I verify network completeness by cross-referencing Form~4 filings. If an observer files an insider trading report at a public company, they demonstrably have a connection there. This exercise reveals that the CIQ-only network captures approximately half of all connections, motivating the BoardEx and Form~4 supplementation. I plan to report all results for both the original CIQ network and the supplemented network.
 
 \subsection{Events and Returns}
 
-Events come from the CIQ Key Developments database (\texttt{wrds\_keydev}), which records press releases, SEC filings, court records, and news articles for public and private companies. The database provides 400,886 events with event type classifications, company role indicators (Target, Buyer, Seller), and source attributions. We filter to private companies (CIQ type = ``Private Company''), exclude events occurring while the company was CRSP-listed (using CCM link dates to identify public trading periods), and drop earnings announcements (contaminated by foreign-listed companies classified as ``Private'' in CIQ) and conference-related events (noise). The filtered sample contains approximately 57,000 events. We also use 2,827 SEC Form~D filings (private securities offerings matched to observer companies) as an alternative event source for robustness.
+Events come from the CIQ Key Developments database (\texttt{wrds\_keydev}), which records press releases, SEC filings, court records, and news articles for public and private companies. The database provides 400,886 events with event type classifications, company role indicators (Target, Buyer, Seller), and source attributions. I filter to private companies (CIQ type = ``Private Company''), exclude events occurring while the company was CRSP-listed (using CCM link dates to identify public trading periods), and drop earnings announcements (contaminated by foreign-listed companies classified as ``Private'' in CIQ) and conference-related events (noise). The filtered sample contains approximately 57,000 events.
 
-Key event types include M\&A announcements with role indicators (Buyer or Target), bankruptcy filings and related proceedings, executive and board changes, and private placements. The event date recorded in CIQ is the date of public disclosure---the press release, SEC filing, or news article. The observer learned about the underlying decision in the board meeting days, weeks, or months earlier.
+Key event types include M\&A announcements with role indicators (Buyer or Target), bankruptcy filings and related proceedings, executive and board changes, and private placements. The event date recorded in CIQ is the date of public disclosure, specifically the press release, SEC filing, or news article. The observer learned about the underlying decision in the board meeting days, weeks, or months earlier.
 
-Daily stock returns come from CRSP (\texttt{dsf} through 2024, \texttt{dsf\_v2} for 2025), covering 1,909 portfolio stocks from January 2015 through December 2025 (3.3 million daily observations). We compute cumulative abnormal returns (CARs) by summing market-adjusted daily returns over event windows ranging from $[-30,-1]$ to $[0,+5]$, where day 0 is the public disclosure date. Market-adjusted returns subtract the equal-weighted mean return across all portfolio stocks on each day. We winsorize all CARs at the 1st and 99th percentiles and exclude stocks with average price below \$5 to mitigate microstructure noise.
+Daily stock returns come from CRSP (\texttt{dsf} through 2024, \texttt{dsf\_v2} for 2025), covering 1,909 portfolio stocks from January 2015 through December 2025 (3.3 million daily observations). I compute cumulative abnormal returns (CARs) by summing market-adjusted daily returns over event windows ranging from $[-30,-1]$ to $[0,+5]$, where day 0 is the public disclosure date. Market-adjusted returns subtract the equal-weighted mean return across all portfolio stocks on each day. All CARs are winsorized at the 1st and 99th percentiles, and stocks with average price below \$5 are excluded to mitigate microstructure noise.
 
-\subsection{Control Group Specification}
+\subsection{Proposed Empirical Strategy}
 
-For each event at a private observed company, we compute CARs at all portfolio stocks---both connected (through the observer network) and non-connected---around the event date. To maintain computational tractability, we use a 10\% random sample of non-connected stocks as controls, yielding sample sizes ranging from 12,000 to 1.8~million observations depending on the event group. The baseline regression is:
+For each event at a private observed company, I compute CARs at all portfolio stocks, both connected (through the observer network) and non-connected, around the event date. The baseline regression is
 \begin{equation}
 \label{eq:baseline}
 CAR_{i,e} = \beta_1 \cdot Connected_{i,e} + \beta_2 \cdot SameIndustry_{i,e} + \beta_3 \cdot Connected_{i,e} \times SameIndustry_{i,e} + \varepsilon_{i,e}
 \end{equation}
 where $i$ indexes portfolio stocks and $e$ indexes events. $Connected_{i,e}$ equals one if stock $i$ is linked to the event company through the observer network. $SameIndustry_{i,e}$ equals one if stock $i$ shares the same two-digit SIC code as the event company. The coefficient $\beta_3$ captures whether the connection effect is stronger when the information is industry-relevant.
 
-We report results with six combinations of clustering and fixed effects: (1)~HC1 robust standard errors, (2)~event-clustered, (3)~stock-clustered, (4)~year~FE with event-clustering, (5)~year~FE with stock-clustering, and (6)~stock~FE with event-clustering. Event-clustered standard errors are the most conservative specification, accounting for correlation among all stock-level CARs generated by the same event on the same dates.
+I plan to report results with six combinations of clustering and fixed effects, namely (1)~HC1 robust standard errors, (2)~event-clustered, (3)~stock-clustered, (4)~year~FE with event-clustering, (5)~year~FE with stock-clustering, and (6)~stock~FE with event-clustering. Event-clustered standard errors are the most conservative specification, accounting for correlation among all stock-level CARs generated by the same event on the same dates.
 
-\subsection{Regulatory Shock Identification}
+\subsection{Identification Through Regulatory Shocks}
 
-We exploit the two regulatory changes described in Section~\ref{sec:institutional} as quasi-experimental variation. For the NVCA 2020 fiduciary removal, we estimate:
+I propose to exploit the two regulatory changes described in Section~\ref{sec:institutional} as quasi-experimental variation. For the NVCA 2020 fiduciary removal, the specification is
 \begin{equation}
 \label{eq:nvca}
 CAR_{i,e} = \gamma_1 \cdot SameIndustry_{i,e} + \gamma_2 \cdot SameIndustry_{i,e} \times Post2020_e + \alpha_t + \varepsilon_{i,e}
 \end{equation}
 on the connected-firm sample, where $Post2020_e$ equals one for events occurring in 2020 or later and $\alpha_t$ denotes year fixed effects. The coefficient $\gamma_2$ tests whether same-industry spillover increased after the fiduciary language removal.
 
-For the Clayton Act extension, we estimate the analogous specification using $PostJan2025_e$ on the post-2020 subsample. We test placebos at alternative break dates (January 2024) to rule out pre-existing trends.
+For the Clayton Act extension, I propose the analogous specification using $PostJan2025_e$ on the post-2020 subsample. I will test placebos at alternative break dates to rule out pre-existing trends.
+
+\subsection{Planned Extensions}
+
+\input{tables/tab_summary}
+
+Several extensions would strengthen the analysis. First, I plan to incorporate events at public observed companies, which would approximately triple the sample and improve statistical power. Second, a calendar-time portfolio approach would serve as an alternative to event-time CARs, addressing concerns about overlapping event windows. Third, as additional post-shock data accumulates through 2026, the Clayton Act and NVCA 2025 effects can be estimated with greater precision. Fourth, I aim to explore mechanism tests more thoroughly, including abnormal volume analysis, Form~4 insider trading patterns around events, and 13F institutional holdings changes, to better distinguish among possible channels through which information reaches prices.

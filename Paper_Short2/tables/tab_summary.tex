@@ -1,0 +1,42 @@
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\caption{Summary Statistics}
+\label{tab:summary}
+\small
+\begin{tabular}{lcc}
+\toprule
+ & Original Network & Supplemented Network \\
+\midrule
+\multicolumn{3}{l}{\textit{Panel A: Observer Network}} \\
+\midrule
+Unique observers & 1,140 & 1,416 \\
+Observer-to-public-firm edges & 3,725 & 4,775 \\
+Public portfolio companies & 1,694 & 2,744 \\
+Private observed companies & 3,058 & 3,058 \\
+Edges via director/chairman role & 83\% & 84\% \\
+\midrule
+\multicolumn{3}{l}{\textit{Panel B: Events (Filtered Sample)}} \\
+\midrule
+Total events (CIQ Key Dev) &  \multicolumn{2}{c}{$\approx$57,000} \\
+\quad M\&A Buyer & 105 & 124 \\
+\quad M\&A Target & 111 & 130 \\
+\quad Bankruptcy & 128 & 146 \\
+\quad Executive/Board Changes & 1,884 & 2,348 \\
+\quad Private Placements & 4,344 & 5,102 \\
+\quad Product/Client & 4,344 & 5,271 \\
+Form D filings & \multicolumn{2}{c}{2,827} \\
+\midrule
+\multicolumn{3}{l}{\textit{Panel C: Returns}} \\
+\midrule
+CRSP daily observations & \multicolumn{2}{c}{3.3 million} \\
+Portfolio stocks & 1,155 & 1,909 \\
+Sample period & \multicolumn{2}{c}{Jan 2015 -- Dec 2025} \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item \textit{Notes.} The original network is constructed from S\&P Capital IQ Professionals. The supplemented network adds BoardEx positions (via WRDS BoardEx--CIQ crosswalk) and Thomson Reuters Form~4 insider filings (via WRDS TR--CIQ crosswalk). Events are filtered to private companies, excluding CRSP-listed periods, earnings announcements, and conferences. CARs are market-adjusted, winsorized at the 1st/99th percentiles; stocks with average price below \$5 are excluded.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

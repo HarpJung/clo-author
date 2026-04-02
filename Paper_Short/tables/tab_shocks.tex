@@ -1,0 +1,50 @@
+\begin{table}[htbp]
+\centering
+\begin{threeparttable}
+\caption{Regulatory Shocks: NVCA 2020 and Clayton Act 2025}
+\label{tab:shocks}
+\small
+\begin{tabular}{lcccc}
+\toprule
+ & CAR$[-30,-1]$ & CAR$[-10,-1]$ & CAR$[-5,-1]$ & CAR$[-1,0]$ \\
+\midrule
+\multicolumn{5}{l}{\textit{Panel A: NVCA 2020 --- Fiduciary Language Removal}} \\
+\multicolumn{5}{l}{\textit{Sample: Connected firms, full period. Year FE, event-clustered SE.}} \\
+\midrule
+$SameInd \times Post2020$ & 2.86*** & 3.23*** & 1.67** & 0.54 \\
+ & ($<$0.001) & (0.001) & (0.040) & (0.218) \\[0.2em]
+$SameIndustry$ & $-$0.42 & $-$0.31 & $-$0.18 & $-$0.09 \\
+ & (0.514) & (0.472) & (0.604) & (0.681) \\[0.3em]
+Pre-2020 same-ind mean &  & 0.04\% &  & \\
+ &  & (0.823) &  & \\
+Post-2020 same-ind mean &  & 2.95\%*** &  & \\
+ &  & ($<$0.001) &  & \\[0.3em]
+Placebo: Jan 2024 break &  & 0.32 &  & \\
+ &  & (0.510) &  & \\[0.2em]
+Observations & \multicolumn{4}{c}{4,775} \\
+\midrule
+\multicolumn{5}{l}{\textit{Panel B: Clayton Act Jan 2025 --- Antitrust Extension to Observers}} \\
+\multicolumn{5}{l}{\textit{Sample: Connected firms, post-2020. Year FE, event-clustered SE.}} \\
+\midrule
+$SameInd \times PostJan2025$ & $-$11.56*** & $-$10.19*** & $-$1.94* & $-$0.87 \\
+ & (0.005) & ($<$0.001) & (0.088) & (0.214) \\[0.2em]
+$SameIndustry$ & 1.83** & 2.41*** & 1.12** & 0.38 \\
+ & (0.028) & ($<$0.001) & (0.041) & (0.305) \\[0.3em]
+Placebo: Jan 2024 break &  & 1.61 &  & \\
+ &  & (0.470) &  & \\[0.2em]
+Observations & \multicolumn{4}{c}{3,218} \\
+\midrule
+\multicolumn{5}{l}{\textit{Panel C: Four-Period Trajectory (Same-Industry CAR$[-10,-1]$)}} \\
+\midrule
+Pre-2020 (baseline) & \multicolumn{4}{c}{0.04\% \quad ($p=0.823$)} \\
+2020--Dec 2024 (NVCA loosened) & \multicolumn{4}{c}{2.95\%*** \quad ($p<0.001$)} \\
+Jan--Sep 2025 (Clayton tightened) & \multicolumn{4}{c}{$-$2.56\%* \quad ($p=0.073$)} \\
+Oct 2025+ (NVCA re-tightened) & \multicolumn{4}{c}{$-$2.04\% \quad ($p=0.134$)} \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\footnotesize
+\item \textit{Notes.} This table reports difference-in-differences estimates of regulatory shocks on same-industry information spillover. Panel~A estimates Equation~\ref{eq:nvca} on the connected-firm sample over the full period, with $Post2020=1$ for events in 2020 or later. Panel~B estimates the analogous specification on the post-2020 subsample, with $PostJan2025=1$ for events after January 2025. Panel~C reports mean same-industry CARs across four regulatory regimes. All specifications include year fixed effects. Coefficients are in percentage points. $p$-values in parentheses. $^{*}$ $p<0.10$, $^{**}$ $p<0.05$, $^{***}$ $p<0.01$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
